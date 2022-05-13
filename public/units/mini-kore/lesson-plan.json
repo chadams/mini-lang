@@ -1,0 +1,11 @@
+{
+  "id": "mini-kore",
+  "title": "Mini Kore",
+  "lang": "en",
+  "lessons": [
+    {
+      "id": "1-1",
+      "title": "lesson one"
+    }
+  ]
+}

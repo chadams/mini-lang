@@ -1,7 +1,27 @@
 <script lang="ts">
   import { Icon } from "@steeze-ui/svelte-icon";
   import { ThumbUp } from "@steeze-ui/heroicons";
-  import lesson from "/src/data/mini-kore.json";
+  import { onMount } from "svelte";
+
+  interface LessonType {
+    guide: string;
+    title: string;
+    cards: CardsType[];
+  }
+
+  interface CardsType {
+    pic: string;
+    txt: string;
+    tra: string;
+  }
+
+  let index = 0;
+  let lesson: LessonType = null;
+
+  onMount(async () => {
+    lesson = await (await fetch("/public/units/mini-kore/lessons/1-1.json")).json();
+    console.log(lesson);
+  });
 </script>
 
 <div class="">
@@ -15,9 +35,9 @@
       <!-- Replace with your content -->
       <div class="px-4 py-8 sm:px-0 max-w-2xl m-auto">
         <div class="border-4 border-dashed border-gray-200 rounded-lg h-60 w-60 m-auto">
-          <img alt="pic" src="/openmoji-svg-color/E324.svg" class="w-full h-full m-auto" />
+          <img alt="pic" src={lesson?.cards[index].pic} class="w-full h-full m-auto" />
         </div>
-        <p class="text-center font-bold text-3xl my-10">a manga</p>
+        <p class="text-center font-bold text-3xl my-10">{lesson?.cards[index].txt}</p>
         <div class="flex justify-end sm:justify-center">
           <button
             type="button"
