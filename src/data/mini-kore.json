@@ -1,0 +1,16 @@
+{
+  "title": "Mini Kore",
+  "lang": "en",
+  "lessons": [
+    {
+      "guide": "",
+      "title": "lesson one",
+      "cards": [
+        {
+          "pic": "/openmoji-svg-color/E324.svg",
+          "txt": "Mi i boka a tera, go rason ke mi i en mira go animale roka figura."
+        }
+      ]
+    }
+  ]
+}
