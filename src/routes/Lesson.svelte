@@ -1,11 +1,15 @@
 <script lang="ts">
   import { Icon } from "@steeze-ui/svelte-icon";
   import { ThumbUp } from "@steeze-ui/heroicons";
+  import { Translate } from "@steeze-ui/heroicons";
   import { onMount } from "svelte";
+  import WordTranslator from "../components/WordTranslator.svelte";
+  import { words } from "../data/GlobalStore";
 
   interface LessonType {
     guide: string;
     title: string;
+    words: string;
     cards: CardsType[];
   }
 
@@ -17,10 +21,12 @@
 
   let index = 0;
   let lesson: LessonType = null;
+  let showTranslation = false;
 
   onMount(async () => {
     lesson = await (await fetch("/public/units/mini-kore/lessons/1-1.json")).json();
-    console.log(lesson);
+    $words = await (await fetch(lesson.words)).json();
+    console.log(lesson, $words);
   });
 </script>
 
@@ -33,15 +39,26 @@
   <main>
     <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
       <!-- Replace with your content -->
-      <div class="px-4 py-8 sm:px-0 max-w-2xl m-auto">
+      <div class="px-4 pt-8 sm:px-0 max-w-2xl m-auto">
         <div class="border-4 border-dashed border-gray-200 rounded-lg h-60 w-60 m-auto">
           <img alt="pic" src={lesson?.cards[index].pic} class="w-full h-full m-auto" />
         </div>
-        <p class="text-center font-bold text-3xl my-10">{lesson?.cards[index].txt}</p>
-        <div class="flex justify-end sm:justify-center">
+        {#if showTranslation}
+          <p class="text-center font-bold text-2xl my-10">{lesson?.cards[index].tra}</p>
+          <hr />
+        {/if}
+        <WordTranslator text={lesson?.cards[index].txt} />
+        <div class="flex justify-end sm:justify-center sticky bottom-0 p-4 bg-gray-50">
           <button
             type="button"
-            class="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+            on:click={() => (showTranslation = !showTranslation)}
+            class="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-gray bg-gray-100 hover:bg-indigo-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+            ><Icon src={Translate} theme="solid" class="color-gray-900 h-6" /></button
+          >
+          <div class="w-full" />
+          <button
+            type="button"
+            class="ml-4 inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
             ><Icon src={ThumbUp} theme="solid" class="color-gray-900 h-6" /></button
           >
         </div>
