@@ -20,12 +20,14 @@
   }
 
   let index = 0;
+  let total = 0;
   let lesson: LessonType = null;
   let showTranslation = false;
 
   onMount(async () => {
     lesson = await (await fetch("/public/units/mini-kore/lessons/1-1.json")).json();
     $words = await (await fetch(lesson.words)).json();
+    total = lesson.cards.length;
     console.log(lesson, $words);
   });
 </script>
@@ -33,7 +35,7 @@
 <div class="">
   <header class="sticky top-0">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 bg-gray-100 py-6">
-      <h1 class="text-3xl font-bold leading-tight text-gray-900">1/1</h1>
+      <h1 class="text-3xl font-bold leading-tight text-gray-900">{index + 1}/{total}</h1>
     </div>
   </header>
   <main>
@@ -58,6 +60,7 @@
           <div class="w-full" />
           <button
             type="button"
+            on:click={() => (index = index + 1)}
             class="ml-4 inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
             ><Icon src={ThumbUp} theme="solid" class="color-gray-900 h-6" /></button
           >
