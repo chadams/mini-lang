@@ -39,7 +39,7 @@
 <div class="">
   <header class="sticky top-0">
     <div class="flex items-center max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 bg-gray-100 py-4">
-      <h1 class="text-2xl font-bold leading-tight text-gray-900 w-full">{lesson?.title}</h1>
+      <h1 class="text-2xl font-bold leading-tight text-gray-900 w-full focus:outline-none">{lesson?.title}</h1>
       <div class="text-md leading-tight text-gray-900">{index + 1}/{total}</div>
       <button
         type="button"
