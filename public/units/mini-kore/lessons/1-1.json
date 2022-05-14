@@ -3,11 +3,6 @@
   "guide": "/public/units/mini-kore/lessons/1-1.md",
   "words": "/public/units/mini-kore/words-mini-mundo.json",
   "cards": [
-    {
-      "pic": "https://openmoji.org/data/color/svg/1F44B.svg",
-      "txt": "salu",
-      "tra": "Hello"
-    },
     { "tra": "Welcome", "txt": "Bon-veni", "pic": "https://openmoji.org/data/color/svg/1F64B.svg" },
     { "tra": "Hello", "txt": "Salu!", "pic": "https://openmoji.org/data/color/svg/1F64B.svg" },
     { "tra": "How are you?", "txt": "Tu e ke? Tu i senti ke?", "pic": "https://openmoji.org/data/color/svg/2753.svg" },
