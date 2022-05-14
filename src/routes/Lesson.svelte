@@ -29,7 +29,9 @@
   let showGuide = false;
 
   onMount(async () => {
-    lesson = await (await fetch("/public/units/mini-kore/lessons/1-1.json")).json();
+    console.log("lesson");
+    lesson = await (await fetch("units/mini-kore/lessons/1-1.json")).json();
+    console.log(lesson);
     $words = await (await fetch(lesson.words)).json();
     guide = await (await fetch(lesson.guide)).text();
     total = lesson.cards.length;

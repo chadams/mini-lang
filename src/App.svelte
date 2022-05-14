@@ -9,7 +9,7 @@
       <div class="flex justify-between h-16">
         <div class="flex">
           <div class="flex-shrink-0 flex items-center justify-center">
-            <img class="block h-8 w-auto" src="./assets/mini-logo.svg" alt="Mini Logo" />
+            <img class="block h-8 w-auto" src="assets/mini-logo.svg" alt="Mini Logo" />
             <p class="hidden lg:block h-8 w-auto leading-8 ml-4 font-bold">Mini: The Minimal Language</p>
           </div>
           <div class="hidden sm:-my-px sm:ml-6 sm:flex sm:space-x-8">
@@ -80,7 +80,7 @@
   <main>
     <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
       <Router>
-        <Route path="/">
+        <Route path="mini-lang/">
           <Lesson />
         </Route>
       </Router>
