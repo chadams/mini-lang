@@ -12,6 +12,18 @@
       }
     },
     {
+      "name": "Mini Kore",
+      "header": {
+        "rows": 3
+      },
+      "columnToKey": {
+        "A": "txt",
+        "B": "tra",
+        "C": "tra2",
+        "D": "tra3"
+      }
+    },
+    {
       "name": "Mini Mundo",
       "header": {
         "rows": 4

@@ -5,17 +5,17 @@
     strategy: "fixed",
   });
   const extraOpts = {
-    modifiers: [{ name: "arrow", options: { padding: 5 } }],
+    modifiers: [{ name: "arrow", options: { padding: 5, offset: [0, -8] } }],
   };
 
   let showTooltip = false;
-  export let tooltip = "";
+  export let tooltip = null;
 </script>
 
 <span class="hover:bg-indigo-100" use:popperRef on:mouseenter={() => (showTooltip = true)} on:mouseleave={() => (showTooltip = false)}>
   <slot />
 </span>
-{#if showTooltip}
+{#if showTooltip && tooltip}
   <div id="tooltip" use:popperContent={extraOpts}>
     {tooltip}
     <div id="arrow" class="pr-2" data-popper-arrow />

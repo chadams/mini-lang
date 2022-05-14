@@ -5,13 +5,13 @@
   export let text = "";
 
   function splitWords(text) {
-    return text.split(" ");
+    return text.split(/\W+/);
   }
 
-  function getTranslation(word) {
-    console.log(word, $wordList);
-    text = text;
-    return $wordList[word.toLowerCase()] ?? "---";
+  function getTranslation(wordBase, wordList) {
+    const word = wordBase.toLowerCase();
+    console.log(word, wordList);
+    return wordList[word];
   }
 
   $: words = splitWords(text);
@@ -19,6 +19,6 @@
 
 <p class="text-center font-bold text-3xl my-10">
   {#each words as word}
-    <WordTooltip tooltip={getTranslation(word)}>{word}</WordTooltip>
+    <WordTooltip tooltip={getTranslation(word, $wordList)}>{word}</WordTooltip>
   {/each}
 </p>
