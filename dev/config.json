@@ -1,0 +1,25 @@
+{
+  "sourceFile": "Mini.xlsx",
+  "sheets": [
+    {
+      "name": "Omniglot",
+      "header": {
+        "rows": 3
+      },
+      "columnToKey": {
+        "A": "tra",
+        "C": "txt"
+      }
+    },
+    {
+      "name": "Mini Mundo",
+      "header": {
+        "rows": 4
+      },
+      "columnToKey": {
+        "A": "txt",
+        "B": "tra"
+      }
+    }
+  ]
+}
