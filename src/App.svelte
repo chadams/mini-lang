@@ -1,8 +1,6 @@
 <script lang="ts">
   import { Router, Link, Route } from "svelte-navigator";
   import Lesson from "./routes/Lesson.svelte";
-
-  import logo from "../src/assets/mini-logo.svg";
 </script>
 
 <div class="min-h-full">
@@ -11,7 +9,7 @@
       <div class="flex justify-between h-16">
         <div class="flex">
           <div class="flex-shrink-0 flex items-center justify-center">
-            <img class="block h-8 w-auto" src={logo} alt="Mini Logo" />
+            <img class="block h-8 w-auto" src="./assets/mini-logo.svg" alt="Mini Logo" />
             <p class="hidden lg:block h-8 w-auto leading-8 ml-4 font-bold">Mini: The Minimal Language</p>
           </div>
           <div class="hidden sm:-my-px sm:ml-6 sm:flex sm:space-x-8">
