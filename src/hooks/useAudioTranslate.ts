@@ -77,7 +77,7 @@ function translateText(inputText: string) {
     SampleRate: "16000",
     Text: "",
     TextType: "ssml",
-    VoiceId: "Matthew",
+    VoiceId: "Salli",
   };
 
   speechParams.Text = `<phoneme alphabet="ipa" ph="${convertedText}"></phoneme>`;
