@@ -39,9 +39,10 @@ waitForGlobal("AWS", () => {
   AWS.config.credentials = new AWS.CognitoIdentityCredentials({ IdentityPoolId: "us-east-1:86757086-0139-401a-9ecc-e8f0520a0b64" });
 });
 
+// add stress using ˈ
 function convert(inputText) {
   const parts = inputText.toLowerCase().split("");
-  return parts
+  const words = parts
     .map((item) => {
       if (item === " ") return " ";
       if (item === "-") return " ";
@@ -49,6 +50,20 @@ function convert(inputText) {
       return phonemes[item];
     })
     .join("");
+  const output = words
+    .split(" ")
+    .map((str) => {
+      const regex = /\w{1}[aeiou]{1}\w?[aeiou]?$/gm;
+      const match = str.match(regex);
+      let result = str;
+      if (match) {
+        result = str.replace(regex, "ˈ" + match[0]);
+      }
+      return result;
+    })
+    .join(" ");
+  console.log(output);
+  return output;
 }
 
 function translateText(inputText: string) {
