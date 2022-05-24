@@ -1,12 +1,11 @@
 <script lang="ts">
+  import { DocumentText, ThumbUp, Translate } from "@steeze-ui/heroicons";
   import { Icon } from "@steeze-ui/svelte-icon";
-  import { ThumbUp } from "@steeze-ui/heroicons";
-  import { Translate } from "@steeze-ui/heroicons";
-  import { DocumentText } from "@steeze-ui/heroicons";
   import { onMount } from "svelte";
+  import SvelteMarkdown from "svelte-markdown";
+  import AudioTranslator from "../components/AudioTranslator.svelte";
   import WordTranslator from "../components/WordTranslator.svelte";
   import { words } from "../data/GlobalStore";
-  import SvelteMarkdown from "svelte-markdown";
 
   interface LessonType {
     guide: string;
@@ -68,9 +67,11 @@
               type="button"
               on:click={() => (showTranslation = !showTranslation)}
               class="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-gray bg-gray-100 hover:bg-indigo-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
-              ><Icon src={Translate} theme="solid" class="color-gray-900 h-6 w-6" /></button
+              ><Icon src={Translate} theme="" class="color-gray-900 h-6 w-6" /></button
             >
+            <AudioTranslator text={lesson?.cards[index].txt} />
             <div class="w-full" />
+
             <button
               type="button"
               on:click={() => (index = index + 1)}

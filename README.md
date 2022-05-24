@@ -25,6 +25,7 @@ The goal is to make something on par with Duolingo but with the following featur
 ##### In progress
 
 - [ ] Course Mini -Phrases
+- [ ] Audio Translations
 - [ ] mini/en - Dictionary
 
 ##### Upcoming
