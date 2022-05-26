@@ -21,16 +21,16 @@ The goal is to make something on par with Duolingo but with the following featur
 - [x] Course guides
 - [x] Live translate
 - [x] Utilities for importing excel files :tada:
+- [x] Audio Translations
 
 ##### In progress
 
+- [ ] Lessons path
 - [ ] Course Mini -Phrases
-- [ ] Audio Translations
 - [ ] mini/en - Dictionary
 
 ##### Upcoming
 
-- [ ] Lessons path
 - [ ] Course Mini Kore
 - [ ] Course Mini Mundo
 - [ ] Course Mini Mundo - Direct Method
