@@ -1,6 +1,8 @@
 <script lang="ts">
   import { Router, Link, Route } from "svelte-navigator";
   import Lesson from "./routes/Lesson.svelte";
+  import CoursePath from "./routes/CoursePath.svelte";
+  import CourseList from "./routes/CourseList.svelte";
 </script>
 
 <div class="min-h-full">
@@ -9,12 +11,12 @@
       <div class="flex justify-between h-16">
         <div class="flex">
           <div class="flex-shrink-0 flex items-center justify-center">
-            <img class="block h-8 w-auto" src="assets/mini-logo.svg" alt="Mini Logo" />
+            <img class="block h-8 w-auto" src="{import.meta.env.BASE_URL}assets/mini-logo.svg" alt="Mini Logo" />
             <p class="hidden lg:block h-8 w-auto leading-8 ml-4 font-bold">Mini: The Minimal Language</p>
           </div>
           <div class="hidden sm:-my-px sm:ml-6 sm:flex sm:space-x-8">
             <!-- Current: "border-indigo-500 text-gray-900", Default: "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700" -->
-            <a href="#" class="border-indigo-500 text-gray-900 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium" aria-current="page">
+            <a href="/" class="border-indigo-500 text-gray-900 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium" aria-current="page">
               Lessons
             </a>
           </div>
@@ -81,6 +83,12 @@
     <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
       <Router>
         <Route path="mini-lang/">
+          <CourseList />
+        </Route>
+        <Route path="mini-lang/:course">
+          <CoursePath />
+        </Route>
+        <Route path="mini-lang/:course/:lessonId">
           <Lesson />
         </Route>
       </Router>

@@ -6,6 +6,7 @@
   import AudioTranslator from "../components/AudioTranslator.svelte";
   import WordTranslator from "../components/WordTranslator.svelte";
   import { words } from "../data/GlobalStore";
+  import { useParams } from "svelte-navigator";
 
   interface LessonType {
     guide: string;
@@ -27,12 +28,14 @@
   let showTranslation = false;
   let showGuide = false;
 
+  const params = useParams();
+
   onMount(async () => {
-    console.log("lesson");
-    lesson = await (await fetch("units/mini-kore/lessons/1-1.json")).json();
+    console.log("lesson", $params);
+    lesson = await (await fetch(`${import.meta.env.BASE_URL}/units/${$params.course}/lessons/${$params.lessonId}.json`)).json();
     console.log(lesson);
-    $words = await (await fetch(lesson.words)).json();
-    guide = await (await fetch(lesson.guide)).text();
+    $words = await (await fetch(import.meta.env.BASE_URL + lesson.words)).json();
+    guide = await (await fetch(import.meta.env.BASE_URL + lesson.guide)).text();
     total = lesson.cards.length;
   });
 </script>
