@@ -10,7 +10,6 @@
 
   function getTranslation(wordBase, wordList) {
     const word = wordBase.toLowerCase();
-    console.log(word, wordList);
     return wordList[word];
   }
 

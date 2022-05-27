@@ -21,7 +21,6 @@
   onMount(async () => {
     plan = await (await fetch("units/mini-kore/lesson-plan.json")).json();
     lessons = plan.lessons;
-    console.log(plan);
   });
 </script>
 

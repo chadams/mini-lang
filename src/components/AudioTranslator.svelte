@@ -9,10 +9,6 @@
   $: [play] = useAudioTranslate(text);
 </script>
 
-<svelte:head>
-  <script src="https://sdk.amazonaws.com/js/aws-sdk-2.410.0.min.js"></script>
-</svelte:head>
-
 <button
   type="button"
   on:click={play}

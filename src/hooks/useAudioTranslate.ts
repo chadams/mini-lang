@@ -62,7 +62,6 @@ function convert(inputText) {
       return result;
     })
     .join(" ");
-  console.log(output);
   return output;
 }
 
