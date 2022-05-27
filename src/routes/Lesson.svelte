@@ -8,6 +8,7 @@
   import { words } from "../data/GlobalStore";
   import { useParams, navigate } from "svelte-navigator";
   import { localStorageStore } from "@babichjacob/svelte-localstorage/browser";
+  import { fly } from "svelte/transition";
 
   interface LessonType {
     guide: string;
@@ -64,8 +65,12 @@
     <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
       {#if !showGuide}
         <div class="px-4 pt-8 sm:px-0 max-w-2xl m-auto">
-          <div class="border-4 border-dashed border-gray-200 rounded-lg h-60 w-60 m-auto">
-            <img alt="pic" src={lesson?.cards[$index].pic} class="w-full h-full m-auto" />
+          <div class="text-center">
+            {#key $index}
+              <div in:fly|local={{ y: -40 }} class="inline-block border-4 border-dashed border-gray-200 rounded-lg h-60 w-60">
+                <img alt="pic" src={lesson?.cards[$index].pic} class="w-full h-full m-auto" />
+              </div>
+            {/key}
           </div>
           {#if showTranslation}
             <p class="text-center font-bold text-2xl my-10">{lesson?.cards[$index].tra}</p>
