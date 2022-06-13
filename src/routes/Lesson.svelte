@@ -1,10 +1,11 @@
 <script lang="ts">
-  import { DocumentText, ThumbUp, Translate, Rewind, Map } from "@steeze-ui/heroicons";
+  import { Search, InformationCircle, BookOpen, ThumbUp, Translate, Rewind, Map } from "@steeze-ui/heroicons";
   import { Icon } from "@steeze-ui/svelte-icon";
   import { onMount } from "svelte";
   import SvelteMarkdown from "svelte-markdown";
   import AudioTranslator from "../components/AudioTranslator.svelte";
   import WordTranslator from "../components/WordTranslator.svelte";
+  import Dictionary from "../components/Dictionary.svelte";
   import { words } from "../data/GlobalStore";
   import { useParams, navigate } from "svelte-navigator";
   import { localStorageStore } from "@babichjacob/svelte-localstorage/browser";
@@ -23,6 +24,8 @@
     tra: string;
   }
 
+  type showType = "lesson" | "guide" | "dictionary";
+
   const params = useParams();
 
   let index = localStorageStore(`${$params.course}/${$params.lessonId}`, 0);
@@ -30,14 +33,18 @@
   let lesson: LessonType = null;
   let guide: string;
   let showTranslation = false;
-  let showGuide = false;
+  let show: showType = "lesson";
 
   function restartLesson() {
     $index = 0;
-    showGuide = false;
+    show = "lesson";
   }
   function navigateToCourseOutline() {
     navigate(`${import.meta.env.BASE_URL}/${$params.course}`);
+  }
+
+  function toggleShow(type: showType) {
+    show = type === show ? "lesson" : type;
   }
 
   onMount(async () => {
@@ -55,15 +62,23 @@
       <div class="text-md leading-tight text-gray-900">{$index + 1}/{total}</div>
       <button
         type="button"
-        on:click={() => (showGuide = !showGuide)}
-        class="leading-tight ml-4 inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-black bg-gray hover:bg-indigo-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
-        ><Icon src={DocumentText} class="color-gray-900 h-6 w-6" /></button
+        on:click={() => toggleShow("dictionary")}
+        class:bg-indigo-200={show === "dictionary"}
+        class="leading-tight ml-4 inline-flex items-center px-4 py-3 border border-transparent text-base font-medium rounded-md text-black bg-gray hover:bg-indigo-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+        ><Icon src={BookOpen} class="color-gray-900 h-6 w-6" /></button
+      >
+      <button
+        type="button"
+        on:click={() => toggleShow("guide")}
+        class:bg-indigo-200={show === "guide"}
+        class="leading-tight ml-4 inline-flex items-center px-4 py-3 border border-transparent text-base font-medium rounded-md text-black bg-gray hover:bg-indigo-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+        ><Icon src={InformationCircle} class="color-gray-900 h-6 w-6" /></button
       >
     </div>
   </header>
   <main>
     <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
-      {#if !showGuide}
+      {#if show === "lesson"}
         <div class="px-4 pt-8 sm:px-0 max-w-2xl m-auto">
           <div class="text-center">
             {#key $index}
@@ -96,7 +111,7 @@
           </div>
         </div>
       {/if}
-      {#if showGuide}
+      {#if show === "guide"}
         <div class="flex mt-4 border-b pb-4">
           <button
             type="button"
@@ -114,6 +129,9 @@
         <div class="px-4 pt-8 sm:px-0 max-w-2xl m-auto prose prose-slate pb-8">
           <SvelteMarkdown source={guide} />
         </div>
+      {/if}
+      {#if show === "dictionary"}
+        <Dictionary />
       {/if}
     </div>
   </main>
