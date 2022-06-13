@@ -4,6 +4,11 @@
   "lang": "en",
   "lessons": [
     {
+      "id": "basics-1-1",
+      "title": "Basics",
+      "pic": "https://openmoji.org/data/color/svg/1F64B.svg"
+    },
+    {
       "id": "1-1",
       "title": "Phrases",
       "pic": "https://openmoji.org/data/color/svg/1F64B.svg"
