@@ -32,6 +32,7 @@
     "aws-sdk": "2.1141.0",
     "fuse.js": "6.6.2",
     "lodash": "4.17.21",
+    "svelte-gestures": "1.4.1",
     "svelte-navigator": "3.1.5",
     "twind": "0.16.17"
   },

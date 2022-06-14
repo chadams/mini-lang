@@ -1,6 +1,7 @@
 <script lang="ts">
   import { Search, InformationCircle, BookOpen, ThumbUp, Translate, Rewind, Map } from "@steeze-ui/heroicons";
   import { Icon } from "@steeze-ui/svelte-icon";
+  import { swipe } from "svelte-gestures";
   import { onMount } from "svelte";
   import SvelteMarkdown from "svelte-markdown";
   import AudioTranslator from "../components/AudioTranslator.svelte";
@@ -34,6 +35,8 @@
   let guide: string;
   let showTranslation = false;
   let show: showType = "lesson";
+  let card;
+  $: card = lesson?.cards[$index] ?? {};
 
   function restartLesson() {
     $index = 0;
@@ -45,6 +48,18 @@
 
   function toggleShow(type: showType) {
     show = type === show ? "lesson" : type;
+  }
+
+  function swipeHandler(event) {
+    const direction = event.detail.direction;
+    const currentIndex = $index;
+    const total = lesson?.cards.length;
+    if (direction === "left" && currentIndex < total) {
+      $index = $index + 1;
+    }
+    if (direction === "right" && currentIndex > 0) {
+      $index = $index - 1;
+    }
   }
 
   onMount(async () => {
@@ -79,19 +94,22 @@
   <main>
     <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
       {#if show === "lesson"}
-        <div class="px-4 pt-8 sm:px-0 max-w-2xl m-auto">
-          <div class="text-center">
-            {#key $index}
-              <div in:fly|local={{ y: -40 }} class="inline-block border-4 border-dashed border-gray-200 rounded-lg h-60 w-60">
-                <img alt="pic" src={lesson?.cards[$index].pic} class="w-full h-full m-auto" />
-              </div>
-            {/key}
+        <div class="px-4 pt-8 sm:px-0 max-w-2xl m-auto" use:swipe on:swipe={swipeHandler}>
+          <div class="text-center min-h-[300px]">
+            <div class:hidden={!card.pic}>
+              {#key $index}
+                <div in:fly|local={{ y: -40 }} class="inline-block border-4 border-dashed border-gray-200 rounded-lg h-60 w-60">
+                  <img alt="pic" src={card.pic} class="w-full h-full m-auto" />
+                </div>
+              {/key}
+            </div>
+            <WordTranslator text={card.txt} />
+            {#if showTranslation}
+              <hr />
+              <p class="font-bold text-2xl my-10">{card.tra}</p>
+            {/if}
           </div>
-          {#if showTranslation}
-            <p class="text-center font-bold text-2xl my-10">{lesson?.cards[$index].tra}</p>
-            <hr />
-          {/if}
-          <WordTranslator text={lesson?.cards[$index].txt} />
+
           <div class="flex justify-end sm:justify-center sticky bottom-0 p-4 bg-gray-50">
             <button
               type="button"
@@ -99,7 +117,7 @@
               class="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-gray bg-gray-100 hover:bg-indigo-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
               ><Icon src={Translate} theme="" class="color-gray-900 h-6 w-6" /></button
             >
-            <AudioTranslator text={lesson?.cards[$index].txt} />
+            <AudioTranslator text={card.txt} />
             <div class="w-full" />
 
             <button
