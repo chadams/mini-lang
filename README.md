@@ -22,12 +22,13 @@ The goal is to make something on par with Duolingo but with the following featur
 - [x] Live translate
 - [x] Utilities for importing excel files :tada:
 - [x] Audio Translations
+- [x] mini/en - Dictionary
+- [x] mini/en - Random Word Exercise
 
 ##### In progress
 
 - [ ] Lessons path
 - [ ] Course Mini -Phrases
-- [ ] mini/en - Dictionary
 
 ##### Upcoming
 
@@ -39,14 +40,32 @@ The goal is to make something on par with Duolingo but with the following featur
 
 ## How to help
 
-lessons are stored in the `/public/units/<unit-name>/lesson-plan.json` and 'lessons` folder.
+lessons are stored in the `/public/units/<unit-name>/lesson-plan.json` and `lessons` folder.
 
-Each lesson has the following scheme
+Each **Lesson Plan** has the following scheme
+
+```
+{
+  "id": "mini-kore",
+  "title": "Mini Kore",
+  "lang": "en",
+  "lessons": [
+    {
+      "id": "basics-1-1", // id of lesson, points to json in lessons folder
+      "title": "Basics",
+      "pic": "https://openmoji.org/data/color/svg/1F64B.svg"
+    },
+    ...
+  ]
+}
+```
+
+Each **Lesson** has an `id` in the lesson plan that points to a file in `lessons` folder. `Ex. ./lessons/basics-1-1.json`
 
 ```
 {
   "title": "lesson one",
-  "guide": "units/mini-kore/lessons/1-1.md", // text for this lesson guide
+  "guide": "units/mini-kore/lessons/1-1.md", // text for this lesson's guide as markdown
   "words": "units/mini-kore/words-mini-mundo.json", // dictionary for dynamic on-hover translations
   "cards": [
     { "tra": "<translation here>", "txt": "<text to show>", "pic": "<picture url>" },
