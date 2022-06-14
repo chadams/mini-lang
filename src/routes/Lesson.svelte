@@ -64,14 +64,14 @@
         type="button"
         on:click={() => toggleShow("dictionary")}
         class:bg-indigo-200={show === "dictionary"}
-        class="leading-tight ml-4 inline-flex items-center px-4 py-3 border border-transparent text-base font-medium rounded-md text-black bg-gray hover:bg-indigo-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+        class="leading-tight ml-4 inline-flex items-center px-4 py-3 border border-transparent text-base font-medium rounded-md text-black bg-gray hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
         ><Icon src={BookOpen} class="color-gray-900 h-6 w-6" /></button
       >
       <button
         type="button"
         on:click={() => toggleShow("guide")}
         class:bg-indigo-200={show === "guide"}
-        class="leading-tight ml-4 inline-flex items-center px-4 py-3 border border-transparent text-base font-medium rounded-md text-black bg-gray hover:bg-indigo-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+        class="leading-tight ml-4 inline-flex items-center px-4 py-3 border border-transparent text-base font-medium rounded-md text-black bg-gray hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
         ><Icon src={InformationCircle} class="color-gray-900 h-6 w-6" /></button
       >
     </div>
