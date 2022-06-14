@@ -1,0 +1,11 @@
+{
+  "courses": [
+    {
+      "id": "mini-kore",
+      "icon": "./assets/mini-logo.svg",
+      "title": "Mini Kore",
+      "desc": "With simple phonetics, inflectionless grammar, and a global vocabulary of exactly 1,000 words, Mini is ideal for use as an international auxiliary language.",
+      "pic": "https://openmoji.org/data/color/svg/1F64B.svg"
+    }
+  ]
+}

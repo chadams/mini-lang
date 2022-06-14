@@ -6,7 +6,7 @@
   "engine": "mini",
   "cards": [
     { "tra": "Hello!", "txt": "Salu!", "pic": "https://openmoji.org/data/color/svg/1F64B.svg" },
-    { "tra": "I am Bob", "txt": "Mi a Bob", "pic": "https://openmoji.org/data/color/svg/1F64B.svg" },
+    { "tra": "I am Bob", "txt": "Mi a Bob" },
     { "tra": "I am hungry", "txt": "Mi a manja", "pic": "https://openmoji.org/data/color/svg/1F64B.svg" },
     { "tra": "food", "txt": "Mi a Bob", "pic": "https://openmoji.org/data/color/svg/1F64B.svg" },
     { "tra": "the food is hot", "txt": "Mi a Bob", "pic": "https://openmoji.org/data/color/svg/1F64B.svg" },
