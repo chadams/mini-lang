@@ -112,7 +112,7 @@
         </div>
       {/if}
       {#if show === "guide"}
-        <div class="flex mt-4 border-b pb-4">
+        <div class="flex px-4 mt-4 border-b pb-4">
           <button
             type="button"
             on:click={navigateToCourseOutline}
