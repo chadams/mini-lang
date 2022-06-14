@@ -12,7 +12,13 @@
   export let tooltip = null;
 </script>
 
-<span class="hover:bg-indigo-100" use:popperRef on:mouseenter={() => (showTooltip = true)} on:mouseleave={() => (showTooltip = false)}>
+<span
+  class="hover:bg-indigo-100"
+  use:popperRef
+  on:touchend={() => (showTooltip = true)}
+  on:mouseenter={() => (showTooltip = true)}
+  on:mouseleave={() => (showTooltip = false)}
+>
   <slot />
 </span>
 {#if showTooltip && tooltip}
