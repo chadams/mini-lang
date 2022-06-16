@@ -21,10 +21,15 @@
   }
   updateRandomWord();
 
+  let randomButton;
+
   let search = "";
   let results = [];
   $: {
     results = fuse.search(search);
+    if (results.length <= 0) {
+      randomButton?.focus();
+    }
   }
 </script>
 
@@ -56,6 +61,7 @@
       <p class="pb-2 mb-8">{randomWord.txt}</p>
       <button
         type="button"
+        bind:this={randomButton}
         on:click={updateRandomWord}
         class="inline-flex items-center px-3 py-1.5 border border-transparent text-xs font-medium rounded-full shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
         >random word</button
