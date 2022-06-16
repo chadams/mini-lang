@@ -1,8 +1,13 @@
 {
-  "id": "mini-kore",
-  "title": "Mini Kore",
+  "id": "mini-mundo",
+  "title": "Mini Mundo",
   "lang": "en",
   "lessons": [
+    {
+      "id": "basics-1-1",
+      "title": "Basics",
+      "pic": "https://openmoji.org/data/color/svg/1F64B.svg"
+    },
     {
       "id": "omniglot-1",
       "title": "Omniglot Phrases",
