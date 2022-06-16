@@ -10,6 +10,10 @@
 
   let showTooltip = false;
   export let tooltip = null;
+  $: {
+    tooltip = tooltip;
+    showTooltip = false;
+  }
 </script>
 
 <span

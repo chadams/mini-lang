@@ -99,7 +99,7 @@
             <div class:hidden={!card.pic}>
               {#key $index}
                 <div in:fly|local={{ y: -40 }} class="inline-block border-4 border-dashed border-gray-200 rounded-lg h-60 w-60">
-                  <img alt="pic" src={card.pic} class="w-full h-full m-auto" />
+                  <img alt="pic" src={card.pic} class="w-full h-full m-auto" draggable="false" />
                 </div>
               {/key}
             </div>

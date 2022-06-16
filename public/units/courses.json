@@ -1,10 +1,17 @@
 {
   "courses": [
     {
+      "id": "mini-mundo",
+      "icon": "./assets/mini-logo.svg",
+      "title": "Mini Mundo",
+      "desc": "With simple phonetics, inflectionless grammar, and a global vocabulary of exactly 1,000 words, Mini is ideal for use as an international auxiliary language.",
+      "pic": "https://openmoji.org/data/color/svg/1F64B.svg"
+    },
+    {
       "id": "mini-kore",
       "icon": "./assets/mini-logo.svg",
       "title": "Mini Kore",
-      "desc": "With simple phonetics, inflectionless grammar, and a global vocabulary of exactly 1,000 words, Mini is ideal for use as an international auxiliary language.",
+      "desc": "Mini Kore is a 120-word subset of the Mini language designed to be a complete language in itself.",
       "pic": "https://openmoji.org/data/color/svg/1F64B.svg"
     }
   ]

@@ -51,9 +51,9 @@
 </div>
 {#if search.length <= 0}
   <div class="p-10">
-    <div class="border p-10 text-center rounded">
-      <h3 class="font-bold text-xl">{randomWord.tra}</h3>
-      <p class="pb-2 mb-2">{randomWord.txt}</p>
+    <div class="border p-10 text-center rounded-xl">
+      <h3 class="font-bold text-3xl">{randomWord.tra}</h3>
+      <p class="pb-2 mb-8">{randomWord.txt}</p>
       <button
         type="button"
         on:click={updateRandomWord}

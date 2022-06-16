@@ -16,6 +16,10 @@ with extracted keys
 npx convert-excel-to-json --config='{"sourceFile":"Mini.xlsx","sheets":[{"name":"Omniglot","header":{"rows":3},"columnToKey":{"A":"tra","C":"txt"}},{"name":"Mini Kore","header":{"rows":3},"columnToKey":{"A":"txt","B":"tra","C":"tra2","D":"tra3"}},{"name":"Mini Mundo","header":{"rows":4},"columnToKey":{"A":"txt","B":"tra"}}]}' >> Mini.json
 ```
 
+```
+npx convert-excel-to-json --config='{"sourceFile":"Mini.xlsx","sheets":[{"name":"Omniglot","header":{"rows":3},"columnToKey":{"A":"tra","B":"txt"}},{"name":"Mini Kore","header":{"rows":3},"columnToKey":{"A":"txt","B":"tra","C":"tra2","D":"tra3"}},{"name":"Mini Mundo","header":{"rows":4},"columnToKey":{"A":"txt","B":"tra"}}]}' >> Mini-kore.json
+```
+
 convert to word list
 
 ```
