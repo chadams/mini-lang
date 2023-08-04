@@ -54,6 +54,9 @@ function convert(inputText) {
   const output = words
     .split(" ")
     .map((str) => {
+      if (str.length === 1) {
+        return `ˈ${str}`;
+      }
       const regex = /\w{1}[aeiou]{1}\w?[aeiou]?$/gm;
       const match = str.match(regex);
       let result = str;
