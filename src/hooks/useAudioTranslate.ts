@@ -20,6 +20,7 @@ const phonemes = {
   t: "t",
   v: "v",
   j: "dʒ",
+  y: "i",
 };
 
 const waitForGlobal = function (key, callback) {

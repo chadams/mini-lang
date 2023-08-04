@@ -1,6 +1,9 @@
 <script lang="ts">
   import { onMount } from "svelte";
-  import { Link } from "svelte-navigator";
+  import { Link, useLocation, useParams } from "svelte-navigator";
+
+  const location = useLocation();
+  const params = useParams();
 
   interface PlanType {
     id: string;
@@ -19,7 +22,7 @@
   let lessons: LessonsType[] = [];
 
   onMount(async () => {
-    plan = await (await fetch("units/mini-kore/lesson-plan.json")).json();
+    plan = await (await fetch(`units/${$params.course}/lesson-plan.json`)).json();
     lessons = plan.lessons;
   });
 </script>
@@ -55,12 +58,11 @@
                 </li>
               {/each}
               <li>
-                <div class="space-y-6 ">
+                <div class="space-y-6">
                   <img
                     class="mx-auto h-40 w-40 rounded-full xl:w-56 xl:h-56 border shadow bg-cover"
                     src="https://openmoji.org/data/color/svg/1F373.svg"
-                    alt=""
-                  />
+                    alt="" />
                   <div class="space-y-2">
                     <div class="text-lg leading-6 font-medium space-y-1">
                       <h3>More to come...</h3>

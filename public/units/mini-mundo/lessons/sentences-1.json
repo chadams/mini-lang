@@ -1,0 +1,4399 @@
+{
+  "title": "Sentences 1",
+  "guide": "units/mini-mundo/lessons/1-1.md",
+  "words": "units/mini-mundo/words-mini-mundo.json",
+  "lang": "en",
+  "engine": "mini",
+  "cards": [
+    {
+      "tra": "Hello!",
+      "txt": "Salu!",
+      "pic": "https://openmoji.org/data/color/svg/1F64B.svg"
+    },
+    {
+      "word": "a",
+      "txt": "Bob a man.",
+      "tra": "Bob is a person."
+    },
+    {
+      "word": "a",
+      "txt": "i de a vasa.",
+      "tra": "There was water."
+    },
+    {
+      "word": "a",
+      "txt": "i jage a sino de fungi-veni.",
+      "tra": "Look for signs of decomposition."
+    },
+    {
+      "word": "a",
+      "txt": "mi-ale i no pensa a da moda.",
+      "tra": "That's not how we think."
+    },
+    {
+      "word": "abuso",
+      "txt": "Tom i de abuso a Mary.",
+      "tra": "Tom abused Mary."
+    },
+    {
+      "word": "ade",
+      "txt": "mi i go ade a tu, pero mi i go no ade a Tom.",
+      "tra": "I will help you, but I won't help Tom."
+    },
+    {
+      "word": "ade",
+      "txt": "tu e sufi matura ke tu i kan ade a tu-ego.",
+      "tra": "You are old enough to take care of yourself."
+    },
+    {
+      "word": "ade-kolun",
+      "txt": "di vela navi i ave a san ade-kolun.",
+      "tra": "This sailing ship has three masts."
+    },
+    {
+      "word": "ade-kolun",
+      "txt": "i supa-go a ade-kolun!",
+      "tra": "Climb the mast!"
+    },
+    {
+      "word": "ade-man",
+      "txt": "si ade-man i de sinti a si sapato.",
+      "tra": "His assistant polished his shoes."
+    },
+    {
+      "word": "adere",
+      "txt": "i uti a adere baton.",
+      "tra": "Use a glue stick."
+    },
+    {
+      "word": "adere-imaje",
+      "txt": "mi i koleki a adere-imaje.",
+      "tra": "I collect stickers."
+    },
+    {
+      "word": "Aegiptos",
+      "txt": "Sami e de Aegiptos.",
+      "tra": "Sami originates from Egypt."
+    },
+    {
+      "word": "aeji",
+      "txt": "i dona a da aeji go mi.",
+      "tra": "Give me that shield."
+    },
+    {
+      "word": "aero",
+      "txt": "nu aero e ke mi-ale i nese.",
+      "tra": "Fresh air is what we need."
+    },
+    {
+      "word": "aero-kula",
+      "txt": "Sami i odi a aero-kula.",
+      "tra": "Sami hates air conditioners."
+    },
+    {
+      "word": "aero-loka",
+      "txt": "ka mi odi tu, mi senti sama en-i open a aero-loka.",
+      "tra": "Because I hate you, I feel like opening the airlock."
+    },
+    {
+      "word": "aero-mini-peso",
+      "txt": "some vakansa-navi i radi sama mui aero-mini-peso sama uno mega karo.",
+      "tra": "Some cruise ships emit as much particulate matter as one million cars."
+    },
+    {
+      "word": "aero-pota",
+      "txt": "aero-pota e en ke?",
+      "tra": "Where's the airport?"
+    },
+    {
+      "word": "aero-veni",
+      "txt": "jin i no aero-veni.",
+      "tra": "Gold doesn't rust."
+    },
+    {
+      "word": "Aetiopia",
+      "txt": "Italia i de milita-move a Aetiopia en 1935.",
+      "tra": "Italy invaded Ethiopia in 1935."
+    },
+    {
+      "word": "afa",
+      "txt": "afa, mi-ale go.",
+      "tra": "Afterward, we go."
+    },
+    {
+      "word": "afa",
+      "txt": "Tom i de kan viva a ma u meno medi viva afa medika-metodo.",
+      "tra": "Tom was able to live a more or less normal life after the operation."
+    },
+    {
+      "word": "afa-semi-dia",
+      "txt": "bon afa-semi-dia.",
+      "tra": "Good afternoon."
+    },
+    {
+      "word": "Afganistan",
+      "txt": "Afganistan a lan-runguma paisa.",
+      "tra": "Afghanistan is a landlocked country."
+    },
+    {
+      "word": "afoga",
+      "txt": "viro-kinde i de fuji o naro a afoga.",
+      "tra": "The boy narrowly escaped drowning."
+    },
+    {
+      "word": "Afrika",
+      "txt": "riva-kavalo i viva en Afrika.",
+      "tra": "Hippopotamuses live in Africa."
+    },
+    {
+      "word": "agila",
+      "txt": "agila i ave a benda biko.",
+      "tra": "Eagles have curved beaks."
+    },
+    {
+      "word": "Aisopo",
+      "txt": "Aisopo i de a elas saga-man.",
+      "tra": "Aesop was a Greek fabulist."
+    },
+    {
+      "word": "aje",
+      "txt": "mi en-i aje.",
+      "tra": "I am aging."
+    },
+    {
+      "word": "aje",
+      "txt": "mi-ale i kan e sama aje.",
+      "tra": "We must be the same age."
+    },
+    {
+      "word": "ajenda",
+      "txt": "si-viro viro-paren i de aseta a mi ajenda anti si-viro vole.",
+      "tra": "His father consented to my plan against his will."
+    },
+    {
+      "word": "ake",
+      "txt": "den, ake i de lubi an vola de si-viro mano go pisina.",
+      "tra": "Thus it happened that the axe slipped and flew out of his hands into the pool."
+    },
+    {
+      "word": "ake-filoso",
+      "txt": "apara, en-i anti a ake-filoso e ake-filoso.",
+      "tra": "Apparently, opposing fascism is fascist."
+    },
+    {
+      "word": "akonto",
+      "txt": "i open a akonto.",
+      "tra": "Open an account."
+    },
+    {
+      "word": "akonto-man",
+      "txt": "akonto-man i favo a suma-foli.",
+      "tra": "Accountants love spreadsheets."
+    },
+    {
+      "word": "akonto-siensa",
+      "txt": "Tom i labora en akonto-siensa.",
+      "tra": "Tom works in accounting."
+    },
+    {
+      "word": "akuse",
+      "txt": "polisa i de akuse a si.",
+      "tra": "The police accused him."
+    },
+    {
+      "word": "akuta",
+      "txt": "vasa-retili i ave a akuta denta.",
+      "tra": "Crocodiles have sharp teeth."
+    },
+    {
+      "word": "Alarbia",
+      "txt": "Alarbia e duro!",
+      "tra": "Arabic is difficult!"
+    },
+    {
+      "word": "ale",
+      "txt": "ale demon i de apara e sama tempo go-i kapa a si-ale mudi-make.",
+      "tra": "The demons came out all at once to capture their prey."
+    },
+    {
+      "word": "ale",
+      "txt": "mi i no savi a ale ke tu i make.",
+      "tra": "I don't know everything you do."
+    },
+    {
+      "word": "ale-en-i-savi",
+      "txt": "mega info en-i tenta go ale-en-i-savi.",
+      "tra": "Big Data is striving for omniscience."
+    },
+    {
+      "word": "ale-litera",
+      "txt": "i ale-litera a di seri.",
+      "tra": "Alphabetize this list."
+    },
+    {
+      "word": "ale-sesi",
+      "txt": "name \"ale-sesi\" i ave veni o jusa a popula ota go \"duo-sesi\".",
+      "tra": "The term \"pansexual\" has recently become a popular alternative to \"bisexual\"."
+    },
+    {
+      "word": "alien",
+      "txt": "alien e vere.",
+      "tra": "Aliens are real."
+    },
+    {
+      "word": "alio",
+      "txt": "mi i pensa ke mi i de uti a su alio.",
+      "tra": "I think I used too much garlic."
+    },
+    {
+      "word": "Aljeri",
+      "txt": "Aljeri i debe kata a relate kon Saudi-arabia?",
+      "tra": "Should Algeria cut its ties with Saudi Arabia?"
+    },
+    {
+      "word": "Amerika",
+      "txt": "Bob e de Amerika.",
+      "tra": "Bob is from America."
+    },
+    {
+      "word": "amidala",
+      "txt": "su bibe i kan duka a amidala.",
+      "tra": "Binge drinking can damage the amygdala."
+    },
+    {
+      "word": "amigo",
+      "txt": "man-ale i nese a amigo.",
+      "tra": "Everyone needs friends."
+    },
+    {
+      "word": "amo",
+      "txt": "si-viro i de en-savi a mi ke viva i ke, an mori i sinifi a ke, an rason ke amo e ma poten sama si-duo.",
+      "tra": "He made me see what Life is, and what Death signifies, and why Love is stronger than both."
+    },
+    {
+      "word": "amo",
+      "txt": "mi-ale i amo a dogi.",
+      "tra": "We love dogs."
+    },
+    {
+      "word": "amo-enkonte",
+      "txt": "mi-ale i kan eleti a retorante go amo-enkonte eve?",
+      "tra": "Can we pick a new restaurant for date night?"
+    },
+    {
+      "word": "amo-enkonte",
+      "txt": "tu i da favo amo-enkonte e some tempo?",
+      "tra": "Would you like to go out sometime?"
+    },
+    {
+      "word": "amo-man",
+      "txt": "amo-man, favo, i memo.",
+      "tra": "Darling, please remember."
+    },
+    {
+      "word": "amo-senti",
+      "txt": "mi i misi a tu amo-senti.",
+      "tra": "I miss your caresses."
+    },
+    {
+      "word": "amuse",
+      "txt": "si i de e amuse?",
+      "tra": "Was it fun?"
+    },
+    {
+      "word": "an",
+      "txt": "mi i an a si a mi seri.",
+      "tra": "I add it to my list."
+    },
+    {
+      "word": "an",
+      "txt": "Tom an mi i de e no solo man ke i de via-viva.",
+      "tra": "Tom and I weren't the only ones who survived."
+    },
+    {
+      "word": "an",
+      "txt": "Tom i de veni en dia-1 an i de baka-go e uno dia afa.",
+      "tra": "Tom came on Monday and went back the day after."
+    },
+    {
+      "word": "an-ma",
+      "txt": "2, 4, 6, an-ma, a duo-numa.",
+      "tra": "2, 4, 6, etc., are even numbers."
+    },
+    {
+      "word": "an-sino",
+      "txt": "an-sino i sinifi a \"an\".",
+      "tra": "The ampersand means \"and\"."
+    },
+    {
+      "word": "Anak",
+      "txt": "Anak a man en ebru Kristo-buku.",
+      "tra": "Anak is a figure in the Hebrew Bible."
+    },
+    {
+      "word": "Andalusia",
+      "txt": "Andalusia e en sude de Espania.",
+      "tra": "Andalusia is located in the south of Spain."
+    },
+    {
+      "word": "Angola",
+      "txt": "si i de e nati en Sina pero si i viva en Angola.",
+      "tra": "He was born in China but lives in Angola."
+    },
+    {
+      "word": "Angugo",
+      "txt": "en-i etudi a Angugo e duro.",
+      "tra": "Learning Korean is difficult."
+    },
+    {
+      "word": "ani",
+      "txt": "mi i go no lase ke ani i make a da.",
+      "tra": "I won't let anybody do that."
+    },
+    {
+      "word": "ani",
+      "txt": "tu i kan eleti a ani retorante ke tu i favo.",
+      "tra": "You can pick whatever restaurant you like."
+    },
+    {
+      "word": "ani-loke",
+      "txt": "i karo-para en ani-loke.",
+      "tra": "Just park anywhere."
+    },
+    {
+      "word": "anima",
+      "txt": "anima i esi?",
+      "tra": "Do souls exist?"
+    },
+    {
+      "word": "animale",
+      "txt": "animale i ave manja.",
+      "tra": "The animal has eaten."
+    },
+    {
+      "word": "animale",
+      "txt": "animale i en manja.",
+      "tra": "The animal is eating."
+    },
+    {
+      "word": "animale-fobo",
+      "txt": "mi i ave a animale-fobo.",
+      "tra": "I have zoophobia."
+    },
+    {
+      "word": "animale-medika",
+      "txt": "Tom i ave a animale-medika base.",
+      "tra": "Tom has a veterinary background."
+    },
+    {
+      "word": "animale-medika-kasa",
+      "txt": "Santiago i de apara en animale-medika-kasa.",
+      "tra": "Santiago showed up at the veterinary clinic."
+    },
+    {
+      "word": "animale-medika-man",
+      "txt": "mi a lase animale-medika-man.",
+      "tra": "I am a licensed veterinarian."
+    },
+    {
+      "word": "animale-sela",
+      "txt": "bovi i de begin kuri en animale-sela.",
+      "tra": "The cows started running in the corral."
+    },
+    {
+      "word": "anjo",
+      "txt": "i dansa kon anjo.",
+      "tra": "Dance with angels."
+    },
+    {
+      "word": "ankora",
+      "txt": "vere duro e ke tu i no savi o ankora ke mi-ale i ave a duro.",
+      "tra": "The real problem is you don't even know we have a problem."
+    },
+    {
+      "word": "ano",
+      "txt": "via penta ano de duka o sela-develo-maladi terapi, si-viro i de fini-make kipa a dereka fase.",
+      "tra": "Throughout the five years of painful cancer treatments, he managed to keep a stiff upper lip."
+    },
+    {
+      "word": "ansio",
+      "txt": "Annie i de manja o ansio.",
+      "tra": "Annie ate nervously."
+    },
+    {
+      "word": "ansio-fiba",
+      "txt": "lense ansio-fiba en oko i lase ke tu i mira.",
+      "tra": "The optic nerve in the eye allows you to see."
+    },
+    {
+      "word": "Antartika",
+      "txt": "ise-tori e orijen de Antartika.",
+      "tra": "Penguins are endemic to Antarctica."
+    },
+    {
+      "word": "ante",
+      "txt": "ante tu i dona-mala-name a some, tu i debe kamina a uno-punto-sita-kilo-mita en si sapato.",
+      "tra": "Before you criticize someone, you should walk a mile in their shoes."
+    },
+    {
+      "word": "ante",
+      "txt": "joli-man i de labora o duro en en-i esita a junta ante ludi-man i de apara en patio go fini ludi de karera de mano-balo de Delauer tingi-sekola.",
+      "tra": "The cheerleaders worked hard to fire up the crowd before the players took the court for the final game of the Delaware high school basketball playoffs."
+    },
+    {
+      "word": "ante-nese",
+      "txt": "sivi-neso a ante-nese go vote.",
+      "tra": "Citizenship is a prerequisite for voting."
+    },
+    {
+      "word": "ante-nun-aje",
+      "txt": "labora de erase-sesi-viro, an, de-i akonto en ante-nun-aje tempo.",
+      "tra": "An occupation of eunuchs also recorded in premodern times."
+    },
+    {
+      "word": "anti",
+      "txt": "si-viro viro-paren i de aseta a mi ajenda anti si-viro vole.",
+      "tra": "His father consented to my plan against his will."
+    },
+    {
+      "word": "anti-ora-uti-direto",
+      "txt": "tu i tensa a di elika-poten-pin e ke? ora-uti-direto u anti-ora-uti-direto?",
+      "tra": "How do you tighten this screw? Clockwise or counterclockwise?"
+    },
+    {
+      "word": "anti-sinifi",
+      "txt": "medi, anti-sinifi de bon a mala.",
+      "tra": "The usual antonym of good is bad."
+    },
+    {
+      "word": "anti-tempo-tolera",
+      "txt": "Tom i de sede o anti-tempo-tolera.",
+      "tra": "Tom sat impatiently."
+    },
+    {
+      "word": "antika",
+      "txt": "Tom e su antika ke si i no kan make a da.",
+      "tra": "Tom is already too old to do that."
+    },
+    {
+      "word": "antika-gadi",
+      "txt": "mi i favo a antika-gadi kon nata de fava-nuki.",
+      "tra": "I like celery with peanut butter."
+    },
+    {
+      "word": "anunsi",
+      "txt": "edu-man i de anunsi a si vina.",
+      "tra": "The teacher pled guilty."
+    },
+    {
+      "word": "apara",
+      "txt": "ale demon i de apara e sama tempo go-i kapa a si-ale mudi-make.",
+      "tra": "The demons came out all at once to capture their prey."
+    },
+    {
+      "word": "apara",
+      "txt": "Ziri de-i apara e mui joli.",
+      "tra": "Ziri seemed really happy."
+    },
+    {
+      "word": "apojo",
+      "txt": "no man i de apojo a si-feme.",
+      "tra": "Nobody supported her."
+    },
+    {
+      "word": "apojo-kan",
+      "txt": "di e no apojo-kan.",
+      "tra": "This isn't sustainable."
+    },
+    {
+      "word": "ara",
+      "txt": "ara i make a madu.",
+      "tra": "Bees make honey."
+    },
+    {
+      "word": "ara-fobo",
+      "txt": "a rason go mi ara-fobo.",
+      "tra": "There is a reason for my apiphobia."
+    },
+    {
+      "word": "Aragon",
+      "txt": "Aragon a ego-ereki komun en Espania.",
+      "tra": "Aragon is an autonomous community in Spain."
+    },
+    {
+      "word": "arana",
+      "txt": "mi i odi a arana.",
+      "tra": "I abhor spiders."
+    },
+    {
+      "word": "arana-fobo",
+      "txt": "arana i kan ave a arana-fobo.",
+      "tra": "Spiders can have arachnophobia."
+    },
+    {
+      "word": "arapan",
+      "txt": "mi i arapan ke tu i go ave a bon afa-semi-dia.",
+      "tra": "I hope you have a good afternoon."
+    },
+    {
+      "word": "arapan",
+      "txt": "mi i de no arapan a some-kosa sama da.",
+      "tra": "I did not expect something like that."
+    },
+    {
+      "word": "arapan-kipa",
+      "txt": "mi i en arapan-kipa o solo a amigo.",
+      "tra": "I'm just waiting for a friend."
+    },
+    {
+      "word": "arapan-kipa",
+      "txt": "mi i no kan arapan-kipa ke dia-5 i veni.",
+      "tra": "I can't wait for Friday to come."
+    },
+    {
+      "word": "area",
+      "txt": "di a no fume area.",
+      "tra": "This is a no smoking zone."
+    },
+    {
+      "word": "Argentina",
+      "txt": "mi-ale i de en-pota a niku de Argentina.",
+      "tra": "We imported meat from Argentina."
+    },
+    {
+      "word": "Armenia",
+      "txt": "Armenia a monte paisa.",
+      "tra": "Armenia is a mountainous country."
+    },
+    {
+      "word": "aro",
+      "txt": "mi aro e en ke?",
+      "tra": "Where are my arrows?"
+    },
+    {
+      "word": "aroma",
+      "txt": "si-ale i ave a raro aroma.",
+      "tra": "They have a weird smell."
+    },
+    {
+      "word": "aseta",
+      "txt": "si-viro viro-paren i de aseta a mi ajenda anti si-viro vole.",
+      "tra": "His father consented to my plan against his will."
+    },
+    {
+      "word": "aseta",
+      "txt": "Tom i de aseta o solo a semi liabili.",
+      "tra": "Tom only accepted partial responsibility."
+    },
+    {
+      "word": "Asia",
+      "txt": "Tai e en Asia.",
+      "tra": "Thailand is in Asia."
+    },
+    {
+      "word": "asido",
+      "txt": "asido i dona-duka a metali.",
+      "tra": "Acid attacks metal."
+    },
+    {
+      "word": "asilu",
+      "txt": "si-viro i de no kan deteki a asilu.",
+      "tra": "He couldn't find any refuge."
+    },
+    {
+      "word": "Asturias",
+      "txt": "Asturias e loke en monte area kon mui an develo veji.",
+      "tra": "Asturias is situated in a mountainous setting with vast greenery and lush vegetation."
+    },
+    {
+      "word": "atira",
+      "txt": "anti i atira.",
+      "tra": "Opposites attract."
+    },
+    {
+      "word": "Atlas-mare",
+      "txt": "si-ale i de go via Atlas-mare.",
+      "tra": "They crossed the Atlantic Ocean."
+    },
+    {
+      "word": "ato",
+      "txt": "i ato e ma rapi!",
+      "tra": "Act faster!"
+    },
+    {
+      "word": "ato-begin",
+      "txt": "i ato-begin a radi-uti.",
+      "tra": "Turn on the radio."
+    },
+    {
+      "word": "ato-fini",
+      "txt": "i ato-fini a tivi.",
+      "tra": "Turn off the TV."
+    },
+    {
+      "word": "ato-name",
+      "txt": "tu i kan name-muta a di ato-name?",
+      "tra": "Can you conjugate this verb?"
+    },
+    {
+      "word": "atomo",
+      "txt": "atomo e en ale.",
+      "tra": "Atoms are in everything."
+    },
+    {
+      "word": "atomo-1",
+      "txt": "vasa i ave a atomo-1 an atomo-8.",
+      "tra": "Water contains hydrogen and oxygen."
+    },
+    {
+      "word": "atomo-2",
+      "txt": "atomo-2 a aero.",
+      "tra": "Helium is a gas."
+    },
+    {
+      "word": "atomo-3",
+      "txt": "tu leva de atomo-3 i de e bajo.",
+      "tra": "Your lithium levels were low."
+    },
+    {
+      "word": "atomo-4",
+      "txt": "Patrick Etchart, pale-man de Ofisi de Enejia, i dire ke peso i de e make de atomo-94, atomo-92, atomo-4 an no aero-veni fero, en-i uti a vari o danja kami en metodo.",
+      "tra": "Patrick Etchart, spokesman for the Department of Energy, says the components were made from plutonium, uranium, beryllium and stainless steel, utilizing various dangerous chemicals in the process."
+    },
+    {
+      "word": "atomo-5",
+      "txt": "induseri uti de atomo-5 a ke?",
+      "tra": "What are the industrial applications of boron?"
+    },
+    {
+      "word": "atomo-6",
+      "txt": "an atomo-6 tarifa?",
+      "tra": "What about the carbon tax?"
+    },
+    {
+      "word": "atomo-7",
+      "txt": "kaka de natura polo e tingi en atomo-7.",
+      "tra": "Organic chicken manure is high in nitrogen."
+    },
+    {
+      "word": "atomo-8",
+      "txt": "vasa i ave a atomo-1 an atomo-8.",
+      "tra": "Water contains hydrogen and oxygen."
+    },
+    {
+      "word": "atomo-9",
+      "txt": "atomo-9 a ten-san-ranko da ma medi atomo en pele de Tera.",
+      "tra": "Fluorine is the thirteenth most common element in Earth's crust."
+    },
+    {
+      "word": "atomo-10",
+      "txt": "atomo-10 a nulo-enejia aero.",
+      "tra": "Neon is a noble gas."
+    },
+    {
+      "word": "atomo-11",
+      "txt": "atomo-26 i reaki kon atomo-11?",
+      "tra": "Does iron react with sodium?"
+    },
+    {
+      "word": "atomo-12",
+      "txt": "niku-en-feruta i ave a atomo-12.",
+      "tra": "Figs contain magnesium."
+    },
+    {
+      "word": "atomo-13",
+      "txt": "atomo-13 tin e gen-rondo.",
+      "tra": "Aluminum cans are recycled."
+    },
+    {
+      "word": "atomo-14",
+      "txt": "a viva de-i base en atomo-14?",
+      "tra": "Is there silicon-based life?"
+    },
+    {
+      "word": "atomo-15",
+      "txt": "fekun i ave a atomo-15?",
+      "tra": "Do fertilizers contain phosphorus?"
+    },
+    {
+      "word": "atomo-16",
+      "txt": "atomo-16 i aroma sama fungi-veni ovo.",
+      "tra": "Sulfur smells like rotten eggs."
+    },
+    {
+      "word": "atomo-17",
+      "txt": "atomo-17 i make ke vasa i aroma e raro.",
+      "tra": "The chlorine makes the water taste strange."
+    },
+    {
+      "word": "atomo-18",
+      "txt": "atomo-18 a nulo-enejia aero.",
+      "tra": "Argon is a noble gas."
+    },
+    {
+      "word": "atomo-19",
+      "txt": "banana e tingi en atomo-19.",
+      "tra": "Bananas are high in potassium."
+    },
+    {
+      "word": "atomo-20",
+      "txt": "atomo-20 e misi de si-viro manja-moda.",
+      "tra": "Calcium is absent from his diet."
+    },
+    {
+      "word": "atomo-21",
+      "txt": "kemi sino de atomo-21 a Sc.",
+      "tra": "The chemical symbol of scandium is Sc."
+    },
+    {
+      "word": "atomo-22",
+      "txt": "atomo-68 i de ave deteki en besonde o atomo-22 mina-roka.",
+      "tra": "Erbium has been found in certain titanium minerals."
+    },
+    {
+      "word": "atomo-23",
+      "txt": "kemi sino de atomo-23 a V.",
+      "tra": "The chemical symbol of vanadium is V."
+    },
+    {
+      "word": "atomo-24",
+      "txt": "mini-sujo ke i dona a si ruja kolo go ruja-roka a atomo-24.",
+      "tra": "The dopant that gives rubies their red color is chromium."
+    },
+    {
+      "word": "atomo-25",
+      "txt": "kemi sino de atomo-25 a Mn.",
+      "tra": "The chemical symbol of manganese is Mn."
+    },
+    {
+      "word": "atomo-26",
+      "txt": "atomo-26 i reaki kon atomo-11?",
+      "tra": "Does iron react with sodium?"
+    },
+    {
+      "word": "atomo-27",
+      "txt": "Popula-regula-gove republika de kongo i eki-pota a atomo-27.",
+      "tra": "The DRC exports cobalt."
+    },
+    {
+      "word": "atomo-28",
+      "txt": "di duro-mone e make de atomo-28.",
+      "tra": "This coin is made of nickel."
+    },
+    {
+      "word": "atomo-29",
+      "txt": "si-viro i fusi a atomo-29.",
+      "tra": "He melts copper."
+    },
+    {
+      "word": "atomo-30",
+      "txt": "di metali de-i name a atomo-30.",
+      "tra": "This metal is called zinc."
+    },
+    {
+      "word": "atomo-31",
+      "txt": "kemi sino de atomo-31 a Ga.",
+      "tra": "The chemical symbol of gallium is Ga."
+    },
+    {
+      "word": "atomo-32",
+      "txt": "kemi sino de atomo-32 a Ge.",
+      "tra": "The chemical symbol of germanium is Ge."
+    },
+    {
+      "word": "atomo-33",
+      "txt": "atomo-33 a venemo.",
+      "tra": "Arsenic is a poison."
+    },
+    {
+      "word": "atomo-34",
+      "txt": "atomo-1, atomo-6, atomo-7, atomo-15, otomo-8, atomo-16 and atomo-34 a no-metali.",
+      "tra": "Hydrogen, carbon, nitrogen, phosphorus, oxygen, sulfur and selenium are nonmetals."
+    },
+    {
+      "word": "atomo-35",
+      "txt": "venemo aero de atomo-35 i kan duka a man lunge.",
+      "tra": "Toxic fumes of bromine can damage one's lungs."
+    },
+    {
+      "word": "atomo-36",
+      "txt": "kemi sino de atomo-36 a Kr.",
+      "tra": "The chemical symbol of krypton is Kr."
+    },
+    {
+      "word": "atomo-37",
+      "txt": "makina de-i make de nube de atomo-37 atomo.",
+      "tra": "The device consists of a cloud of rubidium atoms."
+    },
+    {
+      "word": "atomo-38",
+      "txt": "Davy, britan kemi-man, i de divi a pura atomo atomo-56, atomo-5, atomo-20, atomo-12, atomo-19, atomo-11 an atomo-38.",
+      "tra": "Davy, a British chemist, isolated the pure elements barium, boron, calcium, magnesium, potassium, sodium and strontium."
+    },
+    {
+      "word": "atomo-39",
+      "txt": "fo kemi atomo, atomo-39, atomo-68, atomo-65 an atomo-70, e name en onore go vila Ytterby en Sbaria.",
+      "tra": "Four chemical elements, yttrium, erbium, terbium, and ytterbium, are named after the village of Ytterby in Sweden."
+    },
+    {
+      "word": "atomo-40",
+      "txt": "Some man i pensa ke ringo e no ankora vere, an si e make de kubo atomo-40, meno kote moda go diamante.",
+      "tra": "Some think that the ring isn't even real, and it is instead made up of cubic zirconium, a cheaper alternative to diamond."
+    },
+    {
+      "word": "atomo-41",
+      "txt": "kemi sino de atomo-41 a Nb.",
+      "tra": "The chemical symbol of niobium is Nb."
+    },
+    {
+      "word": "atomo-42",
+      "txt": "si-feme i de e esita de atomo-42 dipa-etudi de mina-roka kata.",
+      "tra": "She was elated by the molybdenum assay of the ore sample."
+    },
+    {
+      "word": "atomo-43",
+      "txt": "atomo-43 de-i deteki o raro en natura.",
+      "tra": "Technetium is rarely found in nature."
+    },
+    {
+      "word": "atomo-44",
+      "txt": "kemi sino de atomo-44 a Ru.",
+      "tra": "The chemical symbol of ruthenium is Ru."
+    },
+    {
+      "word": "atomo-45",
+      "txt": "atomo-45 a da ma raro metali.",
+      "tra": "Rhodium is the rarest metal."
+    },
+    {
+      "word": "atomo-46",
+      "txt": "Paul i de nese a atomo-46 go si-viro inventi.",
+      "tra": "Paul needed the palladium for his invention."
+    },
+    {
+      "word": "atomo-47",
+      "txt": "di e no atomo-47.",
+      "tra": "This isn't silver."
+    },
+    {
+      "word": "atomo-48",
+      "txt": "atomo-48 venemo a mui medi rason de mori en sude.",
+      "tra": "Cadmium poisoning is a very common cause of death in the south."
+    },
+    {
+      "word": "atomo-49",
+      "txt": "atomo atomo-49 e mui suave go metali.",
+      "tra": "Elemental Indium is very soft for a metal."
+    },
+    {
+      "word": "atomo-50",
+      "txt": "atomo-50 a suave metali.",
+      "tra": "Tin is a soft metal."
+    },
+    {
+      "word": "atomo-51",
+      "txt": "mina-roka vare i kon a atomo-47, atomo-79, atomo-92, atomo-51, atomo-74 an kabon.",
+      "tra": "Mineral resources include silver, gold, uranium, antimony, tungsten, and coal."
+    },
+    {
+      "word": "atomo-52",
+      "txt": "man i uti a atomo-52 go ke?",
+      "tra": "What is tellurium used for?"
+    },
+    {
+      "word": "atomo-53",
+      "txt": "man i uti a atomo-53 go-i pura a vasa.",
+      "tra": "Iodine is used to purify water."
+    },
+    {
+      "word": "atomo-54",
+      "txt": "kemi sino de atomo-54 a Xe.",
+      "tra": "The chemical symbol of xenon is Xe."
+    },
+    {
+      "word": "atomo-55",
+      "txt": "en Nipon, man i de deteki a atomo-radi atomo-55 en bebe moloko.",
+      "tra": "In Japan, radioactive cesium was detected in baby formula."
+    },
+    {
+      "word": "atomo-56",
+      "txt": "Davy, britan kemi-man, i de divi a pura atomo atomo-56, atomo-5, atomo-20, atomo-12, atomo-19, atomo-11 an atomo-38.",
+      "tra": "Davy, a British chemist, isolated the pure elements barium, boron, calcium, magnesium, potassium, sodium and strontium."
+    },
+    {
+      "word": "atomo-57",
+      "txt": "kemi sino de atomo-57 a La.",
+      "tra": "The chemical symbol of lanthanum is La."
+    },
+    {
+      "word": "atomo-58",
+      "txt": "u atomo-58, ke si a impotan materi en rapi-kemi-reaki muta-uti.",
+      "tra": "Or cerium, which is an important material in catalytic converters."
+    },
+    {
+      "word": "atomo-59",
+      "txt": "kemi sino de atomo-59 a Pr.",
+      "tra": "The chemical symbol of praseodymium is Pr."
+    },
+    {
+      "word": "atomo-60",
+      "txt": "atomo-60 mageneti a mui poten mageneti.",
+      "tra": "Neodymium magnets are very strong magnets."
+    },
+    {
+      "word": "atomo-61",
+      "txt": "kemi sino de atomo-61 a Pm.",
+      "tra": "The chemical symbol of promethium is Pm."
+    },
+    {
+      "word": "atomo-62",
+      "txt": "uno-ranko raro-tera-atomo mageneti de-i develo i de e base en raro-tera-atomo atomo-62.",
+      "tra": "The first rare earth magnet to have been developed was based on the rare earth samarium."
+    },
+    {
+      "word": "atomo-63",
+      "txt": "raro-tera-atomo a junta de 17 metali atomo, sama atomo-60, atomo-63 an atomo-66.",
+      "tra": "Rare earth elements are a set of 17 metallic elements, such as neodymium, europium, and dysprosium."
+    },
+    {
+      "word": "atomo-64",
+      "txt": "kemi sino de atomo-64 a Gd.",
+      "tra": "The chemical symbol of gadolinium is Gd."
+    },
+    {
+      "word": "atomo-65",
+      "txt": "fo kemi atomo, atomo-39, atomo-68, atomo-65 an atomo-70, e name en onore go vila Ytterby en Sbaria.",
+      "tra": "Four chemical elements, yttrium, erbium, terbium, and ytterbium, are named after the village of Ytterby in Sweden."
+    },
+    {
+      "word": "atomo-66",
+      "txt": "raro-tera-atomo a junta de 17 metali atomo, sama atomo-60, atomo-63 an atomo-66.",
+      "tra": "Rare earth elements are a set of 17 metallic elements, such as neodymium, europium, and dysprosium."
+    },
+    {
+      "word": "atomo-67",
+      "txt": "mi atomo-67 pianeta i ave a ale ke si i nese.",
+      "tra": "My holmium planet has everything it needs."
+    },
+    {
+      "word": "atomo-68",
+      "txt": "atomo-68 i de ave deteki en besonde o atomo-22 mina-roka.",
+      "tra": "Erbium has been found in certain titanium minerals."
+    },
+    {
+      "word": "atomo-69",
+      "txt": "da ma raro raro-tera-atomo e atomo-69.",
+      "tra": "The rarest rare earth is thulium."
+    },
+    {
+      "word": "atomo-70",
+      "txt": "fo kemi atomo, atomo-39, atomo-68, atomo-65 an atomo-70, e name en onore go vila Ytterby en Sbaria.",
+      "tra": "Four chemical elements, yttrium, erbium, terbium, and ytterbium, are named after the village of Ytterby in Sweden."
+    },
+    {
+      "word": "atomo-71",
+      "txt": "kemi sino de atomo-71 a Lu.",
+      "tra": "The chemical symbol of lutetium is Lu."
+    },
+    {
+      "word": "atomo-72",
+      "txt": "bisinesa i dire ke via-vari-eleki-uti en si sige aje de eleki-metodo-uti i go e make kon atomo-72.",
+      "tra": "The company says the transistors in its next generation of processors will be made using hafnium."
+    },
+    {
+      "word": "atomo-73",
+      "txt": "pero an mina ke i de make a atomo-73 u atomo-46 en tu via-vari-eleki-uti?",
+      "tra": "But what about the mines that produced the tantalum or palladium in your transistors?"
+    },
+    {
+      "word": "atomo-74",
+      "txt": "mina-roka vare i kon a atomo-47, atomo-79, atomo-92, atomo-51, atomo-74 an kabon.",
+      "tra": "Mineral resources include silver, gold, uranium, antimony, tungsten, and coal."
+    },
+    {
+      "word": "atomo-75",
+      "txt": "atomo-75 i kan e inventi kon si liga.",
+      "tra": "Rhenium can be creative with its bonds."
+    },
+    {
+      "word": "atomo-76",
+      "txt": "atomo-78 a peso de sita atomo-78 junta metali (PGM), en-i kon a atomo-46, atomo-77, atomo-45, atomo-44 an atomo-76.",
+      "tra": "Platinum is part of the six platinum-group metals (PGM), including palladium, iridium, rhodium, ruthenium, and osmium."
+    },
+    {
+      "word": "atomo-77",
+      "txt": "atomo-78 a peso de sita atomo-78 junta metali (PGM), en-i kon a atomo-46, atomo-77, atomo-45, atomo-44 an atomo-76.",
+      "tra": "Platinum is part of the six platinum-group metals (PGM), including palladium, iridium, rhodium, ruthenium, and osmium."
+    },
+    {
+      "word": "atomo-78",
+      "txt": "atomo-78 a peso de sita atomo-78 junta metali (PGM), en-i kon a atomo-46, atomo-77, atomo-45, atomo-44 an atomo-76.",
+      "tra": "Platinum is part of the six platinum-group metals (PGM), including palladium, iridium, rhodium, ruthenium, and osmium."
+    },
+    {
+      "word": "atomo-79",
+      "txt": "mina-roka vare i kon a atomo-47, atomo-79, atomo-92, atomo-51, atomo-74 an kabon.",
+      "tra": "Mineral resources include silver, gold, uranium, antimony, tungsten, and coal."
+    },
+    {
+      "word": "atomo-80",
+      "txt": "atomo-80 e kelabu.",
+      "tra": "Mercury is gray."
+    },
+    {
+      "word": "atomo-81",
+      "txt": "atomo-81 a venemo.",
+      "tra": "Thallium is a poison."
+    },
+    {
+      "word": "atomo-82",
+      "txt": "atomo-82 i benda o fasile.",
+      "tra": "Lead bends easily."
+    },
+    {
+      "word": "atomo-83",
+      "txt": "kemi sino de atomo-83 a Bi.",
+      "tra": "aThe chemical symbol of bismuth is Bi."
+    },
+    {
+      "word": "atomo-84",
+      "txt": "man i kan uti a atomo-84 sama mui poten venemo.",
+      "tra": "Polonium can be used as a very potent poison."
+    },
+    {
+      "word": "atomo-85",
+      "txt": "atomo-85 e mui raro.",
+      "tra": "Astatine is very rare."
+    },
+    {
+      "word": "atomo-86",
+      "txt": "a atomo-86 a ke mui?",
+      "tra": "How much radon is there?"
+    },
+    {
+      "word": "atomo-87",
+      "txt": "en ani momen, a, mebi, ba atomo-87 atomo en ale de Tera.",
+      "tra": "At any given moment, there are perhaps eight francium atoms in the whole of the earth."
+    },
+    {
+      "word": "atomo-88",
+      "txt": "ke man i de deteki a atomo-88?",
+      "tra": "Who discovered radium?"
+    },
+    {
+      "word": "atomo-89",
+      "txt": "atomo-89 a atomo-radi atomo.",
+      "tra": "Actinium is a radioactive element."
+    },
+    {
+      "word": "atomo-90",
+      "txt": "kemi sino de atomo-90 a Th.",
+      "tra": "The chemical symbol of thorium is Th."
+    },
+    {
+      "word": "atomo-91",
+      "txt": "atomo-91 e atomo-radi.",
+      "tra": "Protactinium is radioactive."
+    },
+    {
+      "word": "atomo-92",
+      "txt": "Patrick Etchart, pale-man de Ofisi de Enejia, i dire ke peso i de e make de atomo-94, atomo-92, atomo-4 an no aero-veni fero, en-i uti a vari o danja kami en metodo.",
+      "tra": "Patrick Etchart, spokesman for the Department of Energy, says the components were made from plutonium, uranium, beryllium and stainless steel, utilizing various dangerous chemicals in the process."
+    },
+    {
+      "word": "atomo-93",
+      "txt": "atomo-93 e kemi sama atomo-92.",
+      "tra": "Neptunium is chemically similar to uranium."
+    },
+    {
+      "word": "atomo-94",
+      "txt": "Patrick Etchart, pale-man de Ofisi de Enejia, i dire ke peso i de e make de atomo-94, atomo-92, atomo-4 an no aero-veni fero, en-i uti a vari o danja kami en metodo.",
+      "tra": "Patrick Etchart, spokesman for the Department of Energy, says the components were made from plutonium, uranium, beryllium and stainless steel, utilizing various dangerous chemicals in the process."
+    },
+    {
+      "word": "atomo-95",
+      "txt": "kemi sino de atomo-95 a Am.",
+      "tra": "The chemical symbol of americium is Am."
+    },
+    {
+      "word": "atomo-96",
+      "txt": "atomo ke mi i pale a atomo-96.",
+      "tra": "The element I'm referring to is curium."
+    },
+    {
+      "word": "atomo-97",
+      "txt": "atomo-97 e name en onore go siti de Berkeley, Kalifornia.",
+      "tra": "Berkelium is named after the city of Berkeley, California."
+    },
+    {
+      "word": "atomo-98",
+      "txt": "kemi sino de atomo-98 a Cf.",
+      "tra": "The chemical symbol of californium is Cf."
+    },
+    {
+      "word": "atomo-99",
+      "txt": "tu e make de atomo-7, atomo-8, atomo-83, atomo-43, atomo-1 an atomo-99?",
+      "tra": "Are you made of nitrogen, oxygen, bismuth, technetium, hydrogen and einsteinium?"
+    },
+    {
+      "word": "atomo-100",
+      "txt": "atomo-100 e name en onore de Enrico Fermi.",
+      "tra": "Fermium is named after Enrico Fermi."
+    },
+    {
+      "word": "atomo-101",
+      "txt": "kemi sino de atomo-101 a Md.",
+      "tra": "The chemical symbol of mendelevium is Md."
+    },
+    {
+      "word": "atomo-102",
+      "txt": "atomo-102 e name en onore de Alfred Nobel.",
+      "tra": "Nobelium is named after Alfred Nobel."
+    },
+    {
+      "word": "atomo-103",
+      "txt": "atomo-103 e name en onore de Ernest Lawrence.",
+      "tra": "Lawrencium is named after Ernest Lawrence."
+    },
+    {
+      "word": "atomo-104",
+      "txt": "kemi sino de atomo-104 a Rf.",
+      "tra": "The chemical symbol of rutherfordium is Rf."
+    },
+    {
+      "word": "atomo-105",
+      "txt": "kemi sino de atomo-105 a Db.",
+      "tra": "The chemical symbol of dubnium is Db."
+    },
+    {
+      "word": "atomo-106",
+      "txt": "atomo-106 e name en onore de Glenn T. Seaborg.",
+      "tra": "Seaborgium is named after Glenn T. Seaborg."
+    },
+    {
+      "word": "atomo-107",
+      "txt": "mi i de manja a atomo-107 an si i de e bon.",
+      "tra": "I ate bohrium and it was good."
+    },
+    {
+      "word": "atomo-108",
+      "txt": "atomo-108 a ke?",
+      "tra": "What is hassium?"
+    },
+    {
+      "word": "atomo-109",
+      "txt": "kemi sino de atomo-109 a Mt.",
+      "tra": "The chemical symbol of meitnerium is Mt."
+    },
+    {
+      "word": "atomo-110",
+      "txt": "kemi sino de atomo-110 a Ds.",
+      "tra": "The chemical symbol of darmstadtium is Ds."
+    },
+    {
+      "word": "atomo-111",
+      "txt": "atomo-111 i de o uno-ranko e make en 1994.",
+      "tra": "Roentgenium was first created in 1994."
+    },
+    {
+      "word": "atomo-112",
+      "txt": "atomo-112 e name en onore de Nicolaus Copernicus.",
+      "tra": "Copernicium is named after Nicolaus Copernicus."
+    },
+    {
+      "word": "atomo-113",
+      "txt": "kon atomo numa 113, 115, 117 an 118, fo nu atomo de-i name atomo-113 (Nh), atomo-115 (Mc), atomo-117 (Ts) an atomo-118 (Og).",
+      "tra": "Given the atomic numbers 113, 115, 117 and 118, the four new elements have been named Nihonium (Nh), Moscovium (Mc), Tennessine (Ts) and Oganesson (Og)."
+    },
+    {
+      "word": "atomo-114",
+      "txt": "kemi sino de atomo-114 a Fl.",
+      "tra": "The chemical symbol of flerovium is Fl."
+    },
+    {
+      "word": "atomo-115",
+      "txt": "kon atomo numa 113, 115, 117 an 118, fo nu atomo de-i name atomo-113 (Nh), atomo-115 (Mc), atomo-117 (Ts) an atomo-118 (Og).",
+      "tra": "Given the atomic numbers 113, 115, 117 and 118, the four new elements have been named Nihonium (Nh), Moscovium (Mc), Tennessine (Ts) and Oganesson (Og)."
+    },
+    {
+      "word": "atomo-116",
+      "txt": "kemi sino de atomo-116 a Lv.",
+      "tra": "The chemical symbol of livermorium is Lv."
+    },
+    {
+      "word": "atomo-117",
+      "txt": "kon atomo numa 113, 115, 117 an 118, fo nu atomo de-i name atomo-113 (Nh), atomo-115 (Mc), atomo-117 (Ts) an atomo-118 (Og).",
+      "tra": "Given the atomic numbers 113, 115, 117 and 118, the four new elements have been named Nihonium (Nh), Moscovium (Mc), Tennessine (Ts) and Oganesson (Og)."
+    },
+    {
+      "word": "atomo-118",
+      "txt": "kon atomo numa 113, 115, 117 an 118, fo nu atomo de-i name atomo-113 (Nh), atomo-115 (Mc), atomo-117 (Ts) an atomo-118 (Og).",
+      "tra": "Given the atomic numbers 113, 115, 117 and 118, the four new elements have been named Nihonium (Nh), Moscovium (Mc), Tennessine (Ts) and Oganesson (Og)."
+    },
+    {
+      "word": "atomo-enejia",
+      "txt": "atomo-enejia e sekura.",
+      "tra": "Nuclear power is safe."
+    },
+    {
+      "word": "Australia",
+      "txt": "mi i ave janji a Tom ke mi i da go a Australia kon si-viro.",
+      "tra": "I've promised Tom I'd go to Australia with him."
+    },
+    {
+      "word": "ave",
+      "txt": "animale i ave manja.",
+      "tra": "The animal has eaten."
+    },
+    {
+      "word": "ave",
+      "txt": "mi i arapan ke tu i go ave a bon afa-semi-dia.",
+      "tra": "I hope you have a good afternoon."
+    },
+    {
+      "word": "ave",
+      "txt": "Sami i de ave a si diji en si labi an i de roga go Layla ke si i no debe make a sono.",
+      "tra": "Sami had his finger on his lips and asked Layla not to make a sound."
+    },
+    {
+      "word": "ave-a",
+      "txt": "da a ave-a ato-name.",
+      "tra": "That's a transitive verb."
+    },
+    {
+      "word": "baka",
+      "txt": "Ziri i de kuri go baka mun.",
+      "tra": "Ziri ran to the back door."
+    },
+    {
+      "word": "baka-dona",
+      "txt": "Tom i de baka-dona a si note-pape en si teta poke.",
+      "tra": "Tom put his pad back into his breast pocket."
+    },
+    {
+      "word": "baka-go",
+      "txt": "si-viro i de baka-go a Danmak.",
+      "tra": "He went back to Denmark."
+    },
+    {
+      "word": "baka-go",
+      "txt": "Tom i de veni en dia-1 an i de baka-go e uno dia afa.",
+      "tra": "Tom came on Monday and went back the day after."
+    },
+    {
+      "word": "baka-pale-tori",
+      "txt": "go-i mori a baka-pale-tori.",
+      "tra": "To kill a mockingbird."
+    },
+    {
+      "word": "Barbari",
+      "txt": "en-i etudi a Barbari de-i ave e vere joli go mi.",
+      "tra": "Studying Berber has been a real joy for me."
+    },
+    {
+      "word": "base",
+      "txt": "de begin de lati-maladi, mi-ale i ave make a deside de-i base en siensa, info an dalili de guru de sano.",
+      "tra": "Since the onset of the pandemic, we have made decisions based on science, data and evidence from health experts."
+    },
+    {
+      "word": "base",
+      "txt": "Jordan Peterson e raro seketa-man ke i base a si idea en mentira mentira-siensa de Carl Jung.",
+      "tra": "Jordan Peterson is a weird mystic who bases his ideas on the discredited pseudoscience of Carl Jung."
+    },
+    {
+      "word": "basilo",
+      "txt": "di i go mori a basilo.",
+      "tra": "This will kill the bacteria."
+    },
+    {
+      "word": "bebe-pota",
+      "txt": "tu e bebe-pota?",
+      "tra": "Are you pregnant?"
+    },
+    {
+      "word": "begin",
+      "txt": "de begin de lati-maladi, mi-ale i ave make a deside de-i base en siensa, info an dalili de guru de sano.",
+      "tra": "Since the onset of the pandemic, we have made decisions based on science, data and evidence from health experts."
+    },
+    {
+      "word": "begin",
+      "txt": "junta i de ave begin ludi o jusa ven regen i de begin.",
+      "tra": "The teams had just started to play when it began to rain."
+    },
+    {
+      "word": "bela",
+      "txt": "i mira a tingi bela feme ke i en ereki e da.",
+      "tra": "Look at the tall pretty girl standing there."
+    },
+    {
+      "word": "beso",
+      "txt": "si i de e apara ke si-viro i de vole beso a mi.",
+      "tra": "It was obvious that he wanted to kiss me."
+    },
+    {
+      "word": "besonde",
+      "txt": "e no nese go-i dire ke si-feme e besonde piano-man.",
+      "tra": "It is not necessary to say that she is an excellent pianist."
+    },
+    {
+      "word": "bete",
+      "txt": "mega silen i sede en bete kasa ve so mui de viro an feme i de more enkonte en ota dia.",
+      "tra": "An impressive silence broods over the monstrous structure where such multitudes of men and women were wont to assemble in other days."
+    },
+    {
+      "word": "bibe",
+      "txt": "man i bibe a vasa.",
+      "tra": "A person drinks water."
+    },
+    {
+      "word": "bibe",
+      "txt": "Tom i de bibe a si kafe.",
+      "tra": "Tom sipped his coffee."
+    },
+    {
+      "word": "bisinesa-man",
+      "txt": "bisinesa-man i en-pota a 200 kilo-gama de vino-beri.",
+      "tra": "The businessman imports 200 kilograms of grapes."
+    },
+    {
+      "word": "bodi-peso",
+      "txt": "no o viva bodi-peso i de e duka.",
+      "tra": "No vital organs were damaged."
+    },
+    {
+      "word": "bon",
+      "txt": "mega viro i go veni e bon.",
+      "tra": "The big man will be good."
+    },
+    {
+      "word": "bon",
+      "txt": "mi i arapan ke tu i go ave a bon afa-semi-dia.",
+      "tra": "I hope you have a good afternoon."
+    },
+    {
+      "word": "bon",
+      "txt": "si-uno i no nese dire ke vere-fule-neso e da ma bon ajenda.",
+      "tra": "It goes without saying that honesty is the best policy."
+    },
+    {
+      "word": "botelo",
+      "txt": "i favo pota a semi botelo de vino go mi.",
+      "tra": "Please bring me a half-bottle of wine."
+    },
+    {
+      "word": "Brasil",
+      "txt": "Brasil e mui rika; si rika e mui mega; kafe e uno de si o da ma mega rika.",
+      "tra": "Brazil is very rich; its richness is immense; coffee is one of its greatest riches."
+    },
+    {
+      "word": "buku",
+      "txt": "di buku e de-i note de mi.",
+      "tra": "This book is written by me."
+    },
+    {
+      "word": "buku",
+      "txt": "si-viro i de note a buku ke i dona-mala-name a Aljeri.",
+      "tra": "He wrote a book criticizing Algeria."
+    },
+    {
+      "word": "da",
+      "txt": "mi da make a da, pero mi no kan.",
+      "tra": "I would do that, but I can't."
+    },
+    {
+      "word": "da",
+      "txt": "Tom an Mary i de dire ke si-ale i da e di.",
+      "tra": "Tom and Mary said they would be here."
+    },
+    {
+      "word": "da",
+      "txt": "Tom i da no favo a Australia.",
+      "tra": "Tom wouldn't like Australia."
+    },
+    {
+      "word": "dalili",
+      "txt": "de begin de lati-maladi, mi-ale i ave make a deside de-i base en siensa, info an dalili de guru de sano.",
+      "tra": "Since the onset of the pandemic, we have made decisions based on science, data and evidence from health experts."
+    },
+    {
+      "word": "dare",
+      "txt": "amo i nese a dare.",
+      "tra": "Love needs courage."
+    },
+    {
+      "word": "de",
+      "txt": "i jage a sino de fungi-veni.",
+      "tra": "Look for signs of decomposition."
+    },
+    {
+      "word": "de",
+      "txt": "Mary i de muta o fini a si-feme menta.",
+      "tra": "Mary eventually changed her mind."
+    },
+    {
+      "word": "de",
+      "txt": "mega viro i de manja.",
+      "tra": "The big man ate."
+    },
+    {
+      "word": "debe",
+      "txt": "Aljeri i debe kata a relate kon Saudi-arabia?",
+      "tra": "Should Algeria cut its ties with Saudi Arabia?"
+    },
+    {
+      "word": "debe",
+      "txt": "da e sama si i debe veni.",
+      "tra": "That's how it has to be."
+    },
+    {
+      "word": "defende",
+      "txt": "i defende de rontgen-radi.",
+      "tra": "Protect from x-ray."
+    },
+    {
+      "word": "deja",
+      "txt": "tu i ave voka o deja a sano-karo?",
+      "tra": "Have you already called an ambulance?"
+    },
+    {
+      "word": "Delauer",
+      "txt": "joli-man i de labora o duro en en-i esita a junta ante ludi-man i de apara en patio go fini ludi de karera de mano-balo de Delauer tingi-sekola.",
+      "tra": "The cheerleaders worked hard to fire up the crowd before the players took the court for the final game of the Delaware high school basketball playoffs."
+    },
+    {
+      "word": "demon",
+      "txt": "ale demon i de apara e sama tempo go-i kapa a si-ale mudi-make.",
+      "tra": "The demons came out all at once to capture their prey."
+    },
+    {
+      "word": "den",
+      "txt": "en-i open o mui lenta o ade a ventana, si-ale i de arapan-kipa tila kali nube i de ave osura o semi a eve, an den uno de uno i de kamina go mini gaden.",
+      "tra": "Opening the window very slowly and carefully, they waited until a dark cloud had somewhat obscured the night, and then one by one passed through into the little garden."
+    },
+    {
+      "word": "denta",
+      "txt": "Tom de-i denta de naga.",
+      "tra": "Tom was bitten by a snake."
+    },
+    {
+      "word": "dereko-filoso",
+      "txt": "si-feme dereko-filoso e elasi.",
+      "tra": "Her ethics are flexible."
+    },
+    {
+      "word": "deside",
+      "txt": "de begin de lati-maladi, mi-ale i ave make a deside de-i base en siensa, info an dalili de guru de sano.",
+      "tra": "Since the onset of the pandemic, we have made decisions based on science, data and evidence from health experts."
+    },
+    {
+      "word": "desini-evento",
+      "txt": "mui desini-evento de-i kan veni dona.",
+      "tra": "Numerous examples can be given."
+    },
+    {
+      "word": "deteki",
+      "txt": "mi i pensa ke mi i kan deteki a tu domo.",
+      "tra": "I think I can find your house."
+    },
+    {
+      "word": "develo",
+      "txt": "veji i develo en gaden, sama foli-veji, rondo-foli-vejii, onion, alio, melon, bianka-kera-veji, bianka-rondo-radika-veji, ruja-rondo-radika-veji, kavalo-rondo-radika-veji, roka-antika-gadi, longo-midori-melon an oranje-melon.",
+      "tra": "Greens and vegetables grow in gardens, such as lettuce, cabbage, onions, garlic, gourd, parsnip, turnip, radish, horse radish, parsley, cucumbers and pumpkin."
+    },
+    {
+      "word": "di",
+      "txt": "i lase a mi ke mi i make a di e mi jalan.",
+      "tra": "Let me do this my way."
+    },
+    {
+      "word": "di",
+      "txt": "tu kinde e no di go ke rason?",
+      "tra": "Why aren't your children here?"
+    },
+    {
+      "word": "dia",
+      "txt": "fete e en dia seven.",
+      "tra": "The party's on Sunday."
+    },
+    {
+      "word": "dia",
+      "txt": "mi i dia a si sama 1730.",
+      "tra": "I date it as 1730."
+    },
+    {
+      "word": "dia-1",
+      "txt": "Tom i de veni en dia-1 an i de baka-go e uno dia afa.",
+      "tra": "Tom came on Monday and went back the day after."
+    },
+    {
+      "word": "dia-5",
+      "txt": "mi i no kan arapan-kipa ke dia-5 i veni.",
+      "tra": "I can't wait for Friday to come."
+    },
+    {
+      "word": "diji",
+      "txt": "Sami i de ave a si diji en si labi an i de roga go Layla ke si i no debe make a sono.",
+      "tra": "Sami had his finger on his lips and asked Layla not to make a sound."
+    },
+    {
+      "word": "dika",
+      "txt": "dika feo bebe.",
+      "tra": "Fat ugly baby."
+    },
+    {
+      "word": "dimenti",
+      "txt": "mi i de dimenti redi a siren go sekola.",
+      "tra": "I forgot to set the alarm for school."
+    },
+    {
+      "word": "dipa-bore",
+      "txt": "nu demo e lati-maladi de poten dipa-bore.",
+      "tra": "The new show is plagued by an aggressive ennui."
+    },
+    {
+      "word": "dipa-enejia",
+      "txt": "Tom i ave a vile-tempo de dipa-melankoli de-i sige de lin de dipa-enejia ato.",
+      "tra": "Tom has periods of debilitating depression followed by bursts of manic activity."
+    },
+    {
+      "word": "dipa-melankoli",
+      "txt": "Tom i ave a vile-tempo de dipa-melankoli de-i sige de lin de dipa-enejia ato.",
+      "tra": "Tom has periods of debilitating depression followed by bursts of manic activity."
+    },
+    {
+      "word": "dire",
+      "txt": "se tu i dire go Tom ke si-viro i debe make a ke, mi e sure ke si-viro i go make a si.",
+      "tra": "If you tell Tom what to do, I'm sure he'll do it."
+    },
+    {
+      "word": "dire",
+      "txt": "i dire a si-feme ke man-ale e di.",
+      "tra": "Tell her that everyone is here."
+    },
+    {
+      "word": "dire-abuso",
+      "txt": "viro-paren de Sami i de dire-abuso o mui a si.",
+      "tra": "Sami's father put him down a lot."
+    },
+    {
+      "word": "direto",
+      "txt": "ke man i de direto a kino?",
+      "tra": "Who directed that film?"
+    },
+    {
+      "word": "divi-man",
+      "txt": "divi-man a en-fini junta en Kabeile.",
+      "tra": "The separatists are a marginal group in Kabylie."
+    },
+    {
+      "word": "dogi",
+      "txt": "dogi i tose.",
+      "tra": "Dogs bark."
+    },
+    {
+      "word": "dona",
+      "txt": "Tom de-i dona a da labora.",
+      "tra": "Tom was assigned that task."
+    },
+    {
+      "word": "dona",
+      "txt": "tu i debe dona a open-make go Tom i make a da.",
+      "tra": "You should give Tom a chance to do that."
+    },
+    {
+      "word": "dona-mala-name",
+      "txt": "an si-viro i de dona-mala-name a Abimelech ka fonte, ke si-viro dulo i de ave robare o poten.",
+      "tra": "And he reproved Abimelech for a well of water, which his servants had taken away by force."
+    },
+    {
+      "word": "dona-mala-name",
+      "txt": "ante tu i dona-mala-name a some, tu i debe kamina a uno-punto-sita-kilo-mita en si sapato.",
+      "tra": "Before you criticize someone, you should walk a mile in their shoes."
+    },
+    {
+      "word": "dona-mala-name-man",
+      "txt": "ale man a dona-mala-name-man.",
+      "tra": "Everybody's a critic."
+    },
+    {
+      "word": "dua",
+      "txt": "mi i dua a tu. mi i ave a mari-feme an kinde.",
+      "tra": "I beg you. I have a wife and children."
+    },
+    {
+      "word": "duka",
+      "txt": "via penta ano de duka o sela-develo-maladi terapi, si-viro i de fini-make kipa a dereka fase.",
+      "tra": "Throughout the five years of painful cancer treatments, he managed to keep a stiff upper lip."
+    },
+    {
+      "word": "duka",
+      "txt": "mi i ave duka sama mui sama tu.",
+      "tra": "I've suffered as much as you have."
+    },
+    {
+      "word": "dulo",
+      "txt": "an si-viro i de dona-mala-name a Abimelech ka fonte, ke si-viro dulo i de ave robare o poten.",
+      "tra": "And he reproved Abimelech for a well of water, which his servants had taken away by force."
+    },
+    {
+      "word": "duo-numa",
+      "txt": "ten duo a duo-numa.",
+      "tra": "Twelve is an even number."
+    },
+    {
+      "word": "duro",
+      "txt": "joli-man i de labora o duro en en-i esita a junta ante ludi-man i de apara en patio go fini ludi de karera de mano-balo de Delauer tingi-sekola.",
+      "tra": "The cheerleaders worked hard to fire up the crowd before the players took the court for the final game of the Delaware high school basketball playoffs."
+    },
+    {
+      "word": "duro",
+      "txt": "vere duro e ke tu i no savi o ankora ke mi-ale i ave a duro.",
+      "tra": "The real problem is you don't even know we have a problem."
+    },
+    {
+      "word": "dusa",
+      "txt": "mi-ale i no kan lase mori a di fiore. i favo dusa a si.",
+      "tra": "We can't let these flowers die. Please water them."
+    },
+    {
+      "word": "e",
+      "txt": "da e go tu.",
+      "tra": "That’s for you."
+    },
+    {
+      "word": "e",
+      "txt": "manja e Bob.",
+      "tra": "The food is Bob's."
+    },
+    {
+      "word": "e",
+      "txt": "Tom i de dire go mi ke si-viro i de en senti e mini fatiga.",
+      "tra": "Tom told me he was feeling a bit tired."
+    },
+    {
+      "word": "e",
+      "txt": "tu e da ma nulo-senti man ke mi i ave enkonte o ni.",
+      "tra": "You're the most inconsiderate person I've ever met."
+    },
+    {
+      "word": "Ebru",
+      "txt": "tu i pale a Ebru?",
+      "tra": "Do you speak Hebrew?"
+    },
+    {
+      "word": "edu-evento",
+      "txt": "edu-evento i de e ke moda?",
+      "tra": "How was the seminar?"
+    },
+    {
+      "word": "ego-mori",
+      "txt": "mi i go ade a tu ego-mori.",
+      "tra": "I shall assist your suicide."
+    },
+    {
+      "word": "Eire-linga",
+      "txt": "mi i pale a Eire-linga e kada dia.",
+      "tra": "I speak Irish every day."
+    },
+    {
+      "word": "eki",
+      "txt": "tu i vole go a eki kon fami, di-dia?",
+      "tra": "How about going on a family outing to the woods today?"
+    },
+    {
+      "word": "eki",
+      "txt": "eki i en veni e mui kalori.",
+      "tra": "It's really getting warm outside."
+    },
+    {
+      "word": "eki-kapa",
+      "txt": "si-feme i de eki-kapa o obe-jura a si-ego de si-viro.",
+      "tra": "She legally emancipated herself from him."
+    },
+    {
+      "word": "eki-kapa",
+      "txt": "Tom i de eki-kapa a uno de si-viro dulo.",
+      "tra": "Tom emancipated one of his slaves."
+    },
+    {
+      "word": "eki-pota",
+      "txt": "ota eki-pota kon jin, liki-metali, atomo-92, natura aero, an, en some ano, eleki.",
+      "tra": "Other exports include gold, mercury, uranium, natural gas, and - in some years - electricity."
+    },
+    {
+      "word": "eleki-metodo-uti",
+      "txt": "di komputa i ave a Pentium eleki-metodo-uti.",
+      "tra": "This computer has a Pentium processor."
+    },
+    {
+      "word": "eleti",
+      "txt": "Tom i eleti a si natura-eleti.",
+      "tra": "Tom goes with his gut."
+    },
+    {
+      "word": "elika-poten-pin",
+      "txt": "i tensa a di elika-poten-pin.",
+      "tra": "Tighten this screw."
+    },
+    {
+      "word": "en",
+      "txt": "animale i en manja.",
+      "tra": "The animal is eating."
+    },
+    {
+      "word": "en",
+      "txt": "joli-man i de labora o duro en en-i esita a junta ante ludi-man i de apara en patio go fini ludi de karera de mano-balo de Delauer tingi-sekola.",
+      "tra": "The cheerleaders worked hard to fire up the crowd before the players took the court for the final game of the Delaware high school basketball playoffs."
+    },
+    {
+      "word": "en",
+      "txt": "mi i kipa en.",
+      "tra": "I stay in."
+    },
+    {
+      "word": "en",
+      "txt": "si-feme i de go en si-feme moto-bike.",
+      "tra": "She took off on her motorcycle."
+    },
+    {
+      "word": "en-fini",
+      "txt": "divi-man a en-fini junta en Kabeile.",
+      "tra": "The separatists are a marginal group in Kabylie."
+    },
+    {
+      "word": "en-relate",
+      "txt": "mi-mui i de en-relate a si-ale.",
+      "tra": "We adopted them."
+    },
+    {
+      "word": "en-relate",
+      "txt": "Tom i de e en-relate.",
+      "tra": "Tom was adopted."
+    },
+    {
+      "word": "en-savi",
+      "txt": "si-viro i de en-savi a mi ke viva i ke, an mori i sinifi a ke, an rason ke amo e ma poten sama si-duo.",
+      "tra": "He made me see what Life is, and what Death signifies, and why Love is stronger than both."
+    },
+    {
+      "word": "en-savi",
+      "txt": "mi e fule en-savi de tu nulo-vina.",
+      "tra": "I'm clearly convinced of your innocence."
+    },
+    {
+      "word": "enejia",
+      "txt": "sole-luse i make ke mala-eleki-peso en sela i move an enejia e make.",
+      "tra": "The sunlight makes the electrons in the cells move and energy is produced."
+    },
+    {
+      "word": "enejia-kaja",
+      "txt": "enejia-kaja de-i no kon.",
+      "tra": "Batteries not included."
+    },
+    {
+      "word": "enkonte",
+      "txt": "mi-ale i go enkonte e sige-dia?",
+      "tra": "Are we meeting tomorrow?"
+    },
+    {
+      "word": "enkonte",
+      "txt": "tu e da ma nulo-senti man ke mi i ave enkonte o ni.",
+      "tra": "You're the most inconsiderate person I've ever met."
+    },
+    {
+      "word": "erase-sesi",
+      "txt": "kemi erase-sesi i kan orijen a sela-develo-maladi.",
+      "tra": "Chemical castration could cause cancer."
+    },
+    {
+      "word": "erase-sesi-viro",
+      "txt": "erase-sesi-viro a erase-sesi viro dulo.",
+      "tra": "Eunuchs are castrated male slaves."
+    },
+    {
+      "word": "ereki",
+      "txt": "i mira a tingi bela feme ke i en ereki e da.",
+      "tra": "Look at the tall pretty girl standing there."
+    },
+    {
+      "word": "ero",
+      "txt": "tu i de veni e mui furi ka si-viro ero go ke rason?",
+      "tra": "Why did you get so angry at his mistake?"
+    },
+    {
+      "word": "esi",
+      "txt": "mega ave i no kan esi no kon nulo-jura-neso; mui name i no kan esi no kon mentira.",
+      "tra": "Great possessions cannot exist without injustice; a multitude of words cannot exist without a lie."
+    },
+    {
+      "word": "esita",
+      "txt": "joli-man i de labora o duro en en-i esita a junta ante ludi-man i de apara en patio go fini ludi de karera de mano-balo de Delauer tingi-sekola.",
+      "tra": "The cheerleaders worked hard to fire up the crowd before the players took the court for the final game of the Delaware high school basketball playoffs."
+    },
+    {
+      "word": "etudi",
+      "txt": "en-i etudi a Barbari de-i ave e vere joli go mi.",
+      "tra": "Studying Berber has been a real joy for me."
+    },
+    {
+      "word": "etudi",
+      "txt": "tu i vole etudi o mui a si?",
+      "tra": "Do you want to study it further?"
+    },
+    {
+      "word": "eve",
+      "txt": "di eve, si-viro e en eve labora.",
+      "tra": "He is on night duty tonight."
+    },
+    {
+      "word": "evento",
+      "txt": "vile de evento, mi no bibe a ani kosa.",
+      "tra": "During the event, I didn't drink anything."
+    },
+    {
+      "word": "fara",
+      "txt": "Tom i viva e fara",
+      "tra": "Tom lives a long way from here."
+    },
+    {
+      "word": "farina-monte",
+      "txt": "mi-ale i de kamina e en farina-monte.",
+      "tra": "We walked on the dune."
+    },
+    {
+      "word": "Faser",
+      "txt": "si-viro i de veka a si-viro fili go Faser dua.",
+      "tra": "He woke his son up for the fajr prayer."
+    },
+    {
+      "word": "fava-nuki",
+      "txt": "da a nata de fava-nuki?",
+      "tra": "Is that peanut butter?"
+    },
+    {
+      "word": "favo",
+      "txt": "gato i favo a fiba.",
+      "tra": "Cats like yarn."
+    },
+    {
+      "word": "favo",
+      "txt": "i favo pota a semi botelo de vino go mi.",
+      "tra": "Please bring me a half-bottle of wine."
+    },
+    {
+      "word": "feme",
+      "txt": "mega silen i sede en bete kasa ve so mui de viro an feme i de more enkonte en ota dia.",
+      "tra": "An impressive silence broods over the monstrous structure where such multitudes of men and women were wont to assemble in other days."
+    },
+    {
+      "word": "feme",
+      "txt": "mi i no favo a feme sama da.",
+      "tra": "I don't like women like that."
+    },
+    {
+      "word": "feme-kinde",
+      "txt": "tu a feme-kinde u viro-kinde?",
+      "tra": "Are you a girl or a boy?"
+    },
+    {
+      "word": "fen",
+      "txt": "i vaku a fen.",
+      "tra": "Drain the swamp."
+    },
+    {
+      "word": "feruta",
+      "txt": "di feruta e meno ruja sama da.",
+      "tra": "This fruit is less red than that one."
+    },
+    {
+      "word": "fete",
+      "txt": "fete e en dia seven.",
+      "tra": "The party's on Sunday."
+    },
+    {
+      "word": "fiba",
+      "txt": "a no ruja fiba.",
+      "tra": "There's no red thread."
+    },
+    {
+      "word": "fide",
+      "txt": "si-uno i no kan fide a si-feme.",
+      "tra": "She cannot be trusted."
+    },
+    {
+      "word": "figura",
+      "txt": "se tu a no amigo, tu i ave a figura de amigo e ke rason?",
+      "tra": "If you are not a friend, why are you friend shaped?"
+    },
+    {
+      "word": "figura",
+      "txt": "Tom e en ma bon fisika figura sama mi.",
+      "tra": "Tom is in better physical shape than I am."
+    },
+    {
+      "word": "fili",
+      "txt": "si-viro i de veka a si-viro fili go Faser dua.",
+      "tra": "He woke his son up for the fajr prayer."
+    },
+    {
+      "word": "fini",
+      "txt": "Mary i de muta o fini a si-feme menta.",
+      "tra": "Mary eventually changed her mind."
+    },
+    {
+      "word": "fini",
+      "txt": "Tomi i no kan fini a di labora en uno dia.",
+      "tra": "Tom can't finish this job in a day."
+    },
+    {
+      "word": "fini-make",
+      "txt": "via penta ano de duka o sela-develo-maladi terapi, si-viro i de fini-make kipa a dereka fase.",
+      "tra": "Throughout the five years of painful cancer treatments, he managed to keep a stiff upper lip."
+    },
+    {
+      "word": "fisika",
+      "txt": "Tom e en ma bon fisika figura sama mi.",
+      "tra": "Tom is in better physical shape than I am."
+    },
+    {
+      "word": "fobo",
+      "txt": "mi i go mira a fobo kino.",
+      "tra": "I'm going to see a horror film."
+    },
+    {
+      "word": "fobo-sonjo",
+      "txt": "ale de di saga e sama sera-fobo fobo-sonjo.",
+      "tra": "This whole story is like a claustrophobic nightmare."
+    },
+    {
+      "word": "foli-lan",
+      "txt": "Pluton i ave a ise foli-lan.",
+      "tra": "Pluto has ice plains."
+    },
+    {
+      "word": "fore",
+      "txt": "nun, i go e fore.",
+      "tra": "Now go forward."
+    },
+    {
+      "word": "foreta",
+      "txt": "mi i kamina en foreta, pero si i kipa en.",
+      "tra": "I walk in the forest, but he stays inside."
+    },
+    {
+      "word": "fule",
+      "txt": "mi e fule en-savi de tu nulo-vina.",
+      "tra": "I'm clearly convinced of your innocence."
+    },
+    {
+      "word": "fule",
+      "txt": "Tom i de kuri e fule rapi.",
+      "tra": "Tom ran at full speed."
+    },
+    {
+      "word": "furi",
+      "txt": "mi e no furi go tu, no ma.",
+      "tra": "I'm not mad at you anymore."
+    },
+    {
+      "word": "furi",
+      "txt": "Julius i punjo o furi a sadi viro-kinde.",
+      "tra": "Julius angrily beats the rude boy."
+    },
+    {
+      "word": "gaden",
+      "txt": "Großer Tiergarten u Tiergarten e mega komun gaden de-i loke en semi de Belin.",
+      "tra": "The Großer Tiergarten or Tiergarten is a large public park located in the middle of Berlin."
+    },
+    {
+      "word": "gana",
+      "txt": "mebi, Tom i go no gana o ni.",
+      "tra": "Tom probably won't ever win."
+    },
+    {
+      "word": "gato",
+      "txt": "gato i favo a fiba.",
+      "tra": "Cats like yarn."
+    },
+    {
+      "word": "gen",
+      "txt": "si-viro i de gen a si.",
+      "tra": "He repeated it again."
+    },
+    {
+      "word": "gen-begin",
+      "txt": "i mori a mi an den i gen-begin a mi kore",
+      "tra": "Kill me and then restart my heart."
+    },
+    {
+      "word": "gen-rondo",
+      "txt": "i memo go-i gen-rondo.",
+      "tra": "Remember to recycle."
+    },
+    {
+      "word": "gene",
+      "txt": "mi-ale i ave a sama gene.",
+      "tra": "We have the same genes."
+    },
+    {
+      "word": "go",
+      "txt": "tu i vole go a eki kon fami, di-dia?",
+      "tra": "How about going on a family outing to the woods today?"
+    },
+    {
+      "word": "go",
+      "txt": "mega viro i go manja.",
+      "tra": "The big man will eat."
+    },
+    {
+      "word": "go",
+      "txt": "mi i go mira a fobo kino.",
+      "tra": "I'm going to see a horror film."
+    },
+    {
+      "word": "go",
+      "txt": "si mebi kan go.",
+      "tra": "He might be able to go."
+    },
+    {
+      "word": "gota",
+      "txt": "gota i de gota.",
+      "tra": "Drops dripped."
+    },
+    {
+      "word": "gule",
+      "txt": "mi gule i senti e seko.",
+      "tra": "My throat feels dry."
+    },
+    {
+      "word": "gun",
+      "txt": "Tom i de puse a gun-boton, pero gun i de no gun.",
+      "tra": "Tom squeezed the trigger, but the gun didn't fire."
+    },
+    {
+      "word": "i",
+      "txt": "Mary i de dire ke si-feme i de senti a mare-maladi.",
+      "tra": "Mary said that she felt seasick."
+    },
+    {
+      "word": "i",
+      "txt": "mi i vole sesi a tu.",
+      "tra": "I want to make love with you."
+    },
+    {
+      "word": "ia",
+      "txt": "go-i ia ke tu i dire a da i make ke mi i senti e ma bon.",
+      "tra": "It makes me feel better to hear you say that."
+    },
+    {
+      "word": "idea",
+      "txt": "Jordan Peterson e raro seketa-man ke i base a si idea en mentira mentira-siensa de Carl Jung.",
+      "tra": "Jordan Peterson is a weird mystic who bases his ideas on the discredited pseudoscience of Carl Jung."
+    },
+    {
+      "word": "ila",
+      "txt": "ke man i de deteki a ila?",
+      "tra": "Who discovered the island?"
+    },
+    {
+      "word": "ila-junta",
+      "txt": "Nipon a mega ila-junta.",
+      "tra": "Japan is an enormous archipelago."
+    },
+    {
+      "word": "imaje",
+      "txt": "tu i de pone a si-feme imaje e en ke?",
+      "tra": "Where did you put her picture?"
+    },
+    {
+      "word": "info",
+      "txt": "de begin de lati-maladi, mi-ale i ave make a deside de-i base en siensa, info an dalili de guru de sano.",
+      "tra": "Since the onset of the pandemic, we have made decisions based on science, data and evidence from health experts."
+    },
+    {
+      "word": "inta",
+      "txt": "viro-kinde i de sede inta feme-kinde.",
+      "tra": "The boy sat among the girls."
+    },
+    {
+      "word": "invite",
+      "txt": "mi i de no invite a tu.",
+      "tra": "I didn't ask you out."
+    },
+    {
+      "word": "ise-lan",
+      "txt": "navi i de kolidi a ise-lan.",
+      "tra": "The ship hit an iceberg."
+    },
+    {
+      "word": "ise-tori",
+      "txt": "da a ise-tori?",
+      "tra": "Is that a penguin?"
+    },
+    {
+      "word": "jage",
+      "txt": "i jage a sino de fungi-veni.",
+      "tra": "Look for signs of decomposition."
+    },
+    {
+      "word": "jaketa",
+      "txt": "da jaketa i de debe kote a rama an noga go tu.",
+      "tra": "That jacket must've cost you an arm and a leg."
+    },
+    {
+      "word": "jalan",
+      "txt": "tu i no kan go a u jalan.",
+      "tra": "You can’t go either way."
+    },
+    {
+      "word": "janji",
+      "txt": "mi i ave janji a Tom ke mi i da go a Australia kon si-viro.",
+      "tra": "I've promised Tom I'd go to Australia with him."
+    },
+    {
+      "word": "jeritan",
+      "txt": "Tom i jeritan o tuju go mi.",
+      "tra": "Tom always yells at me."
+    },
+    {
+      "word": "jeti",
+      "txt": "mi-ale i jeti a oso en base.",
+      "tra": "We throw the bones onto the floor."
+    },
+    {
+      "word": "jin",
+      "txt": "mi i nese a ma jin.",
+      "tra": "I need more gold."
+    },
+    {
+      "word": "joli",
+      "txt": "nun, Tom e da ma joli man en mundo.",
+      "tra": "Tom is the happiest person in the world right now."
+    },
+    {
+      "word": "joli",
+      "txt": "en-i etudi a Barbari de-i ave e vere joli go mi.",
+      "tra": "Studying Berber has been a real joy for me."
+    },
+    {
+      "word": "joli-arapan",
+      "txt": "tu e joli-arapan?",
+      "tra": "Are you satisfied?"
+    },
+    {
+      "word": "joli-man",
+      "txt": "joli-man i de labora o duro en en-i esita a junta ante ludi-man i de apara en patio go fini ludi de karera de mano-balo de Delauer tingi-sekola.",
+      "tra": "The cheerleaders worked hard to fire up the crowd before the players took the court for the final game of the Delaware high school basketball playoffs."
+    },
+    {
+      "word": "Josunmau",
+      "txt": "en-i etudi a Josunmau e duro.",
+      "tra": "Learning Korean is difficult."
+    },
+    {
+      "word": "junta",
+      "txt": "divi-man a en-fini junta en Kabeile.",
+      "tra": "The separatists are a marginal group in Kabylie."
+    },
+    {
+      "word": "junta",
+      "txt": "junta i de ave begin ludi o jusa ven regen i de begin.",
+      "tra": "The teams had just started to play when it began to rain."
+    },
+    {
+      "word": "jura-junta",
+      "txt": "popula i de no aseta a jura-junta.",
+      "tra": "The people rejected the constitution."
+    },
+    {
+      "word": "jusa",
+      "txt": "junta i de ave begin ludi o jusa ven regen i de begin.",
+      "tra": "The teams had just started to play when it began to rain."
+    },
+    {
+      "word": "ka",
+      "txt": "an si-viro i de dona-mala-name a Abimelech ka fonte, ke si-viro dulo i de ave robare o poten.",
+      "tra": "And he reproved Abimelech for a well of water, which his servants had taken away by force."
+    },
+    {
+      "word": "ka",
+      "txt": "tu i de veni e mui furi ka si-viro ero go ke rason?",
+      "tra": "Why did you get so angry at his mistake?"
+    },
+    {
+      "word": "kada",
+      "txt": "kada uno i leje a uno sentense.",
+      "tra": "Read one sentence each."
+    },
+    {
+      "word": "kada",
+      "txt": "mi i pale a Eire-linga e kada dia.",
+      "tra": "I speak Irish every day."
+    },
+    {
+      "word": "kafe",
+      "txt": "Brasil e mui rika; si rika e mui mega; kafe e uno de si o da ma mega rika.",
+      "tra": "Brazil is very rich; its richness is immense; coffee is one of its greatest riches."
+    },
+    {
+      "word": "kaja",
+      "txt": "medi, vino de kaja e no mui bon.",
+      "tra": "Boxed wine isn't usually very good."
+    },
+    {
+      "word": "kaja",
+      "txt": "tu kaja.",
+      "tra": "Your box."
+    },
+    {
+      "word": "kaja-sino",
+      "txt": "i pone a name en kaja-sino.",
+      "tra": "Put the word in parentheses."
+    },
+    {
+      "word": "kali",
+      "txt": "en-i open o mui lenta o ade a ventana, si-ale i de arapan-kipa tila kali nube i de ave osura o semi a eve, an den uno de uno i de kamina go mini gaden.",
+      "tra": "Opening the window very slowly and carefully, they waited until a dark cloud had somewhat obscured the night, and then one by one passed through into the little garden."
+    },
+    {
+      "word": "kalori-fonte",
+      "txt": "safari-man i de en ereki e en rondo de kalori-fonte, en-i superise-gape.",
+      "tra": "Tourists were standing round the geyser, gawping."
+    },
+    {
+      "word": "kamera",
+      "txt": "di a mi kamera.",
+      "tra": "This is my room."
+    },
+    {
+      "word": "kamina",
+      "txt": "ante tu i dona-mala-name a some, tu i debe kamina a uno-punto-sita-kilo-mita en si sapato.",
+      "tra": "Before you criticize someone, you should walk a mile in their shoes."
+    },
+    {
+      "word": "kamina",
+      "txt": "en-i open o mui lenta o ade a ventana, si-ale i de arapan-kipa tila kali nube i de ave osura o semi a eve, an den uno de uno i de kamina go mini gaden.",
+      "tra": "Opening the window very slowly and carefully, they waited until a dark cloud had somewhat obscured the night, and then one by one passed through into the little garden."
+    },
+    {
+      "word": "kan",
+      "txt": "mi i ave supose ke solo moda mi i kan make a di e ke Tom i ade a mi.",
+      "tra": "I've figured out that the only way I can do this is to get Tom to help me."
+    },
+    {
+      "word": "kan",
+      "txt": "mi-ale i no kan lase mori a di fiore. i favo dusa a si.",
+      "tra": "We can't let these flowers die. Please water them."
+    },
+    {
+      "word": "kanali",
+      "txt": "kanali e baraje.",
+      "tra": "The canal is clogged."
+    },
+    {
+      "word": "kapa",
+      "txt": "ale demon i de apara e sama tempo go-i kapa a si-ale mudi-make.",
+      "tra": "The demons came out all at once to capture their prey."
+    },
+    {
+      "word": "karera",
+      "txt": "joli-man i de labora o duro en en-i esita a junta ante ludi-man i de apara en patio go fini ludi de karera de mano-balo de Delauer tingi-sekola.",
+      "tra": "The cheerleaders worked hard to fire up the crowd before the players took the court for the final game of the Delaware high school basketball playoffs."
+    },
+    {
+      "word": "karo",
+      "txt": "di karo de-i regula de komputa.",
+      "tra": "This car is controlled by a computer."
+    },
+    {
+      "word": "karo",
+      "txt": "mi i begin rapi a karo.",
+      "tra": "I start to speed the car."
+    },
+    {
+      "word": "karo-para",
+      "txt": "karo-para i de e fule.",
+      "tra": "Parking was full."
+    },
+    {
+      "word": "kasa",
+      "txt": "mega silen i sede en bete kasa ve so mui de viro an feme i de more enkonte en ota dia.",
+      "tra": "An impressive silence broods over the monstrous structure where such multitudes of men and women were wont to assemble in other days."
+    },
+    {
+      "word": "kata",
+      "txt": "Aljeri i debe kata a relate kon Saudi-arabia?",
+      "tra": "Should Algeria cut its ties with Saudi Arabia?"
+    },
+    {
+      "word": "kave",
+      "txt": "siensa-man i pensa ke raja-topi-viru i mebi ave veni de kave de vola-muso.",
+      "tra": "The scientist thinks the coronavirus might have come from a bat cave."
+    },
+    {
+      "word": "ke",
+      "txt": "mi i ave a ke si i ave.",
+      "tra": "I have what she has."
+    },
+    {
+      "word": "ke",
+      "txt": "mi i de dire a Tom ke mi i de ave a ajenda.",
+      "tra": "I told Tom I had plans."
+    },
+    {
+      "word": "ke",
+      "txt": "mi vole a keki ke e bon.",
+      "tra": "I want the cake that is good."
+    },
+    {
+      "word": "ke",
+      "txt": "tu e da ma nulo-senti man ke mi i ave enkonte o ni.",
+      "tra": "You're the most inconsiderate person I've ever met."
+    },
+    {
+      "word": "ke",
+      "txt": "tu vole manja afa ke tu aroma a pan?",
+      "tra": "You want to eat after you smell the bread?"
+    },
+    {
+      "word": "keki",
+      "txt": "mi vole a keki ke e bon.",
+      "tra": "I want the cake that is good."
+    },
+    {
+      "word": "kemi-man",
+      "txt": "si-feme a kemi-man.",
+      "tra": "She is a chemist."
+    },
+    {
+      "word": "keredo",
+      "txt": "mi i pensa ke tu i no keredo o an a Tom.",
+      "tra": "I take it you don't believe Tom either."
+    },
+    {
+      "word": "keredo",
+      "txt": "tu i keredo en UFO?",
+      "tra": "Do you believe in UFOs?"
+    },
+    {
+      "word": "kia",
+      "txt": "Pove e kia duro en Marok.",
+      "tra": "Poverty is a key issue in Morocco."
+    },
+    {
+      "word": "kinde",
+      "txt": "si a pero kinde.",
+      "tra": "He is but a child."
+    },
+    {
+      "word": "kinde",
+      "txt": "tu kinde e no di go ke rason?",
+      "tra": "Why aren't your children here?"
+    },
+    {
+      "word": "kino",
+      "txt": "mi i de roga go Mary se si-feme i de vole mira a kino kon mi.",
+      "tra": "I asked Mary if she wanted to go to a movie with me."
+    },
+    {
+      "word": "kipa",
+      "txt": "si-viro i de kipa e longo tempo?",
+      "tra": "Did he stay long?"
+    },
+    {
+      "word": "kipa",
+      "txt": "Tom i debe kipa kon Mary.",
+      "tra": "Tom should stay with Mary."
+    },
+    {
+      "word": "kite",
+      "txt": "si i kite a no mui go-e vole.",
+      "tra": "It leaves nothing much to be desired."
+    },
+    {
+      "word": "kite",
+      "txt": "tu i kite a Boston?",
+      "tra": "Are you leaving Boston?"
+    },
+    {
+      "word": "kolo",
+      "txt": "no mui kolo.",
+      "tra": "Not much colour."
+    },
+    {
+      "word": "komun",
+      "txt": "Großer Tiergarten u Tiergarten e mega komun gaden de-i loke en semi de Belin.",
+      "tra": "The Großer Tiergarten or Tiergarten is a large public park located in the middle of Berlin."
+    },
+    {
+      "word": "kon",
+      "txt": "tu i vole go a eki kon fami, di-dia?",
+      "tra": "How about going on a family outing to the woods today?"
+    },
+    {
+      "word": "kon",
+      "txt": "Alisa i kon a Bob.",
+      "tra": "Alice includes Bob."
+    },
+    {
+      "word": "kon",
+      "txt": "Tom i debe kipa kon Mary.",
+      "tra": "Tom should stay with Mary."
+    },
+    {
+      "word": "konka",
+      "txt": "Tom i koleki a konka.",
+      "tra": "Tom collects shells."
+    },
+    {
+      "word": "kopa-keki",
+      "txt": "Mary i de make a kopa-keki.",
+      "tra": "Mary made cupcakes."
+    },
+    {
+      "word": "kopen",
+      "txt": "ke man i kopen a di tipo de seni?",
+      "tra": "Who buys this type of art?"
+    },
+    {
+      "word": "kopen",
+      "txt": "si i go an i kopen a kavalo.",
+      "tra": "He goes to buy a horse."
+    },
+    {
+      "word": "kopen-man",
+      "txt": "mi i de deteki a kopen-man.",
+      "tra": "I found a buyer."
+    },
+    {
+      "word": "kore",
+      "txt": "mui kore o animale.",
+      "tra": "Very dear animal."
+    },
+    {
+      "word": "kosa",
+      "txt": "nun, ke kosa e en vende?",
+      "tra": "What products are currently on sale?"
+    },
+    {
+      "word": "kosa",
+      "txt": "di kosa e en pasa.",
+      "tra": "These things belong to the past."
+    },
+    {
+      "word": "kosina",
+      "txt": "de-i kosina sama di, veji i ave a bon aroma.",
+      "tra": "Cooked like this, the vegetables have a nice aroma."
+    },
+    {
+      "word": "kosina",
+      "txt": "Ziri i de joli kosina a da piato.",
+      "tra": "Ziri enjoyed cooking that dish."
+    },
+    {
+      "word": "kote",
+      "txt": "da jaketa i de debe kote a rama an noga go tu.",
+      "tra": "That jacket must've cost you an arm and a leg."
+    },
+    {
+      "word": "kova-oko",
+      "txt": "mi kova-oko i senti e kalori.",
+      "tra": "My eyelid feels hot."
+    },
+    {
+      "word": "Kristo-buku",
+      "txt": "ke man i de note a Kristo-buku?",
+      "tra": "Who wrote the Bible?"
+    },
+    {
+      "word": "kula",
+      "txt": "e kula.",
+      "tra": "It's cool."
+    },
+    {
+      "word": "kula-foreta",
+      "txt": "mi i odi a kula-foreta.",
+      "tra": "I hate the tundra."
+    },
+    {
+      "word": "kula-lubi",
+      "txt": "mi i no go an i kula-lubi sama mui sama mi i pasa make.",
+      "tra": "I don't go skiing as much as I used to."
+    },
+    {
+      "word": "kula-vali",
+      "txt": "a san kula kula-vali en Eire.",
+      "tra": "There are three glacial fjords in Ireland."
+    },
+    {
+      "word": "kuri",
+      "txt": "Tom i de kuri e fule rapi.",
+      "tra": "Tom ran at full speed."
+    },
+    {
+      "word": "kuri",
+      "txt": "Ziri i de kuri go baka mun.",
+      "tra": "Ziri ran to the back door."
+    },
+    {
+      "word": "labi",
+      "txt": "Sami i de ave a si diji en si labi an i de roga go Layla ke si i no debe make a sono.",
+      "tra": "Sami had his finger on his lips and asked Layla not to make a sound."
+    },
+    {
+      "word": "labora",
+      "txt": "riva El Harrach i labora sama open tubo-laji.",
+      "tra": "The El Harrach River functions like an open sewer."
+    },
+    {
+      "word": "labora",
+      "txt": "Tomi i no kan fini a di labora en uno dia.",
+      "tra": "Tom can't finish this job in a day."
+    },
+    {
+      "word": "labora-man",
+      "txt": "solo o labora-man memba.",
+      "tra": "Staff members only."
+    },
+    {
+      "word": "lada",
+      "txt": "Ziri i de unda-go a lada e mui ade.",
+      "tra": "Ziri very carefully descended the stairs."
+    },
+    {
+      "word": "lagima",
+      "txt": "Mennad i de lagima ka si-viro i de e dire-abuso.",
+      "tra": "Mennad was crying because he was embarrassed."
+    },
+    {
+      "word": "lago",
+      "txt": "i vaku a lago.",
+      "tra": "Drain the lake."
+    },
+    {
+      "word": "lakoni-note",
+      "txt": "Yanni i de note a mui lakoni-note de niku-en-feruta en Facebook.",
+      "tra": "Yanni wrote many articles about figs on Facebook."
+    },
+    {
+      "word": "lan-runguma",
+      "txt": "Australia a lan-runguma paisa?",
+      "tra": "Is Australia a landlocked country?"
+    },
+    {
+      "word": "lan-tumo",
+      "txt": "navi i vela e rondo lan-tumo.",
+      "tra": "The ship sailed around the cape."
+    },
+    {
+      "word": "lase",
+      "txt": "i lase a mi ke mi i make a di e mi jalan.",
+      "tra": "Let me do this my way."
+    },
+    {
+      "word": "lase",
+      "txt": "lase mi-ale go!",
+      "tra": "Let's go!"
+    },
+    {
+      "word": "lase",
+      "txt": "mi-ale i no kan lase mori a di fiore. i favo dusa a si.",
+      "tra": "We can't let these flowers die. Please water them."
+    },
+    {
+      "word": "lati",
+      "txt": "riva e lati.",
+      "tra": "The river is wide."
+    },
+    {
+      "word": "leje",
+      "txt": "dia seven, Tom i leje o solo a buku.",
+      "tra": "Tom does nothing but read books on Sundays."
+    },
+    {
+      "word": "leje",
+      "txt": "kada uno i leje a uno sentense.",
+      "tra": "Read one sentence each."
+    },
+    {
+      "word": "lenta",
+      "txt": "en-i open o mui lenta o ade a ventana, si-ale i de arapan-kipa tila kali nube i de ave osura o semi a eve, an den uno de uno i de kamina go mini gaden.",
+      "tra": "Opening the window very slowly and carefully, they waited until a dark cloud had somewhat obscured the night, and then one by one passed through into the little garden."
+    },
+    {
+      "word": "lida",
+      "txt": "bon lida e raro.",
+      "tra": "Good leaders are rare."
+    },
+    {
+      "word": "lida-feme-paren",
+      "txt": "tu lida-feme-paren a ke man?",
+      "tra": "Who is your godmother?"
+    },
+    {
+      "word": "lida-make",
+      "txt": "mi i go lida-make a si.",
+      "tra": "I'll take care of it."
+    },
+    {
+      "word": "lida-make",
+      "txt": "Tom i go lida-make a da.",
+      "tra": "Tom is going to take care of that for us."
+    },
+    {
+      "word": "lida-paren",
+      "txt": "tu i enkonte a tu lida-paren a ke mui?",
+      "tra": "How often do you see your godparents?"
+    },
+    {
+      "word": "lida-viro-paren",
+      "txt": "Tom a mi lida-viro-paren.",
+      "tra": "Tom is my godfather."
+    },
+    {
+      "word": "lin",
+      "txt": "Tom i ave a vile-tempo de dipa-melankoli de-i sige de lin de dipa-enejia ato.",
+      "tra": "Tom has periods of debilitating depression followed by bursts of manic activity."
+    },
+    {
+      "word": "linga",
+      "txt": "mi i pensa ke Engli-man i mebi veni pasa o ma a etudi-man de linga sama man en ota paisa.",
+      "tra": "I think that English people might be more used to language learners than people in other countries."
+    },
+    {
+      "word": "litera",
+      "txt": "Mini i uti a litera a, b, d, e, f, g, i, j, k, l, m, n, o, p, r, s, t, u, v.",
+      "tra": "Mini uses the letters a, b, d, e, f, g, i, j, k, l, m, n, o, p, r, s, t, u, v."
+    },
+    {
+      "word": "litora",
+      "txt": "mi i favo a litora.",
+      "tra": "I like the beach."
+    },
+    {
+      "word": "loke",
+      "txt": "Großer Tiergarten u Tiergarten e mega komun gaden de-i loke en semi de Belin.",
+      "tra": "The Großer Tiergarten or Tiergarten is a large public park located in the middle of Berlin."
+    },
+    {
+      "word": "loke",
+      "txt": "mega loke.",
+      "tra": "Big place."
+    },
+    {
+      "word": "London",
+      "txt": "Alisa i viva en London.",
+      "tra": "Alice lives in London."
+    },
+    {
+      "word": "longo",
+      "txt": "si-viro i de kipa e longo tempo?",
+      "tra": "Did he stay long?"
+    },
+    {
+      "word": "longo-midori-melon",
+      "txt": "veji i develo en gaden, sama foli-veji, rondo-foli-vejii, onion, alio, melon, bianka-kera-veji, bianka-rondo-radika-veji, ruja-rondo-radika-veji, kavalo-rondo-radika-veji, roka-antika-gadi, longo-midori-melon an oranje-melon.",
+      "tra": "Greens and vegetables grow in gardens, such as lettuce, cabbage, onions, garlic, gourd, parsnip, turnip, radish, horse radish, parsley, cucumbers and pumpkin."
+    },
+    {
+      "word": "longo-ruse",
+      "txt": "tu lida i en longo-ruse a tu.",
+      "tra": "Your boss is gaslighting you."
+    },
+    {
+      "word": "ludi",
+      "txt": "joli-man i de labora o duro en en-i esita a junta ante ludi-man i de apara en patio go fini ludi de karera de mano-balo de Delauer tingi-sekola.",
+      "tra": "The cheerleaders worked hard to fire up the crowd before the players took the court for the final game of the Delaware high school basketball playoffs."
+    },
+    {
+      "word": "ludi",
+      "txt": "junta i de ave begin ludi o jusa ven regen i de begin.",
+      "tra": "The teams had just started to play when it began to rain."
+    },
+    {
+      "word": "ludi-man",
+      "txt": "joli-man i de labora o duro en en-i esita a junta ante ludi-man i de apara en patio go fini ludi de karera de mano-balo de Delauer tingi-sekola.",
+      "tra": "The cheerleaders worked hard to fire up the crowd before the players took the court for the final game of the Delaware high school basketball playoffs."
+    },
+    {
+      "word": "lupo",
+      "txt": "mi i pensa ke mi-ale i kan kuri e ma rapi sama da lupo.",
+      "tra": "I think we could outrun those wolves."
+    },
+    {
+      "word": "luse",
+      "txt": "mi nu Alfa Romeo open-karo e luse ruja.",
+      "tra": "My new Alfa Romeo convertible is light red."
+    },
+    {
+      "word": "ma",
+      "txt": "mi i pensa ke Engli-man i mebi veni pasa o ma a etudi-man de linga sama man en ota paisa.",
+      "tra": "I think that English people might be more used to language learners than people in other countries."
+    },
+    {
+      "word": "ma",
+      "txt": "si-uno i no nese dire ke vere-fule-neso e da ma bon ajenda.",
+      "tra": "It goes without saying that honesty is the best policy."
+    },
+    {
+      "word": "madu",
+      "txt": "ale man i amo a madu.",
+      "tra": "Everyone loves honey."
+    },
+    {
+      "word": "make",
+      "txt": "si-feme i de no nese make a da labora.",
+      "tra": "She didn't need to do that work."
+    },
+    {
+      "word": "make",
+      "txt": "tu i da paga a ke mui go mi-ale go-i make a da?",
+      "tra": "How much would you pay us to do that?"
+    },
+    {
+      "word": "mala",
+      "txt": "tamen de mala manja, si i kipa go tamen a retorante.",
+      "tra": "Despite the bad food, he nevertheless keeps going to the restaurant."
+    },
+    {
+      "word": "mala",
+      "txt": "tu make a manja e mala.",
+      "tra": "You make the food bad."
+    },
+    {
+      "word": "mala-eleki-peso",
+      "txt": "sole-luse i make ke mala-eleki-peso en sela i move an enejia e make.",
+      "tra": "The sunlight makes the electrons in the cells move and energy is produced."
+    },
+    {
+      "word": "man",
+      "txt": "nun, Tom e da ma joli man en mundo.",
+      "tra": "Tom is the happiest person in the world right now."
+    },
+    {
+      "word": "man",
+      "txt": "mi i pensa ke Engli-man i mebi veni pasa o ma a etudi-man de linga sama man en ota paisa.",
+      "tra": "I think that English people might be more used to language learners than people in other countries."
+    },
+    {
+      "word": "man-ale",
+      "txt": "i dire a si-feme ke man-ale e di.",
+      "tra": "Tell her that everyone is here."
+    },
+    {
+      "word": "manja",
+      "txt": "mega viro i de manja.",
+      "tra": "The big man ate."
+    },
+    {
+      "word": "manja",
+      "txt": "mi go ave en manja.",
+      "tra": "I will have been eating."
+    },
+    {
+      "word": "manja-moda",
+      "txt": "i muta a tu manja-moda.",
+      "tra": "Change your diet."
+    },
+    {
+      "word": "mano-balo",
+      "txt": "joli-man i de labora o duro en en-i esita a junta ante ludi-man i de apara en patio go fini ludi de karera de mano-balo de Delauer tingi-sekola.",
+      "tra": "The cheerleaders worked hard to fire up the crowd before the players took the court for the final game of the Delaware high school basketball playoffs."
+    },
+    {
+      "word": "mare-lago",
+      "txt": "mare-lago e mui dipa.",
+      "tra": "The lagoon is very deep."
+    },
+    {
+      "word": "mari-feme",
+      "txt": "mi i dua a tu. mi i ave a mari-feme an kinde.",
+      "tra": "I beg you. I have a wife and children."
+    },
+    {
+      "word": "matura",
+      "txt": "tu e sufi matura ke tu i kan ade a tu-ego.",
+      "tra": "You are old enough to take care of yourself."
+    },
+    {
+      "word": "mebi",
+      "txt": "Mary i de dire ke si-feme i da no make o mebi a da.",
+      "tra": "Mary said she probably wouldn't do that."
+    },
+    {
+      "word": "mebi",
+      "txt": "universa-viva-siensa a etudi de orijen de viva en tera an mebi de viva en universa.",
+      "tra": "Astrobiology is the study of life’s origins on Earth and the potential for life in Universe."
+    },
+    {
+      "word": "mebi-siensa",
+      "txt": "man e mui mala kon en-i savi a mebi-siensa.",
+      "tra": "People are very bad at understanding probability."
+    },
+    {
+      "word": "medi",
+      "txt": "Tom i de kan viva a ma u meno medi viva afa medika-metodo.",
+      "tra": "Tom was able to live a more or less normal life after the operation."
+    },
+    {
+      "word": "mega",
+      "txt": "mega ave i no kan esi no kon nulo-jura-neso; mui name i no kan esi no kon mentira.",
+      "tra": "Great possessions cannot exist without injustice; a multitude of words cannot exist without a lie."
+    },
+    {
+      "word": "mega",
+      "txt": "mega silen i sede en bete kasa ve so mui de viro an feme i de more enkonte en ota dia.",
+      "tra": "An impressive silence broods over the monstrous structure where such multitudes of men and women were wont to assemble in other days."
+    },
+    {
+      "word": "mega-ise-lan",
+      "txt": "mega-ise-lan i move o lenta.",
+      "tra": "The glacier moves slowly."
+    },
+    {
+      "word": "mega-tingi-foli-lan",
+      "txt": "vento i no enkonte a natura baraje en mega-tingi-foli-lan.",
+      "tra": "The wind encounters no natural obstacles on the plateau."
+    },
+    {
+      "word": "meno",
+      "txt": "Tom i de kan viva a ma u meno medi viva afa medika-metodo.",
+      "tra": "Tom was able to live a more or less normal life after the operation."
+    },
+    {
+      "word": "mentira",
+      "txt": "di a mentira diamante.",
+      "tra": "This is a fake diamond."
+    },
+    {
+      "word": "mentira",
+      "txt": "Tom i de pensa ke Mary i de mentira go si-viro.",
+      "tra": "Tom thought that Mary was lying to him."
+    },
+    {
+      "word": "mentira-make",
+      "txt": "en da ma meno, i mentira-make ke tu e joli ke tu e di.",
+      "tra": "At least pretend you're happy to be here."
+    },
+    {
+      "word": "mentira-make",
+      "txt": "Mary i de mentira-make no savi ke Tom i de tenta dire a si-feme.",
+      "tra": "Mary pretended not to understand what Tom was trying to tell her."
+    },
+    {
+      "word": "mentira-siensa",
+      "txt": "Jordan Peterson e raro seketa-man ke i base a si idea en mentira mentira-siensa de Carl Jung.",
+      "tra": "Jordan Peterson is a weird mystic who bases his ideas on the discredited pseudoscience of Carl Jung."
+    },
+    {
+      "word": "mesura",
+      "txt": "i dona a mesura go mi.",
+      "tra": "Give me the coordinates."
+    },
+    {
+      "word": "mi",
+      "txt": "mi e no feo?",
+      "tra": "I’m not ugly?"
+    },
+    {
+      "word": "mi",
+      "txt": "mi e sama tu.",
+      "tra": "I am like you."
+    },
+    {
+      "word": "mi",
+      "txt": "mi i vole savi a ke i pasa go Tom.",
+      "tra": "I want to know what happened to Tom."
+    },
+    {
+      "word": "mi-ale",
+      "txt": "mi-ale i go enkonte e sige-dia?",
+      "tra": "Are we meeting tomorrow?"
+    },
+    {
+      "word": "mi-ale",
+      "txt": "mi-ale i no pensa a da moda.",
+      "tra": "That's not how we think."
+    },
+    {
+      "word": "midori-roka",
+      "txt": "tu i favo a ke, ruja-roka u midori-roka?",
+      "tra": "Which do you prefer, ruby or emerald?"
+    },
+    {
+      "word": "mina-roka",
+      "txt": "Aljeri i ave a mina-roka vare.",
+      "tra": "Algeria has mineral resources."
+    },
+    {
+      "word": "mini",
+      "txt": "en-i open o mui lenta o ade a ventana, si-ale i de arapan-kipa tila kali nube i de ave osura o semi a eve, an den uno de uno i de kamina go mini gaden.",
+      "tra": "Opening the window very slowly and carefully, they waited until a dark cloud had somewhat obscured the night, and then one by one passed through into the little garden."
+    },
+    {
+      "word": "mini",
+      "txt": "Tom i de dire go mi ke si-viro i de en senti e mini fatiga.",
+      "tra": "Tom told me he was feeling a bit tired."
+    },
+    {
+      "word": "mini-sujo",
+      "txt": "mini-sujo ke i dona a si ruja kolo go ruja-roka a atomo-24.",
+      "tra": "The dopant that gives rubies their red color is chromium."
+    },
+    {
+      "word": "mira",
+      "txt": "mi i de roga go Mary se si-feme i de vole mira a kino kon mi.",
+      "tra": "I asked Mary if she wanted to go to a movie with me."
+    },
+    {
+      "word": "mira",
+      "txt": "mi i go mira a fobo kino.",
+      "tra": "I'm going to see a horror film."
+    },
+    {
+      "word": "moda",
+      "txt": "si e no ke ke si-viro i de dire, pero moda ke si-viro i de dire.",
+      "tra": "It's not what he said, but the way he said it."
+    },
+    {
+      "word": "moda",
+      "txt": "mi i ave supose ke solo moda mi i kan make a di e ke Tom i ade a mi.",
+      "tra": "I've figured out that the only way I can do this is to get Tom to help me."
+    },
+    {
+      "word": "momen",
+      "txt": "Yanni i de voka o momen a polisa.",
+      "tra": "Yanni called the police immediately."
+    },
+    {
+      "word": "mone",
+      "txt": "man, ke ave a mui mone, no vole labora.",
+      "tra": "A person that has a lot of money does not want to work."
+    },
+    {
+      "word": "mone-apojo",
+      "txt": "mone-apojo i ave develo.",
+      "tra": "Funding has increased."
+    },
+    {
+      "word": "mone-apojo-junta",
+      "txt": "inveti mone-apojo-junta i inveti o solo e en morale bisinesa.",
+      "tra": "This investment fund only invests in ethical companies."
+    },
+    {
+      "word": "more",
+      "txt": "mega silen i sede en bete kasa ve so mui de viro an feme i de more enkonte en ota dia.",
+      "tra": "An impressive silence broods over the monstrous structure where such multitudes of men and women were wont to assemble in other days."
+    },
+    {
+      "word": "mori",
+      "txt": "si-viro i de en-savi a mi ke viva i ke, an mori i sinifi a ke, an rason ke amo e ma poten sama si-duo.",
+      "tra": "He made me see what Life is, and what Death signifies, and why Love is stronger than both."
+    },
+    {
+      "word": "mori",
+      "txt": "mi-ale i no kan lase mori a di fiore. i favo dusa a si.",
+      "tra": "We can't let these flowers die. Please water them."
+    },
+    {
+      "word": "Mori-ruja-fiore",
+      "txt": "Higanbana a nipon-linga name go Mori-ruja-fiore.",
+      "tra": "Higanbana is the Japanese word for the red spider lily."
+    },
+    {
+      "word": "Mosr",
+      "txt": "Sami i de move a si go Mosr go some tempo.",
+      "tra": "Sami ended up moving to Egypt for a while."
+    },
+    {
+      "word": "moto",
+      "txt": "tu i kan duka a moto de tu karo se tu i karo kon bajo ole.",
+      "tra": "You can damage your car’s engine if you drive around with low motor oil."
+    },
+    {
+      "word": "move",
+      "txt": "Sami i de move a si go Mosr go some tempo.",
+      "tra": "Sami ended up moving to Egypt for a while."
+    },
+    {
+      "word": "move",
+      "txt": "tu i go ade go mi ke tu i move a di ofisi?",
+      "tra": "Will you help me move this desk?"
+    },
+    {
+      "word": "mui",
+      "txt": "da viro-kinde e mui lasi!",
+      "tra": "How lazy those boys are!"
+    },
+    {
+      "word": "mui",
+      "txt": "tu i de veni e mui furi ka si-viro ero go ke rason?",
+      "tra": "Why did you get so angry at his mistake?"
+    },
+    {
+      "word": "mun",
+      "txt": "se tu open a mun, mi-ale i go e de-i suko en vaku.",
+      "tra": "If you open the door, we will be sucked into space."
+    },
+    {
+      "word": "mun",
+      "txt": "mi i kan open a da mun go tu.",
+      "tra": "I can open that door for you."
+    },
+    {
+      "word": "mundo",
+      "txt": "nu mundo semi-aje vile-tempo i en veni.",
+      "tra": "A new worldwide medieval era is coming on."
+    },
+    {
+      "word": "muta",
+      "txt": "Mary i de muta o fini a si-feme menta.",
+      "tra": "Mary eventually changed her mind."
+    },
+    {
+      "word": "muta-numa",
+      "txt": "muta-numa i apara sama 1.0.1.",
+      "tra": "A version number looks like 1.0.1."
+    },
+    {
+      "word": "muta-uti",
+      "txt": "u atomo-58, ke si a impotan materi en rapi-kemi-reaki muta-uti.",
+      "tra": "Or cerium, which is an important material in catalytic converters."
+    },
+    {
+      "word": "naga-fobo",
+      "txt": "Tom i ave a naga-fobo.",
+      "tra": "Tom suffers from ophidiophobia."
+    },
+    {
+      "word": "name",
+      "txt": "mega ave i no kan esi no kon nulo-jura-neso; mui name i no kan esi no kon mentira.",
+      "tra": "Great possessions cannot exist without injustice; a multitude of words cannot exist without a lie."
+    },
+    {
+      "word": "name",
+      "txt": "mi name a feme-kinde a Alisa.",
+      "tra": "I name the girl Alice."
+    },
+    {
+      "word": "name-muta",
+      "txt": "tu i kan name-muta a di ato-name?",
+      "tra": "Can you conjugate this verb?"
+    },
+    {
+      "word": "nami-sino",
+      "txt": "nami-sino e an uti en Espaniol.",
+      "tra": "The tilde is also used in Spanish."
+    },
+    {
+      "word": "naro-lan",
+      "txt": "Panama kanali i kata e via Panama naro-lan.",
+      "tra": "The Panama Canal cuts across the Isthmus of Panama."
+    },
+    {
+      "word": "naro-vasa",
+      "txt": "Taiuan naro-vasa i ave a 130 kilo-mita de lati.",
+      "tra": "The Taiwan Strait is 130 kilometers wide."
+    },
+    {
+      "word": "nase",
+      "txt": "man i ave a uno nase, duo oko, an penta diji en kada mano.",
+      "tra": "A person has one nose, two eyes, and five fingers on each hand."
+    },
+    {
+      "word": "natura",
+      "txt": "ota eki-pota kon jin, liki-metali, atomo-92, natura aero, an, en some ano, eleki.",
+      "tra": "Other exports include gold, mercury, uranium, natural gas, and - in some years - electricity."
+    },
+    {
+      "word": "natura-eleti",
+      "txt": "Tom i de ave a natura-eleti ke Mary i da no lagima.",
+      "tra": "Tom had a hunch that Mary wouldn't cry."
+    },
+    {
+      "word": "nea",
+      "txt": "mi i no viva e nea di.",
+      "tra": "I don't live around here."
+    },
+    {
+      "word": "nese",
+      "txt": "si-feme i de no nese make a da labora.",
+      "tra": "She didn't need to do that work."
+    },
+    {
+      "word": "nese",
+      "txt": "si-uno i no nese dire ke vere-fule-neso e da ma bon ajenda.",
+      "tra": "It goes without saying that honesty is the best policy."
+    },
+    {
+      "word": "ni",
+      "txt": "si-ale i dire ke i de vole make o ni a da.",
+      "tra": "They say they never wanted to do that."
+    },
+    {
+      "word": "ni",
+      "txt": "si-viro i go make o ni a si?",
+      "tra": "Will he ever do it?"
+    },
+    {
+      "word": "niku-en-feruta",
+      "txt": "Yanni i de note a mui lakoni-note de niku-en-feruta en Facebook.",
+      "tra": "Yanni wrote many articles about figs on Facebook."
+    },
+    {
+      "word": "no",
+      "txt": "mi-ale i no kan lase mori a di fiore. i favo dusa a si.",
+      "tra": "We can't let these flowers die. Please water them."
+    },
+    {
+      "word": "no",
+      "txt": "Tom i da no favo a Australia.",
+      "tra": "Tom wouldn't like Australia."
+    },
+    {
+      "word": "no-ave-a",
+      "txt": "Tom i no savi a ota inta ave-a an no-ave-a ato-name.",
+      "tra": "Tom doesn't understand the difference between transitive and intransitive verbs."
+    },
+    {
+      "word": "no-duo-numa",
+      "txt": "si a no-duo-numa.",
+      "tra": "It's an odd number."
+    },
+    {
+      "word": "no-man",
+      "txt": "no-man i de apojo a si-feme.",
+      "tra": "Nobody supported her."
+    },
+    {
+      "word": "no-metali",
+      "txt": "atomo-1, atomo-6, atomo-7, atomo-15, otomo-8, atomo-16 and atomo-34 a no-metali.",
+      "tra": "Hydrogen, carbon, nitrogen, phosphorus, oxygen, sulfur and selenium are nonmetals."
+    },
+    {
+      "word": "no-paren",
+      "txt": "si-feme i de a no-paren ke i de lose a si paren en kolidi de avion.",
+      "tra": "She was an orphan who lost her parents in a plane crash."
+    },
+    {
+      "word": "noga",
+      "txt": "da jaketa i de debe kote a rama an noga go tu.",
+      "tra": "That jacket must've cost you an arm and a leg."
+    },
+    {
+      "word": "note",
+      "txt": "si-viro i de note a buku ke i dona-mala-name a Aljeri.",
+      "tra": "He wrote a book criticizing Algeria."
+    },
+    {
+      "word": "note",
+      "txt": "Yanni i de note a mui lakoni-note de niku-en-feruta en Facebook.",
+      "tra": "Yanni wrote many articles about figs on Facebook."
+    },
+    {
+      "word": "note-pape",
+      "txt": "Tom i de baka-dona a si note-pape en si teta poke.",
+      "tra": "Tom put his pad back into his breast pocket."
+    },
+    {
+      "word": "note-sino",
+      "txt": "tu i kan an a note-sino.",
+      "tra": "You can add tags."
+    },
+    {
+      "word": "nu",
+      "txt": "mi nu Alfa Romeo open-karo e luse ruja.",
+      "tra": "My new Alfa Romeo convertible is light red."
+    },
+    {
+      "word": "nu",
+      "txt": "nu mundo semi-aje vile-tempo i en veni.",
+      "tra": "A new worldwide medieval era is coming on."
+    },
+    {
+      "word": "nube",
+      "txt": "en-i open o mui lenta o ade a ventana, si-ale i de arapan-kipa tila kali nube i de ave osura o semi a eve, an den uno de uno i de kamina go mini gaden.",
+      "tra": "Opening the window very slowly and carefully, they waited until a dark cloud had somewhat obscured the night, and then one by one passed through into the little garden."
+    },
+    {
+      "word": "nulo-fide",
+      "txt": "Vera i de odi a Sergey ka si-viro i de nulo-fide go si-viro mari-feme.",
+      "tra": "Vera looked down on Sergey because he was cheating on his wife."
+    },
+    {
+      "word": "nulo-jura-neso",
+      "txt": "mega ave i no kan esi no kon nulo-jura-neso; mui name i no kan esi no kon mentira.",
+      "tra": "Great possessions cannot exist without injustice; a multitude of words cannot exist without a lie."
+    },
+    {
+      "word": "nulo-kipa-tenden-neso",
+      "txt": "mi-ale i no vole a nulo-kipa-tenden-neso en Aljeri.",
+      "tra": "We don't want instability in Algeria."
+    },
+    {
+      "word": "nulo-senti",
+      "txt": "tu e da ma nulo-senti man ke mi i ave enkonte o ni.",
+      "tra": "You're the most inconsiderate person I've ever met."
+    },
+    {
+      "word": "nulo-sori",
+      "txt": "Alberto i de e mui bata an nulo-sori.",
+      "tra": "Alberto was very combative and unapologetic."
+    },
+    {
+      "word": "numa-sino",
+      "txt": "Instagram i de ruina a numa-sino.",
+      "tra": "Instagram ruined hashtags."
+    },
+    {
+      "word": "o",
+      "txt": "joli-man i de labora o duro en en-i esita a junta ante ludi-man i de apara en patio go fini ludi de karera de mano-balo de Delauer tingi-sekola.",
+      "tra": "The cheerleaders worked hard to fire up the crowd before the players took the court for the final game of the Delaware high school basketball playoffs."
+    },
+    {
+      "word": "o",
+      "txt": "mi i begin o rapi a karo.",
+      "tra": "I start the car quickly."
+    },
+    {
+      "word": "o",
+      "txt": "viro-paren de Sami i de dire-abuso o mui a si.",
+      "tra": "Sami's father put him down a lot."
+    },
+    {
+      "word": "odi",
+      "txt": "Mary i de no savi a rason ke Tom i de odi a si-feme.",
+      "tra": "Mary didn't know why Tom hated her."
+    },
+    {
+      "word": "odi",
+      "txt": "Vera i de odi a Sergey ka si-viro i de nulo-fide go si-viro mari-feme.",
+      "tra": "Vera looked down on Sergey because he was cheating on his wife."
+    },
+    {
+      "word": "open",
+      "txt": "en-i open o mui lenta o ade a ventana, si-ale i de arapan-kipa tila kali nube i de ave osura o semi a eve, an den uno de uno i de kamina go mini gaden.",
+      "tra": "Opening the window very slowly and carefully, they waited until a dark cloud had somewhat obscured the night, and then one by one passed through into the little garden."
+    },
+    {
+      "word": "open",
+      "txt": "riva El Harrach i labora sama open tubo-laji.",
+      "tra": "The El Harrach River functions like an open sewer."
+    },
+    {
+      "word": "open-karo",
+      "txt": "mi nu Alfa Romeo open-karo e luse ruja.",
+      "tra": "My new Alfa Romeo convertible is light red."
+    },
+    {
+      "word": "open-make",
+      "txt": "tu i debe dona a open-make go Tom i make a da.",
+      "tra": "You should give Tom a chance to do that."
+    },
+    {
+      "word": "orijen",
+      "txt": "universa-viva-siensa a etudi de orijen de viva en tera an mebi de viva en universa.",
+      "tra": "Astrobiology is the study of life’s origins on Earth and the potential for life in Universe."
+    },
+    {
+      "word": "oso",
+      "txt": "mi-ale i jeti a oso en base.",
+      "tra": "We throw the bones onto the floor."
+    },
+    {
+      "word": "osura",
+      "txt": "en-i open o mui lenta o ade a ventana, si-ale i de arapan-kipa tila kali nube i de ave osura o semi a eve, an den uno de uno i de kamina go mini gaden.",
+      "tra": "Opening the window very slowly and carefully, they waited until a dark cloud had somewhat obscured the night, and then one by one passed through into the little garden."
+    },
+    {
+      "word": "ota",
+      "txt": "nun, Tom e sama ota man.",
+      "tra": "Tom is like a different person now."
+    },
+    {
+      "word": "ota",
+      "txt": "ota eki-pota kon jin, liki-metali, atomo-92, natura aero, an, en some ano, eleki.",
+      "tra": "Other exports include gold, mercury, uranium, natural gas, and - in some years - electricity."
+    },
+    {
+      "word": "padon",
+      "txt": "go-i ero, e man. go-i padon, e deo.",
+      "tra": "To err is human, to forgive divine."
+    },
+    {
+      "word": "paga",
+      "txt": "tu i da paga a ke mui go mi-ale go-i make a da?",
+      "tra": "How much would you pay us to do that?"
+    },
+    {
+      "word": "pale",
+      "txt": "mi i pale a Eire-linga e kada dia.",
+      "tra": "I speak Irish every day."
+    },
+    {
+      "word": "pale",
+      "txt": "mi-ale i go pale kon Tom.",
+      "tra": "We'll have to have a talk with Tom."
+    },
+    {
+      "word": "pale-man",
+      "txt": "pale-man e ujana.",
+      "tra": "The speaker is young."
+    },
+    {
+      "word": "pan",
+      "txt": "da pan e da ma bon.",
+      "tra": "That bread is the best."
+    },
+    {
+      "word": "pan",
+      "txt": "tu i no manja a ale pan.",
+      "tra": "You didn't eat all the bread."
+    },
+    {
+      "word": "para",
+      "txt": "i para mala-name.",
+      "tra": "Stop cursing."
+    },
+    {
+      "word": "para",
+      "txt": "ke i para a tu?",
+      "tra": "What's stopping you?"
+    },
+    {
+      "word": "pasa",
+      "txt": "mi i no go an i kula-lubi sama mui sama mi i pasa make.",
+      "tra": "I don't go skiing as much as I used to."
+    },
+    {
+      "word": "pasa",
+      "txt": "mi i pensa ke Engli-man i mebi veni pasa o ma a etudi-man de linga sama man en ota paisa.",
+      "tra": "I think that English people might be more used to language learners than people in other countries."
+    },
+    {
+      "word": "pasa",
+      "txt": "mi pasa savi a feme.",
+      "tra": "I used to know the woman."
+    },
+    {
+      "word": "patio",
+      "txt": "joli-man i de labora o duro en en-i esita a junta ante ludi-man i de apara en patio go fini ludi de karera de mano-balo de Delauer tingi-sekola.",
+      "tra": "The cheerleaders worked hard to fire up the crowd before the players took the court for the final game of the Delaware high school basketball playoffs."
+    },
+    {
+      "word": "pensa",
+      "txt": "mi i no pensa ke Tom i savi a rason ke Mary e fobo.",
+      "tra": "I don't think Tom knows why Mary is afraid."
+    },
+    {
+      "word": "pensa",
+      "txt": "Tom an Mary i de dire go mi-ale ke si-ale i de pensa ke si-ale i da gana.",
+      "tra": "Tom and Mary told us they thought they'd win."
+    },
+    {
+      "word": "penta",
+      "txt": "via penta ano de duka o sela-develo-maladi terapi, si-viro i de fini-make kipa a dereka fase.",
+      "tra": "Throughout the five years of painful cancer treatments, he managed to keep a stiff upper lip."
+    },
+    {
+      "word": "pero",
+      "txt": "mi i go ade a tu, pero mi i go no ade a Tom.",
+      "tra": "I will help you, but I won't help Tom."
+    },
+    {
+      "word": "pero",
+      "txt": "Tom i de puse a gun-boton, pero gun i de no gun.",
+      "tra": "Tom squeezed the trigger, but the gun didn't fire."
+    },
+    {
+      "word": "pile",
+      "txt": "tu i vole a some pile kon tu whiskey?",
+      "tra": "You want some pills with your whiskey?"
+    },
+    {
+      "word": "polo",
+      "txt": "si-feme i de kopen a polo.",
+      "tra": "She bought chicken."
+    },
+    {
+      "word": "pone",
+      "txt": "si-viro i de pone a si-viro bibe.",
+      "tra": "He put down his drink."
+    },
+    {
+      "word": "pone",
+      "txt": "tu i de pone a si-feme imaje e en ke?",
+      "tra": "Where did you put her picture?"
+    },
+    {
+      "word": "Popula-regula-gove republika de kongo",
+      "txt": "Popula-regula-gove republika de kongo i eki-pota a atomo-27.",
+      "tra": "The DRC exports cobalt."
+    },
+    {
+      "word": "pota",
+      "txt": "i favo pota a semi botelo de vino go mi.",
+      "tra": "Please bring me a half-bottle of wine."
+    },
+    {
+      "word": "poten",
+      "txt": "si-viro i de en-savi a mi ke viva i ke, an mori i sinifi a ke, an rason ke amo e ma poten sama si-duo.",
+      "tra": "He made me see what Life is, and what Death signifies, and why Love is stronger than both."
+    },
+    {
+      "word": "poten",
+      "txt": "go-i go o poten a ke no man i ave go ante.",
+      "tra": "To boldly go where no man has gone before."
+    },
+    {
+      "word": "poten-pin",
+      "txt": "i dona a ma poten-pin go mi.",
+      "tra": "Give me another nail."
+    },
+    {
+      "word": "punjo",
+      "txt": "Julius i punjo o furi a sadi viro-kinde.",
+      "tra": "Julius angrily beats the rude boy."
+    },
+    {
+      "word": "pura",
+      "txt": "i pura a si.",
+      "tra": "Clean it."
+    },
+    {
+      "word": "puse",
+      "txt": "Tom i de puse a gun-boton, pero gun i de no gun.",
+      "tra": "Tom squeezed the trigger, but the gun didn't fire."
+    },
+    {
+      "word": "radi-uti",
+      "txt": "si-viro i vende a radi-uti.",
+      "tra": "He sells radios."
+    },
+    {
+      "word": "rama",
+      "txt": "da jaketa i de debe kote a rama an noga go tu.",
+      "tra": "That jacket must've cost you an arm and a leg."
+    },
+    {
+      "word": "rapi",
+      "txt": "si kipa pale rapi.",
+      "tra": "She keeps talking quickly."
+    },
+    {
+      "word": "rapi",
+      "txt": "Tom i de e mui o ma rapi sama Mary en en-i make a da.",
+      "tra": "Tom was much quicker at doing that than Mary was."
+    },
+    {
+      "word": "rapi-kemi-reaki",
+      "txt": "u atomo-58, ke si a impotan materi en rapi-kemi-reaki muta-uti.",
+      "tra": "Or cerium, which is an important material in catalytic converters."
+    },
+    {
+      "word": "raro",
+      "txt": "Jordan Peterson e raro seketa-man ke i base a si idea en mentira mentira-siensa de Carl Jung.",
+      "tra": "Jordan Peterson is a weird mystic who bases his ideas on the discredited pseudoscience of Carl Jung."
+    },
+    {
+      "word": "raro-fase",
+      "txt": "Peter Jackman i de erase a si denta en 2000 go-i fasile a fara raro-fase.",
+      "tra": "Peter Jackman had his teeth removed in 2000 to facilitate extreme gurning."
+    },
+    {
+      "word": "raro-tera-atomo",
+      "txt": "raro-tera-atomo a junta de 17 metali atomo, sama atomo-60, atomo-63 an atomo-66.",
+      "tra": "Rare earth elements are a set of 17 metallic elements, such as neodymium, europium, and dysprosium."
+    },
+    {
+      "word": "rason",
+      "txt": "si-viro i de en-savi a mi ke viva i ke, an mori i sinifi a ke, an rason ke amo e ma poten sama si-duo.",
+      "tra": "He made me see what Life is, and what Death signifies, and why Love is stronger than both."
+    },
+    {
+      "word": "rason",
+      "txt": "mi i no pensa ke Tom i savi a rason ke Mary e fobo.",
+      "tra": "I don't think Tom knows why Mary is afraid."
+    },
+    {
+      "word": "reaki",
+      "txt": "Tom i de no reaki o ni.",
+      "tra": "Tom never wrote me back."
+    },
+    {
+      "word": "redi",
+      "txt": "mi i de dimenti redi a siren go sekola.",
+      "tra": "I forgot to set the alarm for school."
+    },
+    {
+      "word": "regen",
+      "txt": "junta i de ave begin ludi o jusa ven regen i de begin.",
+      "tra": "The teams had just started to play when it began to rain."
+    },
+    {
+      "word": "regula",
+      "txt": "di karo de-i regula de komputa.",
+      "tra": "This car is controlled by a computer."
+    },
+    {
+      "word": "regula-feme",
+      "txt": "Mary a regula-feme.",
+      "tra": "Mary is a dominatrix."
+    },
+    {
+      "word": "relate",
+      "txt": "Aljeri i debe kata a relate kon Saudi-arabia?",
+      "tra": "Should Algeria cut its ties with Saudi Arabia?"
+    },
+    {
+      "word": "renta",
+      "txt": "banka i de renta a 500 dolar go si.",
+      "tra": "The bank loaned him 500 dollars."
+    },
+    {
+      "word": "repare",
+      "txt": "mi i kan repare a si.",
+      "tra": "I can fix him."
+    },
+    {
+      "word": "resi",
+      "txt": "si debe resi.",
+      "tra": "She should rest."
+    },
+    {
+      "word": "resi",
+      "txt": "si i vole resi?",
+      "tra": "Does he want to sleep?"
+    },
+    {
+      "word": "retorante",
+      "txt": "Alisa i go a retorante.",
+      "tra": "Alice goes to the restaurant."
+    },
+    {
+      "word": "rika",
+      "txt": "Brasil e mui rika; si rika e mui mega; kafe e uno de si o da ma mega rika.",
+      "tra": "Brazil is very rich; its richness is immense; coffee is one of its greatest riches."
+    },
+    {
+      "word": "risiti",
+      "txt": "mesaje de-i risiti.",
+      "tra": "Message received."
+    },
+    {
+      "word": "riva",
+      "txt": "riva El Harrach i labora sama open tubo-laji.",
+      "tra": "The El Harrach River functions like an open sewer."
+    },
+    {
+      "word": "riva-kavalo",
+      "txt": "riva-kavalo i favo a vasa.",
+      "tra": "Hippopotamuses love water."
+    },
+    {
+      "word": "robare",
+      "txt": "an si-viro i de dona-mala-name a Abimelech ka fonte, ke si-viro dulo i de ave robare o poten.",
+      "tra": "And he reproved Abimelech for a well of water, which his servants had taken away by force."
+    },
+    {
+      "word": "roga",
+      "txt": "mi i de roga go Mary se si-feme i de vole mira a kino kon mi.",
+      "tra": "I asked Mary if she wanted to go to a movie with me."
+    },
+    {
+      "word": "roga",
+      "txt": "Sami i de ave a si diji en si labi an i de roga go Layla ke si i no debe make a sono.",
+      "tra": "Sami had his finger on his lips and asked Layla not to make a sound."
+    },
+    {
+      "word": "ruina",
+      "txt": "i no ruina a mi sitema.",
+      "tra": "Don't mess up my system."
+    },
+    {
+      "word": "ruja-roka",
+      "txt": "tu i favo a ke, ruja-roka u midori-roka?",
+      "tra": "Which do you prefer, ruby or emerald?"
+    },
+    {
+      "word": "saara",
+      "txt": "e saara.",
+      "tra": "It's deserted."
+    },
+    {
+      "word": "saara-lago",
+      "txt": "Tera a mi-ale saara-lago.",
+      "tra": "Earth is our oasis."
+    },
+    {
+      "word": "sadi",
+      "txt": "Julius i punjo o furi a sadi viro-kinde.",
+      "tra": "Julius angrily beats the rude boy."
+    },
+    {
+      "word": "saga-man",
+      "txt": "tu a mui bon saga-man.",
+      "tra": "You're a very good storyteller."
+    },
+    {
+      "word": "sake",
+      "txt": "Tom i de bibe a san sake.",
+      "tra": "Tom drank three cocktails."
+    },
+    {
+      "word": "saliva",
+      "txt": "mi i saliva en tu!",
+      "tra": "I spit on thee!"
+    },
+    {
+      "word": "salu",
+      "txt": "salu, gen",
+      "tra": "Hello, again."
+    },
+    {
+      "word": "sama",
+      "txt": "ale demon i de apara e sama tempo go-i kapa a si-ale mudi-make.",
+      "tra": "The demons came out all at once to capture their prey."
+    },
+    {
+      "word": "sama",
+      "txt": "mi e sama mega sama tu.",
+      "tra": "I am as big as you."
+    },
+    {
+      "word": "sama",
+      "txt": "mi i no favo a feme sama da.",
+      "tra": "I don't like women like that."
+    },
+    {
+      "word": "san",
+      "txt": "di vela navi i ave a san ade-kolun.",
+      "tra": "This sailing ship has three masts."
+    },
+    {
+      "word": "sano",
+      "txt": "si-viro i go veni sano e mui sun?",
+      "tra": "He will get well very soon."
+    },
+    {
+      "word": "savi",
+      "txt": "mi i no savi a ale ke tu i make.",
+      "tra": "I don't know everything you do."
+    },
+    {
+      "word": "savi",
+      "txt": "tu i go kan savi o sure e ke se tu i de roga o ni?",
+      "tra": "How could you know for certain if you never asked?"
+    },
+    {
+      "word": "Sbaria",
+      "txt": "fo kemi atomo, atomo-39, atomo-68, atomo-65 an atomo-70, e name en onore go vila Ytterby en Sbaria.",
+      "tra": "Four chemical elements, yttrium, erbium, terbium, and ytterbium, are named after the village of Ytterby in Sweden."
+    },
+    {
+      "word": "se",
+      "txt": "se mi i kan go, mi i da go.",
+      "tra": "If I could go, I would."
+    },
+    {
+      "word": "se",
+      "txt": "tu i go kan savi o sure e ke se tu i de roga o ni?",
+      "tra": "How could you know for certain if you never asked?"
+    },
+    {
+      "word": "sede",
+      "txt": "mega silen i sede en bete kasa ve so mui de viro an feme i de more enkonte en ota dia.",
+      "tra": "An impressive silence broods over the monstrous structure where such multitudes of men and women were wont to assemble in other days."
+    },
+    {
+      "word": "sede",
+      "txt": "viro-kinde i de sede inta feme-kinde.",
+      "tra": "The boy sat among the girls."
+    },
+    {
+      "word": "sela",
+      "txt": "sole-luse i make ke mala-eleki-peso en sela i move an enejia e make.",
+      "tra": "The sunlight makes the electrons in the cells move and energy is produced."
+    },
+    {
+      "word": "semi",
+      "txt": "en-i open o mui lenta o ade a ventana, si-ale i de arapan-kipa tila kali nube i de ave osura o semi a eve, an den uno de uno i de kamina go mini gaden.",
+      "tra": "Opening the window very slowly and carefully, they waited until a dark cloud had somewhat obscured the night, and then one by one passed through into the little garden."
+    },
+    {
+      "word": "semi",
+      "txt": "Tom i de aseta o solo a semi liabili.",
+      "tra": "Tom only accepted partial responsibility."
+    },
+    {
+      "word": "semi-aje",
+      "txt": "nu mundo semi-aje vile-tempo i en veni.",
+      "tra": "A new worldwide medieval era is coming on."
+    },
+    {
+      "word": "semi-ila",
+      "txt": "Italia a semi-ila.",
+      "tra": "Italy is a peninsula."
+    },
+    {
+      "word": "senta-eve",
+      "txt": "si-viro i de veni en senta-eve.",
+      "tra": "He arrived at midnight."
+    },
+    {
+      "word": "senti",
+      "txt": "i lase a mi ke mi i dire go tu ke mi i senti o vere e ke.",
+      "tra": "Let me tell you how I really feel."
+    },
+    {
+      "word": "senti",
+      "txt": "Tom i de dire go mi ke si-viro i de en senti e mini fatiga.",
+      "tra": "Tom told me he was feeling a bit tired."
+    },
+    {
+      "word": "sento-ano-ovo",
+      "txt": "Jo i favo a sento-ano-ovo.",
+      "tra": "Jo likes century eggs."
+    },
+    {
+      "word": "Serbia",
+      "txt": "mi-mui i viva en Serbia.",
+      "tra": "We live in Serbia."
+    },
+    {
+      "word": "seri",
+      "txt": "mi i an a si a mi seri.",
+      "tra": "I add it to my list."
+    },
+    {
+      "word": "sesi",
+      "txt": "mi i vole sesi a tu.",
+      "tra": "I want to make love with you."
+    },
+    {
+      "word": "sesi-ego",
+      "txt": "sesi-ego e medi?",
+      "tra": "Is masturbation normal?"
+    },
+    {
+      "word": "si",
+      "txt": "mi i dia a si sama 1730.",
+      "tra": "I date it as 1730."
+    },
+    {
+      "word": "si",
+      "txt": "Tom i de bibe a si kafe.",
+      "tra": "Tom sipped his coffee."
+    },
+    {
+      "word": "si-ale",
+      "txt": "si-ale i dire ke i de vole make o ni a da.",
+      "tra": "They say they never wanted to do that."
+    },
+    {
+      "word": "si-ale",
+      "txt": "Tom an Mary i de dire ke si-ale i da e di.",
+      "tra": "Tom and Mary said they would be here."
+    },
+    {
+      "word": "si-feme",
+      "txt": "i dire a si-feme ke man-ale e di.",
+      "tra": "Tell her that everyone is here."
+    },
+    {
+      "word": "si-feme",
+      "txt": "Mary i de dire ke si-feme i da no make o mebi a da.",
+      "tra": "Mary said she probably wouldn't do that."
+    },
+    {
+      "word": "si-uno",
+      "txt": "si-uno i no kan fide a si-feme.",
+      "tra": "She cannot be trusted."
+    },
+    {
+      "word": "si-uno",
+      "txt": "si-uno i no nese dire ke vere-fule-neso e da ma bon ajenda.",
+      "tra": "It goes without saying that honesty is the best policy."
+    },
+    {
+      "word": "si-viro",
+      "txt": "si-viro i de en-savi a mi ke viva i ke, an mori i sinifi a ke, an rason ke amo e ma poten sama si-duo.",
+      "tra": "He made me see what Life is, and what Death signifies, and why Love is stronger than both."
+    },
+    {
+      "word": "si-viro",
+      "txt": "Tom i dire ke si-viro i ave dire o ni a mentira.",
+      "tra": "Tom claims that he's never told a lie."
+    },
+    {
+      "word": "sige",
+      "txt": "Tom i ave a vile-tempo de dipa-melankoli de-i sige de lin de dipa-enejia ato.",
+      "tra": "Tom has periods of debilitating depression followed by bursts of manic activity."
+    },
+    {
+      "word": "Sikago",
+      "txt": "mi i kan gana a Sikago karera se mi i uben e sufi duro.",
+      "tra": "I could win the Chicago Marathon if I train hard enough."
+    },
+    {
+      "word": "silen",
+      "txt": "mega silen i sede en bete kasa ve so mui de viro an feme i de more enkonte en ota dia.",
+      "tra": "An impressive silence broods over the monstrous structure where such multitudes of men and women were wont to assemble in other days."
+    },
+    {
+      "word": "silen",
+      "txt": "Tom i de kipa e silen vile da-ma-impotan-manja.",
+      "tra": "Tom remained silent during dinner."
+    },
+    {
+      "word": "Sina",
+      "txt": "bon-veni go Sina!",
+      "tra": "Welcome to China!"
+    },
+    {
+      "word": "sinifi",
+      "txt": "si-viro i de en-savi a mi ke viva i ke, an mori i sinifi a ke, an rason ke amo e ma poten sama si-duo.",
+      "tra": "He made me see what Life is, and what Death signifies, and why Love is stronger than both."
+    },
+    {
+      "word": "sino",
+      "txt": "i jage a sino de fungi-veni.",
+      "tra": "Look for signs of decomposition."
+    },
+    {
+      "word": "siren",
+      "txt": "mi i de dimenti redi a siren go sekola.",
+      "tra": "I forgot to set the alarm for school."
+    },
+    {
+      "word": "siti-senta",
+      "txt": "Sami i de kamina go siti-senta.",
+      "tra": "Sami walked downtown."
+    },
+    {
+      "word": "sivi-neso",
+      "txt": "Tom i ave a duo sivi-neso.",
+      "tra": "Tom has dual citizenship."
+    },
+    {
+      "word": "so",
+      "txt": "Mennad e so nulo-sekura, ankora.",
+      "tra": "Mennad is still so insecure."
+    },
+    {
+      "word": "so",
+      "txt": "mega silen i sede en bete kasa ve so mui de viro an feme i de more enkonte en ota dia.",
+      "tra": "An impressive silence broods over the monstrous structure where such multitudes of men and women were wont to assemble in other days."
+    },
+    {
+      "word": "sole-luse",
+      "txt": "sole-luse i make ke mala-eleki-peso en sela i move an enejia e make.",
+      "tra": "The sunlight makes the electrons in the cells move and energy is produced."
+    },
+    {
+      "word": "solo",
+      "txt": "Tom an mi i de e no solo man ke i de via-viva.",
+      "tra": "Tom and I weren't the only ones who survived."
+    },
+    {
+      "word": "solo",
+      "txt": "Tom i de aseta o solo a semi liabili.",
+      "tra": "Tom only accepted partial responsibility."
+    },
+    {
+      "word": "some",
+      "txt": "Sami i de move a si go Mosr go some tempo.",
+      "tra": "Sami ended up moving to Egypt for a while."
+    },
+    {
+      "word": "some",
+      "txt": "tu i da favo amo-enkonte e some tempo?",
+      "tra": "Would you like to go out sometime?"
+    },
+    {
+      "word": "some-kosa",
+      "txt": "mi i de make a some-kosa seketa.",
+      "tra": "I did something mysterious."
+    },
+    {
+      "word": "some-kosa",
+      "txt": "mi i de no arapan a some-kosa sama da.",
+      "tra": "I did not expect something like that."
+    },
+    {
+      "word": "some-si-uno",
+      "txt": "tu i kan voka a some-si-uno go-i pota a mi sako go supa?",
+      "tra": "Could you have someone carry my bag upstairs?"
+    },
+    {
+      "word": "su",
+      "txt": "mi labora i veni e su duro.",
+      "tra": "My work becomes too hard."
+    },
+    {
+      "word": "su",
+      "txt": "Tom e su antika ke si i no kan make a da.",
+      "tra": "Tom is already too old to do that."
+    },
+    {
+      "word": "subita-lan",
+      "txt": "ota paso, an tu i go unda e en subita-lan.",
+      "tra": "Another step, and you will fall down the precipice."
+    },
+    {
+      "word": "sufi",
+      "txt": "si-feme e sufi bela.",
+      "tra": "She's beautiful enough."
+    },
+    {
+      "word": "sufi",
+      "txt": "tu e sufi matura ke tu i kan ade a tu-ego.",
+      "tra": "You are old enough to take care of yourself."
+    },
+    {
+      "word": "sujesi",
+      "txt": "tu i da sujesi a ke go Tom?",
+      "tra": "What would you recommend to Tom?"
+    },
+    {
+      "word": "Sumatra",
+      "txt": "Sumatra a ila.",
+      "tra": "Sumatra is an island."
+    },
+    {
+      "word": "sumete",
+      "txt": "ke man i de sumete?",
+      "tra": "Who surrendered?"
+    },
+    {
+      "word": "supa-ato",
+      "txt": "i no e supa-ato.",
+      "tra": "Don't be condescending."
+    },
+    {
+      "word": "supose",
+      "txt": "mi i ave supose ke solo moda mi i kan make a di e ke Tom i ade a mi.",
+      "tra": "I've figured out that the only way I can do this is to get Tom to help me."
+    },
+    {
+      "word": "supose",
+      "txt": "mi i de supose ke Tom i de savi a ke mi-ale i de en pale.",
+      "tra": "I assumed that Tom understood what we were talking about."
+    },
+    {
+      "word": "sure",
+      "txt": "se tu i dire go Tom ke si-viro i debe make a ke, mi e sure ke si-viro i go make a si.",
+      "tra": "If you tell Tom what to do, I'm sure he'll do it."
+    },
+    {
+      "word": "sure",
+      "txt": "tu i go kan savi o sure e ke se tu i de roga o ni?",
+      "tra": "How could you know for certain if you never asked?"
+    },
+    {
+      "word": "tamen",
+      "txt": "mi-ale debe kipa di, tamen.",
+      "tra": "We should stay here, however."
+    },
+    {
+      "word": "tamen",
+      "txt": "tamen si i go mori, si deside open a loka.",
+      "tra": "Although s/he will die, s/he decides to open the lock."
+    },
+    {
+      "word": "tea",
+      "txt": "tu i vole a kafe u tea?",
+      "tra": "Do you want coffee or tea?"
+    },
+    {
+      "word": "tempo",
+      "txt": "pasa tempo ke mi i de go a litora, mi de-i mui sole-fogo.",
+      "tra": "The last time I went to the beach, I got badly sunburned."
+    },
+    {
+      "word": "tempo",
+      "txt": "ale demon i de apara e sama tempo go-i kapa a si-ale mudi-make.",
+      "tra": "The demons came out all at once to capture their prey."
+    },
+    {
+      "word": "ten",
+      "txt": "i numa go ten.",
+      "tra": "Count to ten."
+    },
+    {
+      "word": "tenta",
+      "txt": "Mary i de mentira-make no savi ke Tom i de tenta dire a si-feme.",
+      "tra": "Mary pretended not to understand what Tom was trying to tell her."
+    },
+    {
+      "word": "tenta",
+      "txt": "si-viro i de tenta no pensa o no ma a si-feme.",
+      "tra": "He made an effort not to think about her any more."
+    },
+    {
+      "word": "tera",
+      "txt": "universa-viva-siensa a etudi de orijen de viva en tera an mebi de viva en universa.",
+      "tra": "Astrobiology is the study of life’s origins on Earth and the potential for life in Universe."
+    },
+    {
+      "word": "tera-vibe",
+      "txt": "ke i orijen a tera-vibe?",
+      "tra": "What causes earthquakes?"
+    },
+    {
+      "word": "teta",
+      "txt": "Tom i de baka-dona a si note-pape en si teta poke.",
+      "tra": "Tom put his pad back into his breast pocket."
+    },
+    {
+      "word": "tila",
+      "txt": "en-i open o mui lenta o ade a ventana, si-ale i de arapan-kipa tila kali nube i de ave osura o semi a eve, an den uno de uno i de kamina go mini gaden.",
+      "tra": "Opening the window very slowly and carefully, they waited until a dark cloud had somewhat obscured the night, and then one by one passed through into the little garden."
+    },
+    {
+      "word": "tingi",
+      "txt": "i mira a tingi bela feme ke i en ereki e da.",
+      "tra": "Look at the tall pretty girl standing there."
+    },
+    {
+      "word": "tingi-foli-lan",
+      "txt": "lenta-unda fogo en-i veni e de tingi-foli-lan.",
+      "tra": "Parachute fire coming over the mesa."
+    },
+    {
+      "word": "tingi-tingi-sekola",
+      "txt": "Mario i de kan ave go a ani tingi-tingi-sekola ke si-viro i de vole, pero si-viro i de eleti UConn ka si viro-paren i de go a da.",
+      "tra": "Mario could have gone to any college he wanted, but he chose UConn because that’s where his dad went."
+    },
+    {
+      "word": "tipo",
+      "txt": "ke man i kopen a di tipo de seni?",
+      "tra": "Who buys this type of art?"
+    },
+    {
+      "word": "toma",
+      "txt": "mi i toma a kosa go tu.",
+      "tra": "I take the thing to you."
+    },
+    {
+      "word": "tu",
+      "txt": "mi i arapan ke tu i go ave a bon afa-semi-dia.",
+      "tra": "I hope you have a good afternoon."
+    },
+    {
+      "word": "tu",
+      "txt": "tu a feme-kinde u viro-kinde?",
+      "tra": "Are you a girl or a boy?"
+    },
+    {
+      "word": "tuerk",
+      "txt": "Layla i de en tuerk a si pigu.",
+      "tra": "Layla was twerking her ass."
+    },
+    {
+      "word": "tuju",
+      "txt": "Tom i jeritan o tuju go mi.",
+      "tra": "Tom always yells at me."
+    },
+    {
+      "word": "tumba",
+      "txt": "gen-viva de no-mori bete i de kon-pasa kon ruina de si tumba.",
+      "tra": "The revival of the undead beast coincided with the destruction of his tomb."
+    },
+    {
+      "word": "u",
+      "txt": "Großer Tiergarten u Tiergarten e mega komun gaden de-i loke en semi de Belin.",
+      "tra": "The Großer Tiergarten or Tiergarten is a large public park located in the middle of Berlin."
+    },
+    {
+      "word": "u",
+      "txt": "Tom i de kan viva a ma u meno medi viva afa medika-metodo.",
+      "tra": "Tom was able to live a more or less normal life after the operation."
+    },
+    {
+      "word": "ubuntu",
+      "txt": "da a da ma ubuntu puni go ofensa-man, no?",
+      "tra": "Isn't that the most humane punishment for criminals?"
+    },
+    {
+      "word": "unda",
+      "txt": "animale, en-e mega su, i unda.",
+      "tra": "The animal, being too large, falls."
+    },
+    {
+      "word": "unda",
+      "txt": "kalori-ke-mui e unda nulo, di-dia.",
+      "tra": "The temperature is below zero today."
+    },
+    {
+      "word": "unda-go",
+      "txt": "Ziri i de unda-go a lada e mui ade.",
+      "tra": "Ziri very carefully descended the stairs."
+    },
+    {
+      "word": "unda-go-vasa",
+      "txt": "i mira a da unda-go-vasa!",
+      "tra": "Look at that waterfall!"
+    },
+    {
+      "word": "unda-meno",
+      "txt": "si-ale i limi a si-ale-ego go solo litera, numa, unda-meno an punto go ke rason?",
+      "tra": "Why limit themselves to only letters, numbers, underscore and punctum?"
+    },
+    {
+      "word": "uno",
+      "txt": "Brasil e mui rika; si rika e mui mega; kafe e uno de si o da ma mega rika.",
+      "tra": "Brazil is very rich; its richness is immense; coffee is one of its greatest riches."
+    },
+    {
+      "word": "uno",
+      "txt": "Tom i de veni en dia-1 an i de baka-go e uno dia afa.",
+      "tra": "Tom came on Monday and went back the day after."
+    },
+    {
+      "word": "uno-punto-sita-kilo-mita",
+      "txt": "ante tu i dona-mala-name a some, tu i debe kamina a uno-punto-sita-kilo-mita en si sapato.",
+      "tra": "Before you criticize someone, you should walk a mile in their shoes."
+    },
+    {
+      "word": "uti",
+      "txt": "tu i vole uti a ke kosa?",
+      "tra": "Which thing do you want to use?"
+    },
+    {
+      "word": "vakansa-navi",
+      "txt": "vakansa-navi en-i dive.",
+      "tra": "The cruise ship is sinking."
+    },
+    {
+      "word": "vakili-name",
+      "txt": "tu vakili-name a ke?",
+      "tra": "What are your pronouns?"
+    },
+    {
+      "word": "vakili-umile",
+      "txt": "mi i senti a vakili-umile.",
+      "tra": "I feel proxyshame."
+    },
+    {
+      "word": "vaku-man",
+      "txt": "vaku-man i kan mira a najima ka si ventana i en punto eki de Tera.",
+      "tra": "The spaceman can see the star because his window is pointing away from Earth."
+    },
+    {
+      "word": "vasa",
+      "txt": "a vasa.",
+      "tra": "There is water."
+    },
+    {
+      "word": "vasa",
+      "txt": "e vasa.",
+      "tra": "It’s wet."
+    },
+    {
+      "word": "vasa-foreta",
+      "txt": "si-ale i de go e en a vasa-foreta.",
+      "tra": "They entered the jungle."
+    },
+    {
+      "word": "vasa-retili",
+      "txt": "vasa-retili i kan mori a man.",
+      "tra": "Crocodiles can kill people."
+    },
+    {
+      "word": "ve",
+      "txt": "mega silen i sede en bete kasa ve so mui de viro an feme i de more enkonte en ota dia.",
+      "tra": "An impressive silence broods over the monstrous structure where such multitudes of men and women were wont to assemble in other days."
+    },
+    {
+      "word": "veji",
+      "txt": "en-i no vasa a veji, a mala kosa.",
+      "tra": "Not watering the plants is a bad thing."
+    },
+    {
+      "word": "veji",
+      "txt": "veji i develo en gaden, sama foli-veji, rondo-foli-vejii, onion, alio, melon, bianka-kera-veji, bianka-rondo-radika-veji, ruja-rondo-radika-veji, kavalo-rondo-radika-veji, roka-antika-gadi, longo-midori-melon an oranje-melon.",
+      "tra": "Greens and vegetables grow in gardens, such as lettuce, cabbage, onions, garlic, gourd, parsnip, turnip, radish, horse radish, parsley, cucumbers and pumpkin."
+    },
+    {
+      "word": "veka",
+      "txt": "si-viro i de veka a si-viro fili go Faser dua.",
+      "tra": "He woke his son up for the fajr prayer."
+    },
+    {
+      "word": "ven",
+      "txt": "salu! ven tu i ave a ma tempo, i veni an ludi!",
+      "tra": "Goodbye! When you have more time, come back and play!"
+    },
+    {
+      "word": "ven",
+      "txt": "junta i de ave begin ludi o jusa ven regen i de begin.",
+      "tra": "The teams had just started to play when it began to rain."
+    },
+    {
+      "word": "vende",
+      "txt": "sesi i vende.",
+      "tra": "Sex sells."
+    },
+    {
+      "word": "vende-man",
+      "txt": "an, a vende-man ke i apojo a Linux.",
+      "tra": "There are also vendors who support Linux."
+    },
+    {
+      "word": "veni",
+      "txt": "de nun, tu i go veni e tu ego.",
+      "tra": "From here on out, you'll be on your own."
+    },
+    {
+      "word": "veni",
+      "txt": "mi i go veni e di sige-dia, mi i pensa.",
+      "tra": "I'll be here tomorrow, I think."
+    },
+    {
+      "word": "veni",
+      "txt": "mini viro i go veni a mega viro.",
+      "tra": "The small man will be a big man."
+    },
+    {
+      "word": "vere",
+      "txt": "en-i etudi a Barbari de-i ave e vere joli go mi.",
+      "tra": "Studying Berber has been a real joy for me."
+    },
+    {
+      "word": "vere",
+      "txt": "vere duro e ke tu i no savi o ankora ke mi-ale i ave a duro.",
+      "tra": "The real problem is you don't even know we have a problem."
+    },
+    {
+      "word": "vere-fule-neso",
+      "txt": "si-uno i no nese dire ke vere-fule-neso e da ma bon ajenda.",
+      "tra": "It goes without saying that honesty is the best policy."
+    },
+    {
+      "word": "veta",
+      "txt": "da ke veta i de go make i de e no apara.",
+      "tra": "It wasn't obvious what the weather was going to do."
+    },
+    {
+      "word": "via",
+      "txt": "via penta ano de duka o sela-develo-maladi terapi, si-viro i de fini-make kipa a dereka fase.",
+      "tra": "Throughout the five years of painful cancer treatments, he managed to keep a stiff upper lip."
+    },
+    {
+      "word": "via-relate",
+      "txt": "via via-relate kalite, tu i de pipi en si-viro boka.",
+      "tra": "By the transitive property you peed in his mouth."
+    },
+    {
+      "word": "via-vari-eleki-uti",
+      "txt": "inventi de via-vari-eleki-uti i de begin a nu aje.",
+      "tra": "The invention of the transistor introduced a new era."
+    },
+    {
+      "word": "vila",
+      "txt": "si-feme vila e en kolina.",
+      "tra": "Her villa sits on the hill."
+    },
+    {
+      "word": "vile",
+      "txt": "vile tu open a loka, mi toma a mi fini nafasa.",
+      "tra": "While you open the lock, I take my last breath."
+    },
+    {
+      "word": "vile",
+      "txt": "Tom i de kipa e silen vile da-ma-impotan-manja.",
+      "tra": "Tom remained silent during dinner."
+    },
+    {
+      "word": "vile-tempo",
+      "txt": "nu mundo semi-aje vile-tempo i en veni.",
+      "tra": "A new worldwide medieval era is coming on."
+    },
+    {
+      "word": "vile-tempo",
+      "txt": "Tom i ave a vile-tempo de dipa-melankoli de-i sige de lin de dipa-enejia ato.",
+      "tra": "Tom has periods of debilitating depression followed by bursts of manic activity."
+    },
+    {
+      "word": "vina-moda",
+      "txt": "dona-mala-name-man i go dire ke ale de di a vina-moda.",
+      "tra": "The critics will say this is all whataboutism."
+    },
+    {
+      "word": "vino",
+      "txt": "medi, vino de kaja e no mui bon.",
+      "tra": "Boxed wine isn't usually very good."
+    },
+    {
+      "word": "vino",
+      "txt": "i favo pota a semi botelo de vino go mi.",
+      "tra": "Please bring me a half-bottle of wine."
+    },
+    {
+      "word": "viro",
+      "txt": "mega silen i sede en bete kasa ve so mui de viro an feme i de more enkonte en ota dia.",
+      "tra": "An impressive silence broods over the monstrous structure where such multitudes of men and women were wont to assemble in other days."
+    },
+    {
+      "word": "viro",
+      "txt": "mega viro i manja.",
+      "tra": "The big man eats."
+    },
+    {
+      "word": "viro-kinde",
+      "txt": "da viro-kinde e mui lasi!",
+      "tra": "How lazy those boys are!"
+    },
+    {
+      "word": "viro-kinde",
+      "txt": "viro-kinde i de sede inta feme-kinde.",
+      "tra": "The boy sat among the girls."
+    },
+    {
+      "word": "viro-paren",
+      "txt": "si-viro viro-paren i de aseta a mi ajenda anti si-viro vole.",
+      "tra": "His father consented to my plan against his will."
+    },
+    {
+      "word": "viro-paren",
+      "txt": "viro-paren de Sami i de dire-abuso o mui a si.",
+      "tra": "Sami's father put him down a lot."
+    },
+    {
+      "word": "viva",
+      "txt": "mi i no viva e nea di.",
+      "tra": "I don't live around here."
+    },
+    {
+      "word": "viva",
+      "txt": "Tom i de kan viva a ma u meno medi viva afa medika-metodo.",
+      "tra": "Tom was able to live a more or less normal life after the operation."
+    },
+    {
+      "word": "voka",
+      "txt": "tu i ave voka o deja a sano-karo?",
+      "tra": "Have you already called an ambulance?"
+    },
+    {
+      "word": "voka",
+      "txt": "Yanni i de voka o momen a polisa.",
+      "tra": "Yanni called the police immediately."
+    },
+    {
+      "word": "vole",
+      "txt": "mi i no vole a ma ronko-dire.",
+      "tra": "I don't want any more complaining."
+    },
+    {
+      "word": "vole",
+      "txt": "tu i vole etudi o mui a si?",
+      "tra": "Do you want to study it further?"
+    },
+    {
+      "word": "vori",
+      "txt": "mi e mui vori de di tema.",
+      "tra": "I'm very concerned about these matters."
+    }
+  ]
+}

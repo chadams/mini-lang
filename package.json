@@ -39,5 +39,8 @@
   "description": "This template should help get you started developing with Svelte and TypeScript in Vite.",
   "main": "svelte.config.js",
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "volta": {
+    "node": "18.17.0"
+  }
 }
