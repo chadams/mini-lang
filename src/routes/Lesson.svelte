@@ -11,11 +11,13 @@
   import { useParams, navigate } from "svelte-navigator";
   import { localStorageStore } from "@babichjacob/svelte-localstorage/browser";
   import { fly } from "svelte/transition";
+  import { random } from "lodash";
 
   interface LessonType {
     guide: string;
     title: string;
     words: string;
+    random: boolean;
     cards: CardsType[];
   }
 
@@ -62,6 +64,13 @@
     }
   }
 
+  function next() {
+    if (lesson.random) {
+      return ($index = random(0, lesson?.cards.length));
+    }
+    $index = $index + 1;
+  }
+
   onMount(async () => {
     lesson = await (await fetch(`${import.meta.env.BASE_URL}/units/${$params.course}/lessons/${$params.lessonId}.json`)).json();
     $words = await (await fetch(import.meta.env.BASE_URL + lesson.words)).json();
@@ -80,15 +89,13 @@
         on:click={() => toggleShow("dictionary")}
         class:bg-indigo-200={show === "dictionary"}
         class="leading-tight ml-4 inline-flex items-center px-4 py-3 border border-transparent text-base font-medium rounded-md text-black bg-gray hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
-        ><Icon src={BookOpen} class="color-gray-900 h-6 w-6" /></button
-      >
+        ><Icon src={BookOpen} class="color-gray-900 h-6 w-6" /></button>
       <button
         type="button"
         on:click={() => toggleShow("guide")}
         class:bg-indigo-200={show === "guide"}
         class="leading-tight ml-4 inline-flex items-center px-4 py-3 border border-transparent text-base font-medium rounded-md text-black bg-gray hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
-        ><Icon src={InformationCircle} class="color-gray-900 h-6 w-6" /></button
-      >
+        ><Icon src={InformationCircle} class="color-gray-900 h-6 w-6" /></button>
     </div>
   </header>
   <main>
@@ -115,17 +122,15 @@
               type="button"
               on:click={() => (showTranslation = !showTranslation)}
               class="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-gray bg-gray-100 hover:bg-indigo-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
-              ><Icon src={Translate} theme="" class="color-gray-900 h-6 w-6" /></button
-            >
+              ><Icon src={Translate} theme="" class="color-gray-900 h-6 w-6" /></button>
             <AudioTranslator text={card.txt} />
             <div class="w-full" />
 
             <button
               type="button"
-              on:click={() => ($index = $index + 1)}
+              on:click={next}
               class="ml-4 inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
-              ><Icon src={ThumbUp} theme="solid" class="color-gray-900 h-6 w-6" /></button
-            >
+              ><Icon src={ThumbUp} theme="solid" class="color-gray-900 h-6 w-6" /></button>
           </div>
         </div>
       {/if}
@@ -135,14 +140,12 @@
             type="button"
             on:click={navigateToCourseOutline}
             class="mr-2 inline-flex items-center px-3 py-1.5 border border-transparent text-xs font-medium rounded-full shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
-            ><Icon src={Map} theme="" class="color-gray-900 h-4 w-4 mr-2" /> Course home</button
-          >
+            ><Icon src={Map} theme="" class="color-gray-900 h-4 w-4 mr-2" /> Course home</button>
           <button
             type="button"
             on:click={restartLesson}
             class="inline-flex items-center px-3 py-1.5 border border-transparent text-xs font-medium rounded-full shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
-            ><Icon src={Rewind} theme="" class="color-gray-900 h-4 w-4 mr-2" /> Restart Lesson</button
-          >
+            ><Icon src={Rewind} theme="" class="color-gray-900 h-4 w-4 mr-2" /> Restart Lesson</button>
         </div>
         <div class="px-4 pt-8 sm:px-0 max-w-2xl m-auto prose prose-slate pb-8">
           <SvelteMarkdown source={guide} />

@@ -4,6 +4,7 @@
   "words": "units/mini-mundo/words-mini-mundo.json",
   "lang": "en",
   "engine": "mini",
+  "random": true,
   "cards": [
     {
       "tra": "Hello!",
