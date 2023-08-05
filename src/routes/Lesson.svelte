@@ -69,6 +69,7 @@
       return ($index = random(0, lesson?.cards.length));
     }
     $index = $index + 1;
+    showTranslation = false;
   }
 
   onMount(async () => {
@@ -110,9 +111,9 @@
                 </div>
               {/key}
             </div>
-            <WordTranslator text={card.txt} />
-            {#if showTranslation}
-              <hr />
+            {#if !showTranslation}
+              <WordTranslator text={card.txt} />
+            {:else}
               <p class="font-bold text-2xl my-10">{card.tra}</p>
             {/if}
           </div>

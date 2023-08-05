@@ -19,10 +19,10 @@
 <span
   class="hover:bg-indigo-100"
   use:popperRef
+  on:touchstart={() => (showTooltip = false)}
   on:touchend={() => (showTooltip = true)}
   on:mouseenter={() => (showTooltip = true)}
-  on:mouseleave={() => (showTooltip = false)}
->
+  on:mouseleave={() => (showTooltip = false)}>
   <slot />
 </span>
 {#if showTooltip && tooltip}
